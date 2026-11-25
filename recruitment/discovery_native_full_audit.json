@@ -1,0 +1,29 @@
+{
+  "automation_id": "wfl7f394388257839",
+  "automation_url": "https://airtable.com/app8b3002ee78eeef/wfl7f394388257839",
+  "name": "Daily recruitment discovery and CRM intake — 09:00 IST",
+  "configuration_status": "valid",
+  "deployment_status": "undeployed",
+  "deployed_version": null,
+  "cloud_run_tested": false,
+  "run_history_checked": true,
+  "confirmed_runs": 0,
+  "schedule": "Daily09:00Asia/Calcutta",
+  "scope": "Native full original-page discovery + pre-ingestion research snapshot + deduped Discovered/Hold CRM intake",
+  "salary_policy": "All dependable CTC/fixed/gross/net numeric fields blank; salary Unknown; original advertised salary text/basis preserved",
+  "dedup": "Native exactcanonicalURL and nonemptycompany/requisition checks. No previous record overwritten. Crossposts lacking stable IDs can need manualmerge. Max5isAIpromptlimit, not nativearrayhardcap.",
+  "untested": [
+    "Actual AIwebaccess/credits",
+    "Cloud trigger/action execution",
+    "Native loop/dedup runtime behavior",
+    "PDFgeneration",
+    "Application submission",
+    "Mailboxmonitoring",
+    "Reports/otherstages"
+  ],
+  "validation": {
+    "isValid": true,
+    "errors": [],
+    "actionId": "act0a0ca656c148cd"
+  }
+}

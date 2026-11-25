@@ -1,0 +1,667 @@
+{
+  "base_id": "app8b3002ee78eeef",
+  "base_url": "https://airtable.com/app8b3002ee78eeef",
+  "tables": [
+    {
+      "id": "tblbef0fd137c7a43",
+      "name": "Applications",
+      "description": "Persistent recruitment pipeline. Applied requires confirmed submission; unknown pay stays unknown.",
+      "primaryFieldId": "fld5b107893972fb3",
+      "fields": [
+        {
+          "id": "fld5b107893972fb3",
+          "name": "Application ID",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld86687d447ef990",
+          "name": "Company",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld8dd8cdbfe29040",
+          "name": "Job Title",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldcf43d4c0c7fffb",
+          "name": "Job URL",
+          "type": "url"
+        },
+        {
+          "id": "fld8fb5138f03de2e",
+          "name": "Requisition ID",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld1373efddb95a29",
+          "name": "Deduplication Key",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld7b2bf8ccac788a",
+          "name": "Date Discovered",
+          "type": "date"
+        },
+        {
+          "id": "fld5e3bfd9d5b3582",
+          "name": "Date Applied",
+          "type": "date"
+        },
+        {
+          "id": "fldf4cf3ef7ab2f7b",
+          "name": "Job Description Snapshot",
+          "type": "multilineText"
+        },
+        {
+          "id": "fld231317b1afa16b",
+          "name": "Required Experience",
+          "type": "multilineText"
+        },
+        {
+          "id": "fld0b88a1cc396c0a",
+          "name": "Required Skills",
+          "type": "multilineText"
+        },
+        {
+          "id": "fldfb657bdc529f3e",
+          "name": "Preferred Skills",
+          "type": "multilineText"
+        },
+        {
+          "id": "fld9506310015dc99",
+          "name": "Salary Advertised",
+          "type": "multilineText"
+        },
+        {
+          "id": "fldc0e525d880f90e",
+          "name": "Annual CTC INR",
+          "type": "currency"
+        },
+        {
+          "id": "fld68de33e808a632",
+          "name": "Fixed Annual INR",
+          "type": "currency"
+        },
+        {
+          "id": "fld17e2856108fa0d",
+          "name": "Monthly Gross INR",
+          "type": "currency"
+        },
+        {
+          "id": "fldc5ada9de78d66e",
+          "name": "Estimated Monthly In-hand INR",
+          "type": "currency"
+        },
+        {
+          "id": "fld17445d6784d143",
+          "name": "Compensation Breakdown",
+          "type": "multilineText"
+        },
+        {
+          "id": "fld300a817a7a8ed5",
+          "name": "Salary Qualification",
+          "type": "singleSelect"
+        },
+        {
+          "id": "fldc47c4367aeb1bd",
+          "name": "Location",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld620ffa4825b32b",
+          "name": "Work Mode",
+          "type": "singleSelect"
+        },
+        {
+          "id": "fld03cf409834aed6",
+          "name": "Deadline",
+          "type": "date"
+        },
+        {
+          "id": "fld5910ec0f623a85",
+          "name": "Status",
+          "type": "singleSelect"
+        },
+        {
+          "id": "fld605c2f23179823",
+          "name": "Evaluation Decision",
+          "type": "singleSelect"
+        },
+        {
+          "id": "fld88864f2bf786a8",
+          "name": "Category",
+          "type": "singleSelect"
+        },
+        {
+          "id": "fld60018bb38677fc",
+          "name": "Technical Score",
+          "type": "number"
+        },
+        {
+          "id": "fld1d4b648f488302",
+          "name": "Experience Score",
+          "type": "number"
+        },
+        {
+          "id": "fld58f3a237c96b84",
+          "name": "Salary Score",
+          "type": "number"
+        },
+        {
+          "id": "fld9ca26c4b231a26",
+          "name": "Growth Score",
+          "type": "number"
+        },
+        {
+          "id": "fldb73770fca4946c",
+          "name": "Flexibility Score",
+          "type": "number"
+        },
+        {
+          "id": "fldfa9422fd5de0f4",
+          "name": "Reputation Score",
+          "type": "number"
+        },
+        {
+          "id": "fld3d6628d3f432ed",
+          "name": "Match Score Lower",
+          "type": "number"
+        },
+        {
+          "id": "fld4dca80eaf18554",
+          "name": "Match Score Upper",
+          "type": "number"
+        },
+        {
+          "id": "fld16df27c8bfafd8",
+          "name": "Compensation Known",
+          "type": "checkbox"
+        },
+        {
+          "id": "fld30b685547c629b",
+          "name": "Why Profile Matches",
+          "type": "multilineText"
+        },
+        {
+          "id": "fld7720c33ca599ab",
+          "name": "Gaps",
+          "type": "multilineText"
+        },
+        {
+          "id": "flde93070123888aa",
+          "name": "Hold or Rejection Reason",
+          "type": "multilineText"
+        },
+        {
+          "id": "fld817427f274f686",
+          "name": "Platform",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldc86aa0d1d740ed",
+          "name": "Source Checked",
+          "type": "date"
+        },
+        {
+          "id": "fld37b367ab80dd1c",
+          "name": "Listing Verification",
+          "type": "singleSelect"
+        },
+        {
+          "id": "fldc7c3d6e08797ff",
+          "name": "Resume Version",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld200b73fe523625",
+          "name": "Resume PDF",
+          "type": "multipleAttachments"
+        },
+        {
+          "id": "fld06fc6813934638",
+          "name": "Resume SHA256",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld569ffdac22bff5",
+          "name": "Cover Letter",
+          "type": "multilineText"
+        },
+        {
+          "id": "fld93074c6eb11cab",
+          "name": "Application Answers",
+          "type": "multilineText"
+        },
+        {
+          "id": "fld0bfc1abe56fe25",
+          "name": "Approval Needed",
+          "type": "multilineText"
+        },
+        {
+          "id": "fld3d5d7340b904cb",
+          "name": "Approval Granted",
+          "type": "checkbox"
+        },
+        {
+          "id": "fld5d5d14c4a91ac4",
+          "name": "Submission Evidence",
+          "type": "multilineText"
+        },
+        {
+          "id": "fld9e8c5c9667c58b",
+          "name": "Submission Confirmed",
+          "type": "checkbox"
+        },
+        {
+          "id": "fldc17bae7c39d82a",
+          "name": "Recruiter Name",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld57227662e1bdb0",
+          "name": "Recruiter Email",
+          "type": "email"
+        },
+        {
+          "id": "fld32fad2930e6c4b",
+          "name": "Recruiter Profile",
+          "type": "url"
+        },
+        {
+          "id": "fld8fafe4ed1bf16c",
+          "name": "Follow-up Date",
+          "type": "date"
+        },
+        {
+          "id": "fld003a05120ddbce",
+          "name": "Follow-up Draft",
+          "type": "multilineText"
+        },
+        {
+          "id": "fldbd02a7dbf90151",
+          "name": "Recruiter Communications",
+          "type": "multilineText"
+        },
+        {
+          "id": "fld2cb53f046e0230",
+          "name": "Interview Notes",
+          "type": "multilineText"
+        },
+        {
+          "id": "fldd0894da8688b88",
+          "name": "Notes",
+          "type": "multilineText"
+        },
+        {
+          "id": "fldc988b36cbae5c1",
+          "name": "Interview Confirmed",
+          "type": "checkbox"
+        },
+        {
+          "id": "fld26c805440c4a69",
+          "name": "Offer Confirmed",
+          "type": "checkbox"
+        },
+        {
+          "id": "fldfce6ae8bc25ac1",
+          "name": "Last Modified",
+          "type": "date"
+        },
+        {
+          "id": "flddd1379206c7d36",
+          "name": "Weighted Match Score",
+          "type": "formula"
+        },
+        {
+          "id": "fld58534522b9550b",
+          "name": "Tailored Resume Content",
+          "type": "multilineText"
+        },
+        {
+          "id": "fld62f32806e984ca",
+          "name": "Material Preparation State",
+          "type": "singleSelect"
+        },
+        {
+          "id": "fldd98b92eb6d4da6",
+          "name": "Advertised Annual Minimum INR",
+          "type": "currency"
+        },
+        {
+          "id": "fld8d147f0db29092",
+          "name": "Advertised Annual Maximum INR",
+          "type": "currency"
+        },
+        {
+          "id": "fld41c4b8bf27c5dc",
+          "name": "Advertised Pay Basis",
+          "type": "singleSelect"
+        },
+        {
+          "id": "fld18736d38338bb0",
+          "name": "Recruiter Response Confirmed",
+          "type": "checkbox"
+        },
+        {
+          "id": "fld92d2d08a67ef36",
+          "name": "Automatically Last Modified",
+          "type": "lastModifiedTime"
+        },
+        {
+          "id": "fldc1110926aeb945",
+          "name": "Employer Shortlist Confirmed",
+          "type": "checkbox"
+        },
+        {
+          "id": "fld659cd75dac4571",
+          "name": "Advertised Annual Midpoint INR",
+          "type": "formula"
+        },
+        {
+          "id": "fld1de2e86d190754",
+          "name": "Daily Reports",
+          "type": "multipleRecordLinks"
+        },
+        {
+          "id": "fld5b6a41cbf19e19",
+          "name": "Daily Reports 2",
+          "type": "multipleRecordLinks"
+        },
+        {
+          "id": "fldd724e7e0e6e15b",
+          "name": "Resume Prepared Date",
+          "type": "date"
+        }
+      ]
+    },
+    {
+      "id": "tbla3ef4c6645989b",
+      "name": "Candidate Facts",
+      "description": "Confirmed profile, constraints and master resume.",
+      "primaryFieldId": "flddfbcd3bfb8dba0",
+      "fields": [
+        {
+          "id": "flddfbcd3bfb8dba0",
+          "name": "Fact",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld80df2b6de9c7ee",
+          "name": "Value",
+          "type": "multilineText"
+        },
+        {
+          "id": "fldb201675a9f0eba",
+          "name": "Evidence Level",
+          "type": "singleSelect"
+        },
+        {
+          "id": "fld74d2dd85a0aaca",
+          "name": "Source or Scope",
+          "type": "multilineText"
+        },
+        {
+          "id": "fldbbaf574316158f",
+          "name": "Usage Rule",
+          "type": "multilineText"
+        },
+        {
+          "id": "fld20f9b07826300b",
+          "name": "Updated",
+          "type": "date"
+        },
+        {
+          "id": "fldc67e1b6cefa114",
+          "name": "Document",
+          "type": "multipleAttachments"
+        }
+      ]
+    },
+    {
+      "id": "tblfbcc7f71f08828",
+      "name": "Application History",
+      "description": "Append-only status, communication and interview events.",
+      "primaryFieldId": "fldf6f990e3931422",
+      "fields": [
+        {
+          "id": "fldf6f990e3931422",
+          "name": "Event ID",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld6a6b9adf8dc4da",
+          "name": "Application ID",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld96a1721858a3ed",
+          "name": "Date",
+          "type": "date"
+        },
+        {
+          "id": "fldb9e666fc1d36ee",
+          "name": "Previous Status",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld58c69bd5f5e409",
+          "name": "New Status",
+          "type": "singleLineText"
+        },
+        {
+          "id": "flddd5756008a8f10",
+          "name": "Event",
+          "type": "multilineText"
+        },
+        {
+          "id": "fld5980fc95185ef3",
+          "name": "Evidence",
+          "type": "multilineText"
+        },
+        {
+          "id": "fldbdc24ed4482b27",
+          "name": "Actor",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldb821186f0246e7",
+          "name": "Notes",
+          "type": "multilineText"
+        }
+      ]
+    },
+    {
+      "id": "tbl3d781e5672cb38",
+      "name": "Daily Reports",
+      "description": "Actual unique counts and verified outcomes per cycle.",
+      "primaryFieldId": "fldca8f4a25c6924f",
+      "fields": [
+        {
+          "id": "fldca8f4a25c6924f",
+          "name": "Run ID",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldfcfc0b28e3af69",
+          "name": "Date",
+          "type": "date"
+        },
+        {
+          "id": "fld4f8cfd640bbe79",
+          "name": "Stage",
+          "type": "singleSelect"
+        },
+        {
+          "id": "flda71185229eed50",
+          "name": "Run Status",
+          "type": "singleSelect"
+        },
+        {
+          "id": "fldd490148ba0f7af",
+          "name": "Unique Jobs Discovered",
+          "type": "number"
+        },
+        {
+          "id": "fld8002ece5d8a17d",
+          "name": "Shortlisted",
+          "type": "number"
+        },
+        {
+          "id": "fld2462b477c106cb",
+          "name": "Rejected or Held",
+          "type": "number"
+        },
+        {
+          "id": "fld9ef5f629d90f80",
+          "name": "Resumes Prepared",
+          "type": "number"
+        },
+        {
+          "id": "fldaf1d19c25ef227",
+          "name": "Applications Submitted",
+          "type": "number"
+        },
+        {
+          "id": "fld1054b845d57b32",
+          "name": "Awaiting Approval",
+          "type": "number"
+        },
+        {
+          "id": "fld3abf718b11bc0d",
+          "name": "Recruiter Responses",
+          "type": "number"
+        },
+        {
+          "id": "fld1e6baaec27f332",
+          "name": "Follow-ups Due",
+          "type": "number"
+        },
+        {
+          "id": "fld24fb46eac1bf31",
+          "name": "Top Opportunities",
+          "type": "multilineText"
+        },
+        {
+          "id": "fld4959d5c23bc8bf",
+          "name": "Report",
+          "type": "multilineText"
+        },
+        {
+          "id": "fld7871113cca0691",
+          "name": "Errors or Limitations",
+          "type": "multilineText"
+        },
+        {
+          "id": "fldc3d2de76ab66d0",
+          "name": "Source Coverage",
+          "type": "multilineText"
+        },
+        {
+          "id": "fld6cb201d162fd2c",
+          "name": "Submission Evidence",
+          "type": "multilineText"
+        },
+        {
+          "id": "fldcfa14ae765bfee",
+          "name": "Total Confirmed Applications",
+          "type": "number"
+        },
+        {
+          "id": "fld897cec48e743a7",
+          "name": "Confirmed Interviews",
+          "type": "number"
+        },
+        {
+          "id": "fld4e02c0c3db7d16",
+          "name": "Confirmed Employer Rejections",
+          "type": "number"
+        },
+        {
+          "id": "fld4e117184ba4293",
+          "name": "Confirmed Offers",
+          "type": "number"
+        },
+        {
+          "id": "fld96cde178a78371",
+          "name": "Confirmed Employer Shortlists",
+          "type": "number"
+        },
+        {
+          "id": "fld6c25a522f4e6ed",
+          "name": "Interview Conversion Rate",
+          "type": "formula"
+        },
+        {
+          "id": "fld4f7e9b2bfd2614",
+          "name": "Employer Rejection Rate",
+          "type": "formula"
+        },
+        {
+          "id": "fldfeae4ec4eb27ce",
+          "name": "Employer Shortlisting Rate",
+          "type": "formula"
+        },
+        {
+          "id": "fld1a3d95d75193b5",
+          "name": "Offer Rate",
+          "type": "formula"
+        },
+        {
+          "id": "fld1e1dac2ebb25ec",
+          "name": "Analysed Applications",
+          "type": "multipleRecordLinks"
+        },
+        {
+          "id": "fld8c71a9014a7f29",
+          "name": "Today Discovered Applications",
+          "type": "multipleRecordLinks"
+        },
+        {
+          "id": "fld337eba8026b114",
+          "name": "Linked Discovery Record Count",
+          "type": "formula",
+          "description": "Number of linked discovery records. App IDs must not contain commas. Deduplication is enforced in discovery; this field is not an independent unique-key audit."
+        }
+      ]
+    },
+    {
+      "id": "tbl2a6f8bcea45def",
+      "name": "Discovery Intake",
+      "description": "Cloud monitor events awaiting normalization and deduplication.",
+      "primaryFieldId": "fld23fb1c988e62ce",
+      "fields": [
+        {
+          "id": "fld23fb1c988e62ce",
+          "name": "Intake ID",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld6dd6b98102e483",
+          "name": "Source",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldc29fc044543970",
+          "name": "Received",
+          "type": "date"
+        },
+        {
+          "id": "fld766de4b0671234",
+          "name": "Payload",
+          "type": "multilineText"
+        },
+        {
+          "id": "fldf96e7b18da2bb9",
+          "name": "Processing Status",
+          "type": "singleSelect"
+        },
+        {
+          "id": "fldf10a71ecadeebe",
+          "name": "Processing Notes",
+          "type": "multilineText"
+        }
+      ]
+    }
+  ]
+}

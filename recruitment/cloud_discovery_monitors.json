@@ -1,0 +1,240 @@
+{
+  "backend": {
+    "monitor": {
+      "id": "00000000-0000-4000-8000-687f96371fd5",
+      "name": "Harshit recruitment — Backend discovery",
+      "type": "search",
+      "config": {
+        "query": "backend developer Node.js Python FastAPI 1 2 3 years remote India Gurgaon Delhi Noida Chandigarh Mohali jobs",
+        "recency_minutes": 20160,
+        "result_limit": 10
+      },
+      "schedule_cron": "CRON_TZ=Asia/Kolkata 0 9 * * *",
+      "status": "active",
+      "last_error": null,
+      "webhook_url": null,
+      "created_at": "2026-11-25 10:29:10",
+      "updated_at": "2026-11-25 10:29:10"
+    },
+    "run": {
+      "id": "c428fe9d-dea1-436f-9d6a-bc112e6d47db",
+      "request_id": "search-monitor:00000000-0000-4000-8000-687f96371fd5:run:dccea5a3-bdf0-4824-9f39-f5f6e1db20ee",
+      "query": "backend developer Node.js Python FastAPI 1 2 3 years remote India Gurgaon Delhi Noida Chandigarh Mohali jobs",
+      "status_code": 200,
+      "result_count": 10,
+      "results": [
+        {
+          "url": "https://internshala.com/fresher-jobs/full-stack-development-jobs-in-noida/remote/",
+          "date": "2 hours ago",
+          "title": "26 Full Stack Development Remote Fresher Jobs in Noida - Nov 2026",
+          "snippet": "Browse Full Stack Development Remote Fresher Jobs in Noida. No experience required Role: Full Stack JavaScript/TypeScript. Build backend APIs using Node.js and ...",
+          "position": 1,
+          "site_name": "internshala.com"
+        },
+        {
+          "url": "https://in.linkedin.com/jobs/view/staff-software-engineer-frontend-heavy-full-stack-gurugram-based-at-agoda-4490404466",
+          "date": "Nov 16, 2026",
+          "title": "Staff Software Engineer - Frontend-Heavy Full Stack (Gurugram Based) at Agoda",
+          "snippet": "Backend Engineer (Python/FastAPI - India Remote). Tricon Solutions. Lucknow ... Python Developer jobs · Uber jobs · Embedded Developer jobs · Engineering ...",
+          "position": 2,
+          "site_name": "in.linkedin.com"
+        },
+        {
+          "url": "https://cutshort.io/job/Junior-Unreal-Engine-Developer-AI-Tools-Remote-1-Month-Contract-Parsewave-eocBMtKf",
+          "date": "5 hours ago",
+          "title": "Junior Unreal Engine Developer (AI Tools) - Remote, 1-Month Contract",
+          "snippet": "Parsewave is looking for junior devs to build short, playable mini games in Unreal Engine 5.8 using AI coding tools like Claude Code. It's fully remote and ...",
+          "position": 3,
+          "site_name": "cutshort.io"
+        },
+        {
+          "url": "https://www.foundit.in/search/mern-stack-developer-jobs-in-mohali",
+          "date": "6 days ago",
+          "title": "46 Mern Stack Developer Jobs in Mohali",
+          "snippet": "Find 46 Mern Stack Developer Jobs in Mohali at foundit.in. Remote Skills: Php, MySQL, Javascript, jQuery, Lamp. Node Js,",
+          "position": 4,
+          "site_name": "www.foundit.in"
+        },
+        {
+          "url": "https://techcaddjalandhar.com/ai-ml-jobs-chandigarh-2026",
+          "date": "Nov 13, 2026",
+          "title": "Artificial Intelligence & Machine Learning Jobs & Placement Support 2026 in Chandigarh",
+          "snippet": "Active hiring in Chandigarh, Jalandhar, Ludhiana, Mohali, and remote across India. remote across India. Careers (1-3 Years Experience) Designed … into software ...",
+          "position": 5,
+          "site_name": "techcaddjalandhar.com"
+        },
+        {
+          "url": "https://talentsjobs.in/browse-jobs/software-developer-python-django-fastapi-flask-node-js",
+          "date": "4 days ago",
+          "title": "Software Developer Python Django Fastapi Flask Node Js Jobs",
+          "snippet": "Node Js Jobs Available On Talents Jobs. +1 ₹ 25,000 - 35,000 Per-month 1 - 6 yrs 2 months ago - 3 yrs 2 months ago",
+          "position": 6,
+          "site_name": "talentsjobs.in"
+        },
+        {
+          "url": "https://hirastra.com/jobs-for-bca-freshers",
+          "date": "1 day ago",
+          "title": "IT Jobs for BCA Freshers in India (222 live, 2026) | Hirastra",
+          "snippet": "Verified IT jobs and internships open to BCA freshers in India, 16 remote or work from home. pay: ₹5–9 LPA for full-time roles, 1–3 yrs exp Est. Node.js REST ...",
+          "position": 7,
+          "site_name": "hirastra.com"
+        },
+        {
+          "url": "https://in.linkedin.com/in/sangramthakur",
+          "title": "Sangram Singh Thakur - Full Stack Developer | React.js · Node.js · Express.js · MySQL · ...",
+          "snippet": "Open to Senior Full Stack Developer, AI Application Developer, LLM Engineer and Node.js Backend Developer roles, in India or remote with international teams.",
+          "position": 8,
+          "site_name": "in.linkedin.com"
+        },
+        {
+          "url": "https://www.foundit.in/search/educational-tools-and-software-jobs-in-mohali",
+          "date": "4 days ago",
+          "title": "568 Educational Tools And Software Jobs in Mohali",
+          "snippet": "Find 568 Educational Tools And Software Jobs in Mohali at foundit.in. Apply to top companies hiring now. Explore job vacancies with higher ...",
+          "position": 9,
+          "site_name": "www.foundit.in"
+        },
+        {
+          "url": "https://4achievers.com/tech-salaries-india/",
+          "date": "Nov 13, 2026",
+          "title": "Tech Salaries India Course 2026 (Fees, Syllabus & Placement)",
+          "snippet": "Explore real 2026 Python Full Stack Developer salary in Gurgaon. In-hand monthly pay scale for freshers (₹5.2L) vs experienced (₹28.7L), top recruiters & tax ...",
+          "position": 10,
+          "site_name": "4achievers.com"
+        }
+      ],
+      "new_result_positions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "created_at": "2026-11-25 10:29:11"
+    }
+  },
+  "applied_ai": {
+    "monitor": {
+      "id": "00000000-0000-4000-8000-b2aff685808f",
+      "name": "Harshit recruitment — Applied AI discovery",
+      "type": "search",
+      "config": {
+        "query": "(\"LangChain\" OR \"RAG\") (\"engineer\" OR \"developer\") (\"remote India\" OR Gurgaon OR Gurugram OR Noida OR Delhi) jobs -senior -staff -architect -course -training -internship",
+        "recency_minutes": 20160,
+        "result_limit": 10
+      },
+      "schedule_cron": "CRON_TZ=Asia/Kolkata 15 9 * * *",
+      "status": "active",
+      "last_error": null,
+      "webhook_url": null,
+      "created_at": "2026-11-25 10:30:05",
+      "updated_at": "2026-11-25 10:30:05"
+    },
+    "run": {
+      "id": "ec7a22cc-63b8-45a9-9c8e-7beb9585e5e4",
+      "request_id": "search-monitor:00000000-0000-4000-8000-b2aff685808f:run:61b607a9-0076-4a91-9a32-41ccfed06db7",
+      "query": "(\"LangChain\" OR \"RAG\") (\"engineer\" OR \"developer\") (\"remote India\" OR Gurgaon OR Gurugram OR Noida OR Delhi) jobs -senior -staff -architect -course -training -internship",
+      "status_code": 200,
+      "result_count": 10,
+      "results": [
+        {
+          "url": "https://www.instagram.com/p/Df8xIWSofYy/",
+          "title": "GenAI, Python and RAG Skills Optum Associate AI/ML Engineer Noida ...",
+          "snippet": "Optum Hiring Associate AI/ML Engineer in Noida: GenAI, Python and RAG Skills ... - LangChain and LangGraph - Apache Kafka - Azure Databricks and Snowflake",
+          "position": 1,
+          "site_name": "www.instagram.com"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DgFdvSSuVcU/",
+          "title": "(note - dm if the links are not accessible) 1. ML Ops Engineer – Sarvam AI  ...",
+          "snippet": "",
+          "position": 2,
+          "site_name": "www.instagram.com"
+        },
+        {
+          "url": "https://jobs.keysight.com/external/jobs/57105?lang=en-us",
+          "date": "7 days ago",
+          "title": "R&D Engineer 4, Software in Gurgaon, India | Keysight Technologies, Inc.",
+          "snippet": "Keysight Careers is hiring a R&D Engineer 4, Software in Gurgaon, India. Review all of the job details and apply today ... RAG-only experience. Experience ...",
+          "position": 3,
+          "site_name": "jobs.keysight.com"
+        },
+        {
+          "url": "https://hirastra.com/ai-ml-jobs",
+          "date": "4 days ago",
+          "title": "AI & ML Jobs for Freshers in India (87 live, 2026) | Hirastra",
+          "snippet": "Generative AI Engineer (Freshers 2026/27). Python; LLMs; RAG; FastAPI; LangChain; AWS. Check resume match (ATS) ...",
+          "position": 4,
+          "site_name": "hirastra.com"
+        },
+        {
+          "url": "https://www.facebook.com/100087139651134/videos/-joblet-ai-hiring-ai-engineer-india-remote-full-time-expected-ctc-1530-lpa-estim/1615086323055248/",
+          "title": "Joblet-AI Hiring AI Engineer Remote in India: ₹15-30 LPA for 2021-2025 ...",
+          "snippet": "... LangChain, RAG, Prompt Engineering, AI APIs, Deep Learning (Indicative) ... AMETEK Hiring – AI Engineer / Developer Company: AMETEK Job Title: AI Engineer /.",
+          "position": 5,
+          "site_name": "www.facebook.com"
+        },
+        {
+          "url": "https://jobs.gainwelltechnologies.com/job/Bangalore-Data-Science-AI-Engineer%2C-Professional-2-KA-560100/1451346700/",
+          "date": "8 days ago",
+          "title": "Data Science AI Engineer, Professional 2 Job Details",
+          "snippet": "Work Mode: Remote India. Summary. We're seeking a hands-on engineer to accelerate developer productivity and engineering quality by operationalizing GitHub ...",
+          "position": 6,
+          "site_name": "jobs.gainwelltechnologies.com"
+        },
+        {
+          "url": "https://jobs.sw.siemens.com/noida-ind/software-engineer-aiml/14339DE080E142818B9A0CA9A07198A7/job/",
+          "date": "2 days ago",
+          "title": "Software Engineer - AI/ML",
+          "snippet": "Software Engineer - AI/ML. Noida, IND. Work Type: Hybrid. Job Family: Research & Development.",
+          "position": 7,
+          "site_name": "jobs.sw.siemens.com"
+        },
+        {
+          "url": "https://www.iitjobs.com/job/quality-engineer-airag-agentic-framework-irving-tx-usa-649876",
+          "date": "5 days ago",
+          "title": "Quality Engineer – AI/RAG, Agentic Framework Job - Irving, TX, USA ...",
+          "snippet": "Python Developer. FINGROW CONSULTING SERVICES PVT LTD. New Delhi, Delhi, India · Python Developer. VARITE INC. Pune, Maharashtra, India · Python Developer. DBSI ...",
+          "position": 8,
+          "site_name": "www.iitjobs.com"
+        },
+        {
+          "url": "https://in.linkedin.com/jobs/view/ai-engineer-at-agentanalytics-ai-4494325162",
+          "date": "1 day ago",
+          "title": "AI engineer at AgentAnalytics.AI — Gurugram, Haryana, India",
+          "snippet": "Text-to-SQL, RAG or agent memory projects. • Strong Python ... Get notified about new Artificial Intelligence Engineer jobs in Gurugram, Haryana, India.",
+          "position": 9,
+          "site_name": "in.linkedin.com"
+        },
+        {
+          "url": "https://www.naukri.com/job-listings-ai-engineer-python-us-shift-full-time-platinus-technologies-noida-3-to-6-years-131126921191",
+          "date": "Nov 13, 2026",
+          "title": "AI Engineer -Python-US shift-Full time - Noida - Platinus Technologies",
+          "snippet": "Jobs in Delhi · Jobs in Mumbai · Jobs ... Job highlights. 3+ years Python development with expertise in RAG, Agentic Workflows, LangChain, WebRTC, STT, and TTS",
+          "position": 10,
+          "site_name": "www.naukri.com"
+        }
+      ],
+      "new_result_positions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "created_at": "2026-11-25 10:30:07"
+    }
+  },
+  "state": "Cloud search monitors active with successful baseline only. No Airtable webhook/normalization connection yet; no full daily recruitment cycle operational.",
+  "cost": "Each completed run $0.005 plus one search at applicable account rate. Two runs/day: about $0.30/month monitor charge, up to $0.60/month including listed $0.005/query search rate. Existing $10 wallet; auto reload not configured."
+}

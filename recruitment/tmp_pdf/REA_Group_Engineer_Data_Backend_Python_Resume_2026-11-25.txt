@@ -1,0 +1,48 @@
+            Harshit Kumar
+         [PHONE_REDACTED]              contact@example.invalid                                                                                       LinkedIn
+EXPERIENCE
+Tata Consultancy Services - System Engineer (AI Cloud)                         June 2025 – Present
+·  Spearheaded development of a resilient scraping pipeline using Scrapy with intelligent proxy rotation
+   and caching; decreased data retrieval latency by 40% and minimized IP blocking incidents.
+·  Designed and tested a Retrieval­Augmented Generation (RAG) pipeline with Qdrant vector DB,
+   enabling semantic search across 500+ technical documents with higher retrieval relevance.
+·  Leveraged LangSmith for tracing and debugging LLM calls, improving monitoring across multi­step pipelines.
+·  Implemented semantic caching with LangChain, reducing redundant API calls by 20­25% and
+   optimize AI cost­efficiency.
+·  Engineered an automated sitemap generator to keep site URLs up to date and enhance search engine indexing.
+·  Explored AI­driven automation tools, building prototypes with LangChain framework for multi­agent
+   workflows and LLM orchestration.
+
+WaahAds (Startup) — Software Engineer                                           July 2024 – May 2025
+   Built and maintained backend microservices using Node.js, Express.js, and PostgreSQL for an internal
+   campaign automation tool.
+   Integrated LLM-based content generation pipelines for ad‑copy suggestions using OpenAI APIs and
+   LangChain, cutting manual content drafting by ~40%.
+PROJECTS
+Code-Collab    | React.js, Node.js, Express.js, Socket.io, HTML, CSS, JavaScript, Rapid API          Live Link
+  Developed and deployed a real-time collaborative coding platform supporting simultaneous multi-
+   user code editing and execution.
+   Integrated Socket.io for live updates across client sessions with robust session and user management.
+  Enabled compilation and output rendering for 5 programming languages using Rapid API,
+   simulating an interactive IDE experience.
+  Engineered a robust backend system with Express.js that increased server capacity to support 750 concurrent
+    users while also improving overall code maintainability by 12%.
+
+TECHNICAL SKILLS
+  Language: Python, SQL, Java, C++, JavaScript
+  Backend Frameworks: FastAPI, Flask, Node.js, Express.js, REST APIs, Microservices, Spring Boot
+  AI/LLM Tools: LangSmith, LangChain, LangGraph, HuggingFace, OpenAI API, RAG pipelines, Prompt Engg.
+  Databases: PostgreSQL, MySQL, Qdrant, MongoDB, Redis
+  Data Pipelines: Scrapy, ETL workflows, API integration, Playwright
+  Cloud & Tools: AWS (Lambda, S3, EC2), Docker, Git, Swagger, Postman
+  Frontend: React.js, Next.js, Tailwind CSS
+EDUCATION
+State Institute of Engineering and Technology                                Nilokheri, Haryana
+B.Tech in Computer Science (8.1 CGPA)                                              April 2020 – June 2024
+ACHIEVEMENTS
+ 1799 rating on LeetCode (top 10% worldwide).
+ Global Rank 118 in CodeChef Starters 63.
+ Global Rank 2404 in Google Hash Code 2022.
+ Solved 400+ DSA problems across LeetCode, CodeChef, and HackerRank.
+Profiles
+  3 star on Codechef    | 1799 rating on LeetCode    | 7 PRs in Hactoberfest GitHub

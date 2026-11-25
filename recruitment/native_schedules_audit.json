@@ -1,0 +1,1093 @@
+{
+  "audited_on": "2026-11-25",
+  "timezone": "Asia/Calcutta",
+  "base_id": "app8b3002ee78eeef",
+  "preparation": {
+    "id": "wfl25022dd64ddf9a",
+    "url": "https://airtable.com/app8b3002ee78eeef/wfl25022dd64ddf9a",
+    "local_schedule": "Daily 14:00 IST",
+    "configuration_status": "valid",
+    "deployment_status": "undeployed",
+    "deployed_version": null,
+    "runs": {
+      "runs": [],
+      "nextCursor": null
+    },
+    "read_only_filter_probes": [
+      {
+        "key": "wac573dbce086bd74",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "=",
+              "operands": [
+                "flddfbcd3bfb8dba0",
+                "MASTER_PROFILE"
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 1,
+          "matching_ids": [
+            "rec1758a94dd847c7"
+          ],
+          "labels": [
+            "MASTER_PROFILE"
+          ]
+        }
+      },
+      {
+        "key": "wace732bac95814f9",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "=",
+              "operands": [
+                "flddfbcd3bfb8dba0",
+                "MASTER_RESUME_TEXT"
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 1,
+          "matching_ids": [
+            "rec15aeb5c4c9dec6"
+          ],
+          "labels": [
+            "MASTER_RESUME_TEXT"
+          ]
+        }
+      },
+      {
+        "key": "wac01fb54526f41ba",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "=",
+              "operands": [
+                "flddfbcd3bfb8dba0",
+                "CANDIDATE_CLAIMS_CATALOG"
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 1,
+          "matching_ids": [
+            "rec5c1893b0bc1e63"
+          ],
+          "labels": [
+            "CANDIDATE_CLAIMS_CATALOG"
+          ]
+        }
+      },
+      {
+        "key": "wacc7723ef2183fbc",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "=",
+              "operands": [
+                "fld37b367ab80dd1c",
+                "sela7fcac9aed16ec"
+              ]
+            },
+            {
+              "operator": "!=",
+              "operands": [
+                "fld605c2f23179823",
+                "self6b9209b1d65e4"
+              ]
+            },
+            {
+              "operator": ">=",
+              "operands": [
+                "fld60018bb38677fc",
+                75
+              ]
+            },
+            {
+              "operator": "isAnyOf",
+              "operands": [
+                "fld5910ec0f623a85",
+                [
+                  "self70812592fa9af",
+                  "sela291c7c9142272"
+                ]
+              ]
+            },
+            {
+              "operator": "isEmpty",
+              "operands": [
+                "fld58534522b9550b"
+              ]
+            },
+            {
+              "operator": "isEmpty",
+              "operands": [
+                "fld200b73fe523625"
+              ]
+            },
+            {
+              "operator": "!=",
+              "operands": [
+                "fld62f32806e984ca",
+                "selc8a624497feb7c"
+              ]
+            },
+            {
+              "operator": "!=",
+              "operands": [
+                "fld62f32806e984ca",
+                "sel22b416e09c215f"
+              ]
+            },
+            {
+              "operator": "!=",
+              "operands": [
+                "fld62f32806e984ca",
+                "selcfe2881c72ef5a"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld9e8c5c9667c58b",
+                false
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 0,
+          "matching_ids": [],
+          "labels": []
+        }
+      }
+    ],
+    "requirements": [
+      "MASTER_PROFILE, MASTER_RESUME_TEXT and CANDIDATE_CLAIMS_CATALOG loaded from cloud",
+      "Up to 3 records; limited query subset sorted by technical score, not a claim of global top3",
+      "Verified live, technical score>=75, not evaluationReject, unsubmitted, Discovered/Shortlisted, no existing text or PDFs or prepared state",
+      "Catalog-only exactclaims/approvedvariants; no internet tools, no unsupported skills/production scope",
+      "Writes TailoredResumeContent and CoverLetter and ContentreadyPDFneeded only; preservesStatus",
+      "AI selfcheck is not an independent factual/PDF verification; actual output requires source comparison and real PDF"
+    ],
+    "operational_limitations": [
+      "Currently queue is empty because verified candidate rows already have real PDF metadata",
+      "Human must review/test/enable in Airtable UI",
+      "No scheduled runtime has executed",
+      "Does not produce PDF file or upload candidate documents"
+    ],
+    "later_freshness_update": {
+      "configuration_valid": true,
+      "deployment_status": "undeployed",
+      "live_source_checked_today_required": true,
+      "complete_job_snapshot_required": true,
+      "unknown_remote_or_outside_north_location_fails_closed": true,
+      "read_only_current_queue_probe_count": 0
+    }
+  },
+  "report": {
+    "id": "wfle5f5702b7db5f3",
+    "url": "https://airtable.com/app8b3002ee78eeef/wfle5f5702b7db5f3",
+    "local_schedule": "Daily 19:00 IST",
+    "configuration_status": "valid",
+    "deployment_status": "undeployed",
+    "deployed_version": null,
+    "runs": {
+      "runs": [],
+      "nextCursor": null
+    },
+    "read_only_filter_probes": [
+      {
+        "key": "dailyDiscovered",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5b107893972fb3"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld7b2bf8ccac788a",
+                {
+                  "mode": "today",
+                  "timeZone": "Asia/Calcutta"
+                }
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 14,
+          "matching_application_ids": [
+            "RH-20261125-ANAPLAN-ENGINEER-I",
+            "RH-20261125-MOODYS-EXPIRED",
+            "RH-20261125-AGENTANALYTICS-AI-4494325162",
+            "RH-20261125-CIRCLEPE-PYTHON",
+            "RH-20261125-REA-DATA-PYTHON",
+            "RH-20261125-QUIXTA-BACKEND-DATA",
+            "RH-20261125-SIEMENS-AIML-530396",
+            "RH-20261125-ZYNKROW-NODE",
+            "RH-20261125-POLICYBAZAAR-ML",
+            "RH-20261125-CREDHIVE-PLATFORM",
+            "RH-20261125-CARDEKHO-AI",
+            "RH-20261125-DIGITUP-SENIOR",
+            "RH-20261125-KEYSIGHT-RD4-57105",
+            "RH-20261125-NEXVIA-JUNIOR-PYTHON"
+          ],
+          "nextCursor": null
+        }
+      },
+      {
+        "key": "dailyShortlisted",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5b107893972fb3"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld7b2bf8ccac788a",
+                {
+                  "mode": "today",
+                  "timeZone": "Asia/Calcutta"
+                }
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld605c2f23179823",
+                "sel518bf817ec14e9"
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 0,
+          "matching_application_ids": [],
+          "nextCursor": null
+        }
+      },
+      {
+        "key": "dailyRejected",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5b107893972fb3"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld7b2bf8ccac788a",
+                {
+                  "mode": "today",
+                  "timeZone": "Asia/Calcutta"
+                }
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld605c2f23179823",
+                "self6b9209b1d65e4"
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 5,
+          "matching_application_ids": [
+            "RH-20261125-ANAPLAN-ENGINEER-I",
+            "RH-20261125-MOODYS-EXPIRED",
+            "RH-20261125-POLICYBAZAAR-ML",
+            "RH-20261125-DIGITUP-SENIOR",
+            "RH-20261125-KEYSIGHT-RD4-57105"
+          ],
+          "nextCursor": null
+        }
+      },
+      {
+        "key": "dailyHeld",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5b107893972fb3"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld7b2bf8ccac788a",
+                {
+                  "mode": "today",
+                  "timeZone": "Asia/Calcutta"
+                }
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld605c2f23179823",
+                "selaeb99ced9844be"
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 9,
+          "matching_application_ids": [
+            "RH-20261125-AGENTANALYTICS-AI-4494325162",
+            "RH-20261125-CIRCLEPE-PYTHON",
+            "RH-20261125-REA-DATA-PYTHON",
+            "RH-20261125-QUIXTA-BACKEND-DATA",
+            "RH-20261125-SIEMENS-AIML-530396",
+            "RH-20261125-ZYNKROW-NODE",
+            "RH-20261125-CREDHIVE-PLATFORM",
+            "RH-20261125-CARDEKHO-AI",
+            "RH-20261125-NEXVIA-JUNIOR-PYTHON"
+          ],
+          "nextCursor": null
+        }
+      },
+      {
+        "key": "dailyHeldOrRejected",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5b107893972fb3"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld7b2bf8ccac788a",
+                {
+                  "mode": "today",
+                  "timeZone": "Asia/Calcutta"
+                }
+              ]
+            },
+            {
+              "operator": "isAnyOf",
+              "operands": [
+                "fld605c2f23179823",
+                [
+                  "self6b9209b1d65e4",
+                  "selaeb99ced9844be"
+                ]
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 14,
+          "matching_application_ids": [
+            "RH-20261125-ANAPLAN-ENGINEER-I",
+            "RH-20261125-MOODYS-EXPIRED",
+            "RH-20261125-AGENTANALYTICS-AI-4494325162",
+            "RH-20261125-CIRCLEPE-PYTHON",
+            "RH-20261125-REA-DATA-PYTHON",
+            "RH-20261125-QUIXTA-BACKEND-DATA",
+            "RH-20261125-SIEMENS-AIML-530396",
+            "RH-20261125-ZYNKROW-NODE",
+            "RH-20261125-POLICYBAZAAR-ML",
+            "RH-20261125-CREDHIVE-PLATFORM",
+            "RH-20261125-CARDEKHO-AI",
+            "RH-20261125-DIGITUP-SENIOR",
+            "RH-20261125-KEYSIGHT-RD4-57105",
+            "RH-20261125-NEXVIA-JUNIOR-PYTHON"
+          ],
+          "nextCursor": null
+        }
+      },
+      {
+        "key": "dailyPdfs",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5b107893972fb3"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fldd724e7e0e6e15b",
+                {
+                  "mode": "today",
+                  "timeZone": "Asia/Calcutta"
+                }
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld62f32806e984ca",
+                "selcfe2881c72ef5a"
+              ]
+            },
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld06fc6813934638"
+              ]
+            },
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fldc7c3d6e08797ff"
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 2,
+          "matching_application_ids": [
+            "RH-20261125-REA-DATA-PYTHON",
+            "RH-20261125-ZYNKROW-NODE"
+          ],
+          "nextCursor": null
+        }
+      },
+      {
+        "key": "dailySubmitted",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5b107893972fb3"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld9e8c5c9667c58b",
+                true
+              ]
+            },
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5d5d14c4a91ac4"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld5e3bfd9d5b3582",
+                {
+                  "mode": "today",
+                  "timeZone": "Asia/Calcutta"
+                }
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 0,
+          "matching_application_ids": [],
+          "nextCursor": null
+        }
+      },
+      {
+        "key": "approvalQueue",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5b107893972fb3"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld5910ec0f623a85",
+                "sel6b2a8d0a20bf87"
+              ]
+            },
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld0bfc1abe56fe25"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld3d5d7340b904cb",
+                false
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 0,
+          "matching_application_ids": [],
+          "nextCursor": null
+        }
+      },
+      {
+        "key": "recruiterResponses",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5b107893972fb3"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld18736d38338bb0",
+                true
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 0,
+          "matching_application_ids": [],
+          "nextCursor": null
+        }
+      },
+      {
+        "key": "followupsDue",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5b107893972fb3"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld9e8c5c9667c58b",
+                true
+              ]
+            },
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5d5d14c4a91ac4"
+              ]
+            },
+            {
+              "operator": "<=",
+              "operands": [
+                "fld8fafe4ed1bf16c",
+                {
+                  "mode": "today",
+                  "timeZone": "Asia/Calcutta"
+                }
+              ]
+            },
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld8fafe4ed1bf16c"
+              ]
+            },
+            {
+              "operator": "isNoneOf",
+              "operands": [
+                "fld5910ec0f623a85",
+                [
+                  "sel252ec447934f88",
+                  "sel8fffbed9f217b9",
+                  "sel6e005b06b943bf",
+                  "sele70fe1eff7f948"
+                ]
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 0,
+          "matching_application_ids": [],
+          "nextCursor": null
+        }
+      },
+      {
+        "key": "allSubmitted",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5b107893972fb3"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld9e8c5c9667c58b",
+                true
+              ]
+            },
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5d5d14c4a91ac4"
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 0,
+          "matching_application_ids": [],
+          "nextCursor": null
+        }
+      },
+      {
+        "key": "allInterviews",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5b107893972fb3"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld9e8c5c9667c58b",
+                true
+              ]
+            },
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5d5d14c4a91ac4"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fldc988b36cbae5c1",
+                true
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 0,
+          "matching_application_ids": [],
+          "nextCursor": null
+        }
+      },
+      {
+        "key": "allEmployerRejects",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5b107893972fb3"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld9e8c5c9667c58b",
+                true
+              ]
+            },
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5d5d14c4a91ac4"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld18736d38338bb0",
+                true
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld5910ec0f623a85",
+                "sel252ec447934f88"
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 0,
+          "matching_application_ids": [],
+          "nextCursor": null
+        }
+      },
+      {
+        "key": "allOffers",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5b107893972fb3"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld9e8c5c9667c58b",
+                true
+              ]
+            },
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5d5d14c4a91ac4"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld26c805440c4a69",
+                true
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 0,
+          "matching_application_ids": [],
+          "nextCursor": null
+        }
+      },
+      {
+        "key": "allEmployerShortlists",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5b107893972fb3"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld9e8c5c9667c58b",
+                true
+              ]
+            },
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5d5d14c4a91ac4"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fldc1110926aeb945",
+                true
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 0,
+          "matching_application_ids": [],
+          "nextCursor": null
+        }
+      },
+      {
+        "key": "weeklySubmitted",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5b107893972fb3"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld9e8c5c9667c58b",
+                true
+              ]
+            },
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5d5d14c4a91ac4"
+              ]
+            },
+            {
+              "operator": "isWithin",
+              "operands": [
+                "fld5e3bfd9d5b3582",
+                {
+                  "mode": "pastWeek",
+                  "timeZone": "Asia/Calcutta"
+                }
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 0,
+          "matching_application_ids": [],
+          "nextCursor": null
+        }
+      },
+      {
+        "key": "monthlySubmitted",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5b107893972fb3"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld9e8c5c9667c58b",
+                true
+              ]
+            },
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5d5d14c4a91ac4"
+              ]
+            },
+            {
+              "operator": "isWithin",
+              "operands": [
+                "fld5e3bfd9d5b3582",
+                {
+                  "mode": "pastMonth",
+                  "timeZone": "Asia/Calcutta"
+                }
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 0,
+          "matching_application_ids": [],
+          "nextCursor": null
+        }
+      },
+      {
+        "key": "allApplications",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5b107893972fb3"
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 14,
+          "matching_application_ids": [
+            "RH-20261125-ANAPLAN-ENGINEER-I",
+            "RH-20261125-MOODYS-EXPIRED",
+            "RH-20261125-AGENTANALYTICS-AI-4494325162",
+            "RH-20261125-CIRCLEPE-PYTHON",
+            "RH-20261125-REA-DATA-PYTHON",
+            "RH-20261125-QUIXTA-BACKEND-DATA",
+            "RH-20261125-SIEMENS-AIML-530396",
+            "RH-20261125-ZYNKROW-NODE",
+            "RH-20261125-POLICYBAZAAR-ML",
+            "RH-20261125-CREDHIVE-PLATFORM",
+            "RH-20261125-CARDEKHO-AI",
+            "RH-20261125-DIGITUP-SENIOR",
+            "RH-20261125-KEYSIGHT-RD4-57105",
+            "RH-20261125-NEXVIA-JUNIOR-PYTHON"
+          ],
+          "nextCursor": null
+        }
+      },
+      {
+        "key": "attentionQueue",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld5b107893972fb3"
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld37b367ab80dd1c",
+                "sela7fcac9aed16ec"
+              ]
+            },
+            {
+              "operator": "!=",
+              "operands": [
+                "fld605c2f23179823",
+                "self6b9209b1d65e4"
+              ]
+            },
+            {
+              "operator": ">=",
+              "operands": [
+                "fld60018bb38677fc",
+                75
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld9e8c5c9667c58b",
+                false
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 2,
+          "matching_application_ids": [
+            "RH-20261125-REA-DATA-PYTHON",
+            "RH-20261125-ZYNKROW-NODE"
+          ],
+          "nextCursor": null
+        }
+      },
+      {
+        "key": "todaysDiscoveryReports",
+        "filter": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "=",
+              "operands": [
+                "fldfcfc0b28e3af69",
+                {
+                  "mode": "today",
+                  "timeZone": "Asia/Calcutta"
+                }
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fld4f8cfd640bbe79",
+                "sel2108428e6a2232"
+              ]
+            }
+          ]
+        },
+        "read_only_probe": true,
+        "result": {
+          "returned_count": 0,
+          "matching_application_ids": [],
+          "nextCursor": null
+        }
+      }
+    ],
+    "daily_discovered_current_record_count": 14,
+    "application_ids_distinct_in_current_probe": true,
+    "operational_limitations": [
+      "Read-only probes checked filter results, not scheduled action execution",
+      "Per query maximum 1000 returned records; count correctness depends on canonical dedup invariant",
+      "Pastweek/pastmonth filters used; calendar-to-date forms rejected by API",
+      "Formula ratios rely on confirmed applications denominator and remain blank/N/A at zero",
+      "Employer rejections require SubmissionConfirmed + evidence + RecruiterResponseConfirmed + StatusRejected; discoveryrejects separate",
+      "RecruiterResponses count cumulative because no response timestamp",
+      "Salaryaverage notguessed; needs knownINRannual dashboardwidget",
+      "Airtable cloud attachment upload may still be pending for verified local PDFs",
+      "Does not submit applications, sendemail, contact recruiters or take assessments"
+    ]
+  },
+  "actions_performed": "Two cloud automation drafts saved and read back; zero automation runs, applications or messages. Only read-only baseline record queries after draft creation.",
+  "required_user_step": "Open both Airtable automation links, review configuration, test with current records, and enable only after the test succeeds. Connector cannot activate drafts or perform cron-node tests itself.",
+  "files_to_use": [
+    "native_preparation_validated_payload.json",
+    "native_preparation_readback.json",
+    "native_report_draft_payload.json",
+    "native_report_readback.json"
+  ],
+  "validation_repairs": [
+    "Preparation nested OR filter rejected; changed to flat != prepared-state gates; accepted",
+    "Report calendar-to-date date filters rejected; changed to supported pastWeek/pastMonth; accepted"
+  ]
+}

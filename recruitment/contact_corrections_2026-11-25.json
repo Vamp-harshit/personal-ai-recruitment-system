@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-25",
+  "edited_file": "PROJECT_ROOT\\resume\\Harshit_SE_Resume_1YOE.pdf",
+  "original_backup": "PROJECT_ROOT\\recruitment\\archive\\Harshit_SE_Resume_1YOE_original_2026-11-25.pdf",
+  "changes": [
+    "Full name corrected to Harshit Kumar",
+    "Visible email and mailto corrected",
+    "Removed foreign and duplicate hyperlink annotations",
+    "Retained confirmed LinkedIn/GitHub and existing project/coding-profile links"
+  ],
+  "preserved": [
+    "One-page layout",
+    "Font family and sizes",
+    "Body text and coordinates",
+    "All experience, skill and achievement wording"
+  ],
+  "verification": {
+    "body_pixel_difference": 0,
+    "page_count": 1,
+    "unique_links": 6
+  },
+  "existing_portfolio_links": "Retained from original; not externally verified",
+  "claims": "Employment/tasks/metrics pending factual confirmation before uncertain claims are used in submitted materials",
+  "subsequent_user_attestation": "User confirmed employers, dates, tasks and metrics on 2026-11-25; preserve original wording and factual scopes. Independent audit not claimed."
+}

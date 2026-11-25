@@ -1,0 +1,131 @@
+{
+  "audited_on": "2026-11-25",
+  "base_id": "app8b3002ee78eeef",
+  "scope": "Updated two existing draft configurations only. No workflow creation, activation, browser use, application-record edits, submissions or messages.",
+  "preparation": {
+    "automation_id": "wfl25022dd64ddf9a",
+    "url": "https://airtable.com/app8b3002ee78eeef/wfl25022dd64ddf9a",
+    "configuration_status": "valid",
+    "deployment_status": "undeployed",
+    "deployed_version": null,
+    "guard_condition_count": 10,
+    "changes": [
+      "Candidate Facts lookups require User confirmed evidence.",
+      "MASTER_PROFILE lookup requires explicit strategy_approved:true and resume_claims_user_attested object markers.",
+      "Catalog lookup requires attestation status user_attested.",
+      "Source lookups must be nonempty before storing anything.",
+      "Native write gate requires safe_to_store and explicit source approval, source attestation and location-scope flags.",
+      "Native write gate requires nonempty resume_content, cover_letter and integrity_notes.",
+      "AI prompt now receives dedicated Location and Work Mode values and rejects unknown/ineligible scope.",
+      "Content-only preparation preserves application Status, PDF fields, Resume Version, approval holds and submission flags."
+    ],
+    "source_marker_limit": "Native expression catalog has no JSON parser. Exact current serialized approval/attestation markers are used as conservative lookup gates; formatting changes fail closed. AI also checks parsed source flags, but remains a draft check, not independent factual/PDF verification.",
+    "runtime_tested": false,
+    "pdf_generated_by_automation": false
+  },
+  "report": {
+    "automation_id": "wfle5f5702b7db5f3",
+    "url": "https://airtable.com/app8b3002ee78eeef/wfle5f5702b7db5f3",
+    "configuration_status": "valid",
+    "deployment_status": "undeployed",
+    "deployed_version": null,
+    "node_count": 23,
+    "changes": [
+      "Added a read-only query counting verified daily PDF records with actual Resume PDF attachments.",
+      "Report dynamically distinguishes verified PDF metadata count from attached PDF-record count.",
+      "Download/readability availability remains unknown unless actually checked.",
+      "Raw Discovery Intake is explicitly omitted, not counted as qualified jobs and not assumed zero.",
+      "Canonical Applications counts and internal Proceed/reject/hold distinctions remain unchanged."
+    ],
+    "current_baseline_from_parent": {
+      "canonical_records": 14,
+      "proceed": 1,
+      "reject": 5,
+      "hold": 8,
+      "actual_tailored_pdfs": 2,
+      "confirmed_submissions": 0
+    },
+    "runtime_tested": false
+  },
+  "validation": {
+    "preparation_update": {
+      "content": [],
+      "structuredContent": {
+        "automationId": "wfl25022dd64ddf9a",
+        "automationUrl": "https://airtable.com/app8b3002ee78eeef/wfl25022dd64ddf9a",
+        "isValid": true,
+        "errors": [],
+        "actionId": "acte0533f09a38bc2"
+      },
+      "isError": false
+    },
+    "report_update": {
+      "content": [],
+      "structuredContent": {
+        "automationId": "wfle5f5702b7db5f3",
+        "automationUrl": "https://airtable.com/app8b3002ee78eeef/wfle5f5702b7db5f3",
+        "isValid": true,
+        "errors": [],
+        "actionId": "act8ad776d68d28cc"
+      },
+      "isError": false
+    },
+    "fresh_readbacks_valid_and_off": true,
+    "read_only_probes": [
+      {
+        "i": 2,
+        "returned_count": 1,
+        "ids": [
+          "rec1758a94dd847c7"
+        ],
+        "labels": [
+          "MASTER_PROFILE"
+        ]
+      },
+      {
+        "i": 3,
+        "returned_count": 1,
+        "ids": [
+          "rec15aeb5c4c9dec6"
+        ],
+        "labels": [
+          "MASTER_RESUME_TEXT"
+        ]
+      },
+      {
+        "i": 4,
+        "returned_count": 1,
+        "ids": [
+          "rec5c1893b0bc1e63"
+        ],
+        "labels": [
+          "CANDIDATE_CLAIMS_CATALOG"
+        ]
+      },
+      {
+        "i": 5,
+        "returned_count": 2,
+        "ids": [
+          "recfcd2879d6cd161",
+          "recf55d3a9c5430f4"
+        ],
+        "labels": [
+          "RH-20261125-REA-DATA-PYTHON",
+          "RH-20261125-ZYNKROW-NODE"
+        ],
+        "attachment_counts": [
+          1,
+          1
+        ]
+      }
+    ],
+    "application_records_mutated": 0
+  },
+  "current_files": [
+    "native_preparation_safeguarded_payload.json",
+    "native_preparation_safeguarded_readback.json",
+    "native_report_safeguarded_payload.json",
+    "native_report_safeguarded_readback.json"
+  ],
+  "remaining_step": "Runtime tests and enabling remain manual in Airtable. Empty preparation queues only prove a no-op; positive material generation requires source review and a real PDF later."
+}

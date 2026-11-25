@@ -1,0 +1,25 @@
+{
+  "status": "creation_denied",
+  "date": "2026-11-25",
+  "base_id": "app8b3002ee78eeef",
+  "automation_id": null,
+  "automation_url": null,
+  "schedule_intended": "Daily at 09:00 Asia/Calcutta",
+  "cloud_run_tested": false,
+  "local_validation_tests": "Passed",
+  "creation_error": {
+    "upstreamCode": "INVALID_PERMISSIONS",
+    "message": "You are not permitted to perform this operation",
+    "wrapper_error_code": "INVALID_ARGUMENT"
+  },
+  "confirmed_post_error_automations": [],
+  "source_gates": "Original job URL HTTP status, all title words, Apply marker, 2/3 distinctive JD excerpts, full AI original-page read; any unavailable/inconsistent evidence stays Hold.",
+  "scope": "Only Discovery automation and Applications records; no emails/forms/tests/legal agreements",
+  "supporting_files": [
+    "discovery_automation_payload.json",
+    "discovery_load_profile.js",
+    "discovery_validate_and_persist.js",
+    "check_discovery_validation.cjs",
+    "automation_api_spec.md"
+  ]
+}

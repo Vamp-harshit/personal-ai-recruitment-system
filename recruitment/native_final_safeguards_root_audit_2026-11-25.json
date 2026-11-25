@@ -1,0 +1,31 @@
+{
+  "audited_on": "2026-11-25",
+  "base_id": "app8b3002ee78eeef",
+  "preparation": {
+    "automation_id": "wfl25022dd64ddf9a",
+    "configuration": "valid",
+    "deployment": "undeployed",
+    "top_level_nodes": 6,
+    "source_approval_markers_present": true,
+    "recorded_geography_inputs": true,
+    "runtime_positive_tested": false
+  },
+  "report": {
+    "automation_id": "wfle5f5702b7db5f3",
+    "configuration": "valid",
+    "deployment": "undeployed",
+    "top_level_nodes": 23,
+    "description": "Script-free cloud draft storing CRM evidence and counts. Submission Confirmed plus evidence defines applications; explicit confirmed interview/offer/shortlist/response flags drive analytics. Discovery rejects separate from employer rejects. No emails, submissions, assessments or guessed salary math. Off until UI review and runtime test. Counts limited to 1000 canonical returned records per query. Actual PDF attachment presence is counted separately; raw Discovery Intake is omitted, not treated as qualified jobs. Draft stays OFF.",
+    "runtime_tested": false
+  },
+  "expected_current_baseline": {
+    "canonical_evaluated": 14,
+    "internal_proceed": 1,
+    "screening_reject": 5,
+    "hold": 8,
+    "tailored_pdfs": 2,
+    "confirmed_submissions": 0
+  },
+  "activation_performed": false,
+  "applications_submitted": 0
+}

@@ -1,0 +1,1082 @@
+{
+  "created_on": "2026-11-25",
+  "base_id": "app8b3002ee78eeef",
+  "interface_id": "pbd0f0b186977b2bc",
+  "interface_name": "Harshit Recruitment Dashboard",
+  "published": true,
+  "public_sharing_created": false,
+  "scope": "Interface and pages only; no table fields, records, automations or permissions changed.",
+  "pages": [
+    {
+      "name": "Pipeline",
+      "pageId": "pag0aa3a321444030",
+      "pageUrl": "https://airtable.com/app8b3002ee78eeef/pag0aa3a321444030/edit"
+    },
+    {
+      "name": "Status Board",
+      "pageId": "pagfa7c2e4c70f8f8",
+      "pageUrl": "https://airtable.com/app8b3002ee78eeef/pagfa7c2e4c70f8f8/edit"
+    },
+    {
+      "name": "Follow-ups Due",
+      "pageId": "pagca047e54acf666",
+      "pageUrl": "https://airtable.com/app8b3002ee78eeef/pagca047e54acf666/edit"
+    },
+    {
+      "name": "Performance",
+      "pageId": "pag80a1060c873edb",
+      "pageUrl": "https://airtable.com/app8b3002ee78eeef/pag80a1060c873edb/edit"
+    },
+    {
+      "name": "Daily Reports",
+      "pageId": "pag4c30fae2eff867",
+      "pageUrl": "https://airtable.com/app8b3002ee78eeef/pag4c30fae2eff867/edit"
+    },
+    {
+      "name": "Application History",
+      "pageId": "pag7df60744816483",
+      "pageUrl": "https://airtable.com/app8b3002ee78eeef/pag7df60744816483/edit"
+    },
+    {
+      "name": "Candidate and Master Resume",
+      "pageId": "pag14120e2bf6f76c",
+      "pageUrl": "https://airtable.com/app8b3002ee78eeef/pag14120e2bf6f76c/edit"
+    }
+  ],
+  "record_detail": {
+    "id": "pag7c68ac0dc3a1b1",
+    "name": "Application Detail",
+    "style": "sidesheet",
+    "editable_fields_verified": [
+      {
+        "field": "Status",
+        "editable": true
+      },
+      {
+        "field": "Job URL",
+        "editable": true
+      },
+      {
+        "field": "Resume PDF",
+        "editable": true
+      },
+      {
+        "field": "Recruiter Communications",
+        "editable": true
+      },
+      {
+        "field": "Interview Notes",
+        "editable": true
+      }
+    ]
+  },
+  "configuration": {
+    "pipeline": {
+      "tableId": "tblbef0fd137c7a43",
+      "description": "Search and filter opportunities, sort by company, date or pay, and open any record to edit its status, recruiter notes or interview notes. Empty compensation fields mean unknown.",
+      "dropdowns": [
+        {
+          "fieldId": "fld5910ec0f623a85",
+          "name": "Status"
+        },
+        {
+          "fieldId": "fld88864f2bf786a8",
+          "name": "Category"
+        },
+        {
+          "fieldId": "fld620ffa4825b32b",
+          "name": "Work Mode"
+        },
+        {
+          "fieldId": "fld300a817a7a8ed5",
+          "name": "Salary Qualification"
+        }
+      ],
+      "visualizationElement": {
+        "type": "grid",
+        "fieldIds": [
+          "fld86687d447ef990",
+          "fld8dd8cdbfe29040",
+          "fld5910ec0f623a85",
+          "fld88864f2bf786a8",
+          "fld3d6628d3f432ed",
+          "fld4dca80eaf18554",
+          "fld9506310015dc99",
+          "fld68de33e808a632",
+          "fldc47c4367aeb1bd",
+          "fld620ffa4825b32b",
+          "fld7b2bf8ccac788a",
+          "fld5e3bfd9d5b3582",
+          "fld8fafe4ed1bf16c",
+          "fldcf43d4c0c7fffb",
+          "fldc7c3d6e08797ff",
+          "fld200b73fe523625"
+        ],
+        "rowHeight": "medium",
+        "sorts": [
+          {
+            "fieldId": "fld3d6628d3f432ed",
+            "direction": "desc"
+          },
+          {
+            "fieldId": "fld7b2bf8ccac788a",
+            "direction": "desc"
+          },
+          {
+            "fieldId": "fld86687d447ef990",
+            "direction": "asc"
+          }
+        ],
+        "rowColorFieldId": "fld5910ec0f623a85",
+        "recordDetailPageId": "pag7c68ac0dc3a1b1",
+        "fieldIdsNotCopiedWhenDuplicating": [
+          "fld9e8c5c9667c58b",
+          "fld5d5d14c4a91ac4",
+          "fld5e3bfd9d5b3582",
+          "fldc988b36cbae5c1",
+          "fld26c805440c4a69"
+        ]
+      }
+    },
+    "status_board": {
+      "tableId": "tblbef0fd137c7a43",
+      "description": "Move through the recruitment stages and open a card for materials, notes and evidence. Applied status alone is not counted as a confirmed submission.",
+      "dropdowns": [
+        {
+          "fieldId": "fld88864f2bf786a8",
+          "name": "Category"
+        },
+        {
+          "fieldId": "fld620ffa4825b32b",
+          "name": "Work Mode"
+        },
+        {
+          "fieldId": "fld300a817a7a8ed5",
+          "name": "Salary Qualification"
+        }
+      ],
+      "visualizationElement": {
+        "type": "kanban",
+        "fieldIds": [
+          "fld86687d447ef990",
+          "fld8dd8cdbfe29040",
+          "fld3d6628d3f432ed",
+          "fld9506310015dc99",
+          "fldc47c4367aeb1bd",
+          "fld620ffa4825b32b",
+          "fld8fafe4ed1bf16c",
+          "fldcf43d4c0c7fffb",
+          "fld200b73fe523625"
+        ],
+        "groupingFieldId": "fld5910ec0f623a85",
+        "cardColorFieldId": "fld5910ec0f623a85",
+        "shouldHideEmptyStacks": true,
+        "sorts": [
+          {
+            "fieldId": "fld3d6628d3f432ed",
+            "direction": "desc"
+          }
+        ],
+        "stackSummary": {
+          "function": "count"
+        },
+        "recordDetailPageId": "pag7c68ac0dc3a1b1",
+        "fieldIdsNotCopiedWhenDuplicating": [
+          "fld9e8c5c9667c58b",
+          "fld5d5d14c4a91ac4",
+          "fld5e3bfd9d5b3582",
+          "fldc988b36cbae5c1",
+          "fld26c805440c4a69"
+        ]
+      }
+    },
+    "followups": {
+      "tableId": "tblbef0fd137c7a43",
+      "description": "Confirmed applications with a follow-up due today or earlier. Messages stay in draft until authorized. Closed, withdrawn, rejected and offered roles are excluded.",
+      "recordScopeFilters": {
+        "operator": "and",
+        "operands": [
+          {
+            "operator": "=",
+            "operands": [
+              "fld9e8c5c9667c58b",
+              true
+            ]
+          },
+          {
+            "operator": "isNotEmpty",
+            "operands": [
+              "fld8fafe4ed1bf16c"
+            ]
+          },
+          {
+            "operator": "<=",
+            "operands": [
+              "fld8fafe4ed1bf16c",
+              {
+                "mode": "today",
+                "timeZone": "Asia/Calcutta"
+              }
+            ]
+          },
+          {
+            "operator": "isNoneOf",
+            "operands": [
+              "fld5910ec0f623a85",
+              [
+                "sel252ec447934f88",
+                "sel8fffbed9f217b9",
+                "sel6e005b06b943bf",
+                "sele70fe1eff7f948"
+              ]
+            ]
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "fieldId": "fld5910ec0f623a85",
+          "name": "Status"
+        }
+      ],
+      "visualizationElement": {
+        "type": "grid",
+        "fieldIds": [
+          "fld86687d447ef990",
+          "fld8dd8cdbfe29040",
+          "fld5910ec0f623a85",
+          "fld5e3bfd9d5b3582",
+          "fld8fafe4ed1bf16c",
+          "fldc17bae7c39d82a",
+          "fld57227662e1bdb0",
+          "fldbd02a7dbf90151",
+          "fld003a05120ddbce",
+          "fld200b73fe523625",
+          "fldcf43d4c0c7fffb"
+        ],
+        "rowHeight": "large",
+        "sorts": [
+          {
+            "fieldId": "fld8fafe4ed1bf16c",
+            "direction": "asc"
+          }
+        ],
+        "recordDetailPageId": "pag7c68ac0dc3a1b1"
+      }
+    },
+    "performance": {
+      "sections": [
+        {
+          "tableId": "tblbef0fd137c7a43",
+          "title": "Confirmed recruitment outcomes",
+          "description": "Only records with Submission Confirmed checked count as applications. Recruiter rejections require both a confirmed submission and Rejected status; opportunities held during evaluation are excluded. Empty averages and charts mean no eligible data.",
+          "recordScopeFilters": {
+            "operator": "and",
+            "operands": [
+              {
+                "operator": "=",
+                "operands": [
+                  "fld9e8c5c9667c58b",
+                  true
+                ]
+              }
+            ]
+          },
+          "elements": [
+            {
+              "type": "number",
+              "label": "Applications submitted",
+              "metric": "recordCount"
+            },
+            {
+              "type": "number",
+              "label": "Applications this week",
+              "metric": "recordCount",
+              "filters": {
+                "operator": "and",
+                "operands": [
+                  {
+                    "operator": "isWithin",
+                    "operands": [
+                      "fld5e3bfd9d5b3582",
+                      {
+                        "mode": "thisWeekToDate",
+                        "timeZone": "Asia/Calcutta"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "number",
+              "label": "Applications this month",
+              "metric": "recordCount",
+              "filters": {
+                "operator": "and",
+                "operands": [
+                  {
+                    "operator": "isWithin",
+                    "operands": [
+                      "fld5e3bfd9d5b3582",
+                      {
+                        "mode": "thisMonthToDate",
+                        "timeZone": "Asia/Calcutta"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "number",
+              "label": "Interviews confirmed",
+              "metric": "recordCount",
+              "filters": {
+                "operator": "and",
+                "operands": [
+                  {
+                    "operator": "=",
+                    "operands": [
+                      "fldc988b36cbae5c1",
+                      true
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "number",
+              "label": "Offers confirmed",
+              "metric": "recordCount",
+              "filters": {
+                "operator": "and",
+                "operands": [
+                  {
+                    "operator": "=",
+                    "operands": [
+                      "fld26c805440c4a69",
+                      true
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "number",
+              "label": "Recruiter rejections",
+              "metric": "recordCount",
+              "filters": {
+                "operator": "and",
+                "operands": [
+                  {
+                    "operator": "=",
+                    "operands": [
+                      "fld5910ec0f623a85",
+                      "sel252ec447934f88"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "number",
+              "label": "Average known fixed annual pay (INR)",
+              "metric": {
+                "fieldId": "fld68de33e808a632",
+                "aggregation": "average"
+              }
+            },
+            {
+              "type": "barChart",
+              "xAxisFieldId": "fld817427f274f686",
+              "aggregation": "recordCount"
+            },
+            {
+              "type": "barChart",
+              "xAxisFieldId": "fld88864f2bf786a8",
+              "aggregation": "recordCount"
+            },
+            {
+              "type": "barChart",
+              "xAxisFieldId": "fldc7c3d6e08797ff",
+              "aggregation": "recordCount"
+            }
+          ]
+        },
+        {
+          "tableId": "tblbef0fd137c7a43",
+          "title": "Interview outcomes by source, category and resume",
+          "description": "Compare these interview counts with submitted counts above. Conversion is interviews divided by confirmed applications; with zero applications the rate is N/A. The daily reports record calculated rates without inventing outcomes.",
+          "recordScopeFilters": {
+            "operator": "and",
+            "operands": [
+              {
+                "operator": "=",
+                "operands": [
+                  "fld9e8c5c9667c58b",
+                  true
+                ]
+              },
+              {
+                "operator": "=",
+                "operands": [
+                  "fldc988b36cbae5c1",
+                  true
+                ]
+              }
+            ]
+          },
+          "elements": [
+            {
+              "type": "number",
+              "label": "Applications reaching interview",
+              "metric": "recordCount"
+            },
+            {
+              "type": "number",
+              "label": "Average known interview-role fixed pay (INR)",
+              "metric": {
+                "fieldId": "fld68de33e808a632",
+                "aggregation": "average"
+              }
+            },
+            {
+              "type": "barChart",
+              "xAxisFieldId": "fld817427f274f686",
+              "aggregation": "recordCount"
+            },
+            {
+              "type": "barChart",
+              "xAxisFieldId": "fld88864f2bf786a8",
+              "aggregation": "recordCount"
+            },
+            {
+              "type": "barChart",
+              "xAxisFieldId": "fldc7c3d6e08797ff",
+              "aggregation": "recordCount"
+            }
+          ]
+        },
+        {
+          "tableId": "tblbef0fd137c7a43",
+          "title": "Opportunity pipeline",
+          "description": "Opportunity counts show research and preparation activity. They are separate from submitted applications and employer outcomes.",
+          "elements": [
+            {
+              "type": "number",
+              "label": "Unique tracked opportunities",
+              "metric": "recordCount"
+            },
+            {
+              "type": "number",
+              "label": "Awaiting approval",
+              "metric": "recordCount",
+              "filters": {
+                "operator": "and",
+                "operands": [
+                  {
+                    "operator": "isNotEmpty",
+                    "operands": [
+                      "fld0bfc1abe56fe25"
+                    ]
+                  },
+                  {
+                    "operator": "=",
+                    "operands": [
+                      "fld3d5d7340b904cb",
+                      false
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "number",
+              "label": "Ready to apply",
+              "metric": "recordCount",
+              "filters": {
+                "operator": "and",
+                "operands": [
+                  {
+                    "operator": "=",
+                    "operands": [
+                      "fld5910ec0f623a85",
+                      "sel6b2a8d0a20bf87"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "grid",
+              "fieldIds": [
+                "fld86687d447ef990",
+                "fld8dd8cdbfe29040",
+                "fld5910ec0f623a85",
+                "fld3d6628d3f432ed",
+                "fld300a817a7a8ed5",
+                "fld0bfc1abe56fe25"
+              ],
+              "sorts": [
+                {
+                  "fieldId": "fld3d6628d3f432ed",
+                  "direction": "desc"
+                }
+              ],
+              "rowHeight": "medium",
+              "recordDetailPageId": "pag7c68ac0dc3a1b1"
+            }
+          ]
+        }
+      ]
+    },
+    "reports": {
+      "tableId": "tbl3d781e5672cb38",
+      "description": "Daily reports use actual unique opportunity counts and confirmed outcomes. Rejected or held discovery results are separate from recruiter rejections.",
+      "visualizationElement": {
+        "type": "grid",
+        "fieldIds": [
+          "fldfcfc0b28e3af69",
+          "fld4f8cfd640bbe79",
+          "flda71185229eed50",
+          "fldd490148ba0f7af",
+          "fld8002ece5d8a17d",
+          "fld9ef5f629d90f80",
+          "fldaf1d19c25ef227",
+          "fld1054b845d57b32",
+          "fld3abf718b11bc0d",
+          "fld1e6baaec27f332",
+          "fld24fb46eac1bf31",
+          "fld4959d5c23bc8bf",
+          "fld7871113cca0691",
+          "fldc3d2de76ab66d0"
+        ],
+        "rowHeight": "large",
+        "sorts": [
+          {
+            "fieldId": "fldfcfc0b28e3af69",
+            "direction": "desc"
+          }
+        ]
+      }
+    },
+    "history": {
+      "tableId": "tblfbcc7f71f08828",
+      "description": "Review the application audit trail and stored evidence, including records whose original listing has disappeared.",
+      "visualizationElement": {
+        "type": "grid",
+        "fieldIds": [
+          "fldf6f990e3931422",
+          "fld6a6b9adf8dc4da",
+          "fld96a1721858a3ed",
+          "fldb9e666fc1d36ee",
+          "fld58c69bd5f5e409",
+          "flddd5756008a8f10",
+          "fld5980fc95185ef3",
+          "fldbdc24ed4482b27",
+          "fldb821186f0246e7"
+        ],
+        "rowHeight": "large"
+      }
+    },
+    "candidate_facts": {
+      "tableId": "tbla3ef4c6645989b",
+      "description": "Confirmed candidate facts, application constraints and the master resume. The evidence level and usage rule explain how each fact may be used.",
+      "visualizationElement": {
+        "type": "grid",
+        "fieldIds": [
+          "flddfbcd3bfb8dba0",
+          "fld80df2b6de9c7ee",
+          "fldb201675a9f0eba",
+          "fld74d2dd85a0aaca",
+          "fldbbaf574316158f",
+          "fld20f9b07826300b",
+          "fldc67e1b6cefa114"
+        ],
+        "rowHeight": "large"
+      }
+    },
+    "record_detail": {
+      "tableId": "tblbef0fd137c7a43",
+      "pageStyle": "sidesheet",
+      "title": {
+        "fieldId": "fld8dd8cdbfe29040",
+        "size": "large"
+      },
+      "editability": "editable",
+      "groups": [
+        {
+          "title": "Opportunity",
+          "description": "Review the original role and keep this record up to date.",
+          "layoutColumns": [
+            {
+              "layoutRows": [
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld86687d447ef990"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld5910ec0f623a85"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld88864f2bf786a8"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fldcf43d4c0c7fffb"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fldc47c4367aeb1bd"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld620ffa4825b32b"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld7b2bf8ccac788a"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld5e3bfd9d5b3582"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld03cf409834aed6"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld817427f274f686"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld8fb5138f03de2e"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Compensation",
+          "description": "CTC, fixed pay, gross pay and estimated take-home are different. An empty field means unknown.",
+          "layoutColumns": [
+            {
+              "layoutRows": [
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld9506310015dc99"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld300a817a7a8ed5"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fldc0e525d880f90e"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld68de33e808a632"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld17e2856108fa0d"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fldc5ada9de78d66e"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld17445d6784d143"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Fit and listing evidence",
+          "description": "Keep the complete posting even if the original link disappears.",
+          "layoutColumns": [
+            {
+              "layoutRows": [
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld3d6628d3f432ed"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld4dca80eaf18554"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld30b685547c629b"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld7720c33ca599ab"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld231317b1afa16b"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld0b88a1cc396c0a"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fldfb657bdc529f3e"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fldf4cf3ef7ab2f7b"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld605c2f23179823"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "flde93070123888aa"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld37b367ab80dd1c"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fldc86aa0d1d740ed"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Application materials",
+          "description": "Open the exact PDF used for this requisition. Approvals apply only to their recorded scope.",
+          "layoutColumns": [
+            {
+              "layoutRows": [
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld200b73fe523625"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fldc7c3d6e08797ff"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld06fc6813934638"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld569ffdac22bff5"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld93074c6eb11cab"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld0bfc1abe56fe25"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld3d5d7340b904cb"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Recruiter and interview notes",
+          "description": "Record communications and interview details. Follow-up drafts remain drafts until authorized.",
+          "layoutColumns": [
+            {
+              "layoutRows": [
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fldc17bae7c39d82a"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld57227662e1bdb0"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld32fad2930e6c4b"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fldbd02a7dbf90151"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld8fafe4ed1bf16c"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld003a05120ddbce"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld2cb53f046e0230"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fldd0894da8688b88"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Confirmed outcomes",
+          "description": "Mark submission, interview or offer as confirmed only when the outcome actually occurred. Store submission confirmation evidence.",
+          "layoutColumns": [
+            {
+              "layoutRows": [
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld9e8c5c9667c58b"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld5d5d14c4a91ac4"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fldc988b36cbae5c1"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "type": "field",
+                      "fieldId": "fld26c805440c4a69"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "verification": {
+    "published_pages_read_back": 7,
+    "draft_pages_remaining": 0,
+    "detail_linkage_verified": true,
+    "page_data_reads_succeeded": true,
+    "confirmed_submissions": 0,
+    "confirmed_interviews": 0,
+    "confirmed_offers": 0,
+    "recruiter_rejections": 0,
+    "grouped_submissions": "NO_DATA",
+    "conversion_rate": "N/A: zero confirmed submissions",
+    "no_fake_records_used": true
+  },
+  "limitations": [
+    "Direct ratio metrics require formula fields or calculated report values; interface schemas support filtered counts, averages and grouped charts. The daily report should calculate conversion rates from confirmed counts, keeping zero-denominator rates N/A.",
+    "Search and sort use Airtable's standard grid controls; no explicit search-control option is exposed by the create-page schema. The native UI was not visually tested here.",
+    "Publishing promoted this new interface for existing authorized base access. No public share or access expansion was created."
+  ]
+}

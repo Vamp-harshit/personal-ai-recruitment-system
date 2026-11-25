@@ -1,0 +1,2115 @@
+{
+  "id": "wfle5f5702b7db5f3",
+  "name": "Daily actual recruitment report — 19:00 IST (draft; review needed)",
+  "description": "Script-free cloud draft storing CRM evidence and counts. Submission Confirmed plus evidence defines applications; explicit confirmed interview/offer/shortlist/response flags drive analytics. Discovery rejects separate from employer rejects. No emails, submissions, assessments or guessed salary math. Off until UI review and runtime test. Counts limited to 1000 canonical returned records per query. Actual PDF attachment presence is counted separately; raw Discovery Intake is omitted, not treated as qualified jobs. Draft stays OFF.",
+  "deploymentStatus": "undeployed",
+  "deploymentError": null,
+  "trigger": {
+    "type": "cron",
+    "inputs": {
+      "type": "daily",
+      "config": {
+        "obj": {
+          "localTriggerTimes": [
+            {
+              "obj": {
+                "hour": 19,
+                "minute": 0,
+                "second": 0
+              }
+            }
+          ],
+          "tz": "Asia/Calcutta",
+          "dateModified": "2026-11-25T10:48:02.000Z",
+          "width": 1
+        }
+      },
+      "start": "2026-11-25T10:48:02.000Z"
+    }
+  },
+  "nodes": [
+    {
+      "key": "waceb56e669ba685b",
+      "type": "findRecords",
+      "description": "Today's persisted canonical Application records. Requires the unique Application ID/dedup-key invariant.",
+      "inputs": {
+        "limit": 1000,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld7b2bf8ccac788a",
+                        {
+                          "obj": {
+                            "mode": "today",
+                            "timeZone": "Asia/Calcutta"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "wacc32bb7aeb32020",
+      "type": "findRecords",
+      "description": "Today's discovered records evaluated Proceed; this is internal shortlisting.",
+      "inputs": {
+        "limit": 1000,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld7b2bf8ccac788a",
+                        {
+                          "obj": {
+                            "mode": "today",
+                            "timeZone": "Asia/Calcutta"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld605c2f23179823",
+                        "sel518bf817ec14e9"
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "wac786e7e21064b1a",
+      "type": "findRecords",
+      "description": "Today's discovery-screening rejects, distinct from employer rejections.",
+      "inputs": {
+        "limit": 1000,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld7b2bf8ccac788a",
+                        {
+                          "obj": {
+                            "mode": "today",
+                            "timeZone": "Asia/Calcutta"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld605c2f23179823",
+                        "self6b9209b1d65e4"
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "wac5d5f6216006e0c",
+      "type": "findRecords",
+      "description": "Today's discovered records held for gaps, pay or permission.",
+      "inputs": {
+        "limit": 1000,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld7b2bf8ccac788a",
+                        {
+                          "obj": {
+                            "mode": "today",
+                            "timeZone": "Asia/Calcutta"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld605c2f23179823",
+                        "selaeb99ced9844be"
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "waca1d900afcbc310",
+      "type": "findRecords",
+      "description": "Today's held or rejected records.",
+      "inputs": {
+        "limit": 1000,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld7b2bf8ccac788a",
+                        {
+                          "obj": {
+                            "mode": "today",
+                            "timeZone": "Asia/Calcutta"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isAnyOf",
+                    "operands": {
+                      "tuple": [
+                        "fld605c2f23179823",
+                        [
+                          "self6b9209b1d65e4",
+                          "selaeb99ced9844be"
+                        ]
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "wacec3bfad8a3e2d5",
+      "type": "findRecords",
+      "description": "Real verified PDF records with checksum, version and PDF Prepared Date today; text drafts excluded.",
+      "inputs": {
+        "limit": 1000,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fldd724e7e0e6e15b",
+                        {
+                          "obj": {
+                            "mode": "today",
+                            "timeZone": "Asia/Calcutta"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld62f32806e984ca",
+                        "selcfe2881c72ef5a"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld06fc6813934638"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fldc7c3d6e08797ff"
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "wac4f07a684d9b92f",
+      "type": "findRecords",
+      "description": "Verified PDF metadata dated today with an actual Resume PDF attachment. Presence is separate from download/readability verification.",
+      "inputs": {
+        "limit": 1000,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fldd724e7e0e6e15b",
+                        {
+                          "obj": {
+                            "mode": "today",
+                            "timeZone": "Asia/Calcutta"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld62f32806e984ca",
+                        "selcfe2881c72ef5a"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld06fc6813934638"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fldc7c3d6e08797ff"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld200b73fe523625"
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "wac99ba868c2815c5",
+      "type": "findRecords",
+      "description": "Today's submissions require confirmed receipt plus retained evidence.",
+      "inputs": {
+        "limit": 1000,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld9e8c5c9667c58b",
+                        true
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5d5d14c4a91ac4"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld5e3bfd9d5b3582",
+                        {
+                          "obj": {
+                            "mode": "today",
+                            "timeZone": "Asia/Calcutta"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "wac2b58f142fd0827",
+      "type": "findRecords",
+      "description": "Ready-to-Apply records explicitly awaiting approval; held discoveries excluded.",
+      "inputs": {
+        "limit": 1000,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld5910ec0f623a85",
+                        "sel6b2a8d0a20bf87"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld0bfc1abe56fe25"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld3d5d7340b904cb",
+                        false
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "wacbb4ab7a27afe4c",
+      "type": "findRecords",
+      "description": "Cumulative confirmed recruiter responses; no response-date field exists.",
+      "inputs": {
+        "limit": 1000,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld18736d38338bb0",
+                        true
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "waccd7b862860d00e",
+      "type": "findRecords",
+      "description": "Due follow-ups for confirmed applications. Sends no messages.",
+      "inputs": {
+        "limit": 1000,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld9e8c5c9667c58b",
+                        true
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5d5d14c4a91ac4"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "<=",
+                    "operands": {
+                      "tuple": [
+                        "fld8fafe4ed1bf16c",
+                        {
+                          "obj": {
+                            "mode": "today",
+                            "timeZone": "Asia/Calcutta"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld8fafe4ed1bf16c"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isNoneOf",
+                    "operands": {
+                      "tuple": [
+                        "fld5910ec0f623a85",
+                        [
+                          "sel252ec447934f88",
+                          "sel8fffbed9f217b9",
+                          "sel6e005b06b943bf",
+                          "sele70fe1eff7f948"
+                        ]
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "wac9110dd4dcbff39",
+      "type": "findRecords",
+      "description": "Cumulative denominator: confirmed submissions with evidence.",
+      "inputs": {
+        "limit": 1000,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld9e8c5c9667c58b",
+                        true
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5d5d14c4a91ac4"
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "wac395ddb414b6f6c",
+      "type": "findRecords",
+      "description": "Confirmed interviews on confirmed applications.",
+      "inputs": {
+        "limit": 1000,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld9e8c5c9667c58b",
+                        true
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5d5d14c4a91ac4"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fldc988b36cbae5c1",
+                        true
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "wac6025a521302286",
+      "type": "findRecords",
+      "description": "Employer rejection requires rejected status, confirmed response and original submission.",
+      "inputs": {
+        "limit": 1000,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld9e8c5c9667c58b",
+                        true
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5d5d14c4a91ac4"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld18736d38338bb0",
+                        true
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld5910ec0f623a85",
+                        "sel252ec447934f88"
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "wac6b6959345d08d3",
+      "type": "findRecords",
+      "description": "Confirmed offers on confirmed applications.",
+      "inputs": {
+        "limit": 1000,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld9e8c5c9667c58b",
+                        true
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5d5d14c4a91ac4"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld26c805440c4a69",
+                        true
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "wac5dc44b9cb7cd56",
+      "type": "findRecords",
+      "description": "Explicit employer shortlist confirmations on confirmed applications.",
+      "inputs": {
+        "limit": 1000,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld9e8c5c9667c58b",
+                        true
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5d5d14c4a91ac4"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fldc1110926aeb945",
+                        true
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "waca0c069a1cd1a23",
+      "type": "findRecords",
+      "description": "Confirmed applications during the past week in Asia/Calcutta.",
+      "inputs": {
+        "limit": 1000,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld9e8c5c9667c58b",
+                        true
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5d5d14c4a91ac4"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isWithin",
+                    "operands": {
+                      "tuple": [
+                        "fld5e3bfd9d5b3582",
+                        {
+                          "obj": {
+                            "mode": "pastWeek",
+                            "timeZone": "Asia/Calcutta"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "wac65553e5883b36e",
+      "type": "findRecords",
+      "description": "Confirmed applications during the past month in Asia/Calcutta.",
+      "inputs": {
+        "limit": 1000,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld9e8c5c9667c58b",
+                        true
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5d5d14c4a91ac4"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "isWithin",
+                    "operands": {
+                      "tuple": [
+                        "fld5e3bfd9d5b3582",
+                        {
+                          "obj": {
+                            "mode": "pastMonth",
+                            "timeZone": "Asia/Calcutta"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "wacab423690e95a17",
+      "type": "findRecords",
+      "description": "Links audited Application record set; no application records are changed.",
+      "inputs": {
+        "limit": 1000,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "wac9bb72f1d539de8",
+      "type": "findRecords",
+      "description": "Up to five verified high-technical-fit non-rejected opportunities; pay and notice holds still apply.",
+      "inputs": {
+        "limit": 5,
+        "tableId": "tblbef0fd137c7a43",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "isNotEmpty",
+                    "operands": {
+                      "tuple": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld37b367ab80dd1c",
+                        "sela7fcac9aed16ec"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "!=",
+                    "operands": {
+                      "tuple": [
+                        "fld605c2f23179823",
+                        "self6b9209b1d65e4"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": ">=",
+                    "operands": {
+                      "tuple": [
+                        "fld60018bb38677fc",
+                        75
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld9e8c5c9667c58b",
+                        false
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "wac09b5328075e274",
+      "type": "sort",
+      "inputs": {
+        "inputList": {
+          "$ref": "wac9bb72f1d539de8",
+          "path": [
+            "records"
+          ]
+        },
+        "sortFields": [
+          {
+            "obj": {
+              "idSequence": [
+                "fld60018bb38677fc"
+              ],
+              "sortOrder": "desc"
+            }
+          },
+          {
+            "obj": {
+              "idSequence": [
+                "fld7b2bf8ccac788a"
+              ],
+              "sortOrder": "desc"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": "wac022c046e8cc06d",
+      "type": "findRecords",
+      "description": "Actual discovery reports dated today; absent reports do not mean discovery ran.",
+      "inputs": {
+        "limit": 10,
+        "tableId": "tbl3d781e5672cb38",
+        "queryType": "filtersObj",
+        "filtersObj": {
+          "obj": {
+            "operator": "and",
+            "operands": {
+              "tuple": [
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fldfcfc0b28e3af69",
+                        {
+                          "obj": {
+                            "mode": "today",
+                            "timeZone": "Asia/Calcutta"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "obj": {
+                    "operator": "=",
+                    "operands": {
+                      "tuple": [
+                        "fld4f8cfd640bbe79",
+                        "sel2108428e6a2232"
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "key": "wac3551e487a794b0",
+      "type": "createRecord",
+      "description": "Stores daily and cumulative metrics, formula denominators and source provenance; no application mutations.",
+      "inputs": {
+        "createRecordMethod": "customFields",
+        "tableId": "tbl3d781e5672cb38",
+        "fields": {
+          "obj": {
+            "fldca8f4a25c6924f": {
+              "template": [
+                "REPORT-",
+                {
+                  "fn": "getWorkflowExecutionIsoDateTime",
+                  "args": []
+                }
+              ]
+            },
+            "fldfcfc0b28e3af69": {
+              "template": [
+                {
+                  "fn": "getWorkflowExecutionIsoDateTime",
+                  "args": []
+                }
+              ]
+            },
+            "fld4f8cfd640bbe79": {
+              "obj": {
+                "id": "sel7f618f380c0657"
+              }
+            },
+            "flda71185229eed50": {
+              "obj": {
+                "id": "sel879175b3d4340e"
+              }
+            },
+            "fldd490148ba0f7af": {
+              "template": [
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "waceb56e669ba685b",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "fld8002ece5d8a17d": {
+              "template": [
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wacc32bb7aeb32020",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "fld2462b477c106cb": {
+              "template": [
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "waca1d900afcbc310",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "fld9ef5f629d90f80": {
+              "template": [
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wacec3bfad8a3e2d5",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "fldaf1d19c25ef227": {
+              "template": [
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac99ba868c2815c5",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "fld1054b845d57b32": {
+              "template": [
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac2b58f142fd0827",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "fld3abf718b11bc0d": {
+              "template": [
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wacbb4ab7a27afe4c",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "fld1e6baaec27f332": {
+              "template": [
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "waccd7b862860d00e",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "fldcfa14ae765bfee": {
+              "template": [
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac9110dd4dcbff39",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "fld897cec48e743a7": {
+              "template": [
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac395ddb414b6f6c",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "fld4e02c0c3db7d16": {
+              "template": [
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac6025a521302286",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "fld4e117184ba4293": {
+              "template": [
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac6b6959345d08d3",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "fld96cde178a78371": {
+              "template": [
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac5dc44b9cb7cd56",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "fld1e1dac2ebb25ec": {
+              "template": [
+                {
+                  "fn": "map",
+                  "args": [
+                    {
+                      "$ref": "wacab423690e95a17",
+                      "path": [
+                        "records"
+                      ]
+                    },
+                    {
+                      "fn": "propertyGetter",
+                      "args": [
+                        "id"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "fld8c71a9014a7f29": {
+              "template": [
+                {
+                  "fn": "map",
+                  "args": [
+                    {
+                      "$ref": "waceb56e669ba685b",
+                      "path": [
+                        "records"
+                      ]
+                    },
+                    {
+                      "fn": "propertyGetter",
+                      "args": [
+                        "id"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "fld24fb46eac1bf31": {
+              "template": [
+                {
+                  "fn": "renderRecordsAsListInDocument",
+                  "args": [
+                    {
+                      "$ref": "wac09b5328075e274",
+                      "path": [
+                        "output"
+                      ]
+                    },
+                    {
+                      "obj": {
+                        "fields": [
+                          "fld5b107893972fb3",
+                          "fld86687d447ef990",
+                          "fld8dd8cdbfe29040",
+                          "fldcf43d4c0c7fffb",
+                          "fld60018bb38677fc",
+                          "fld9506310015dc99",
+                          "flde93070123888aa",
+                          "fld7720c33ca599ab"
+                        ],
+                        "shouldIncludeLinkToView": false
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "fld4959d5c23bc8bf": {
+              "template": [
+                "Daily recruitment snapshot (Asia/Calcutta), run time: ",
+                {
+                  "fn": "getWorkflowExecutionIsoDateTime",
+                  "args": []
+                },
+                "\nTODAY\nDiscovered canonical CRM records: ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "waceb56e669ba685b",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                "\nInternally shortlisted (evaluation Proceed): ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wacc32bb7aeb32020",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                "\nDiscovery rejected: ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac786e7e21064b1a",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                "; held: ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac5d5f6216006e0c",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                "\nReal PDF records prepared today (verified + checksum + version + prepared date): ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wacec3bfad8a3e2d5",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                "\nApplications submitted today (confirmed evidence only): ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac99ba868c2815c5",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                "\nReady-to-Apply applications explicitly awaiting approval: ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac2b58f142fd0827",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                "\nDue/overdue follow-ups on confirmed applications: ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "waccd7b862860d00e",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                "\n\nCUMULATIVE CONFIRMED OUTCOMES\nApplications: ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac9110dd4dcbff39",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                "\nEmployer shortlists: ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac5dc44b9cb7cd56",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                "; interviews: ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac395ddb414b6f6c",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                "; employer rejections: ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac6025a521302286",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                "; offers: ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac6b6959345d08d3",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                "\nConfirmed recruiter responses: ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wacbb4ab7a27afe4c",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                " (cumulative; no precise response-date field)",
+                "\nApplications in the past week: ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "waca0c069a1cd1a23",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                "; in the past month: ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac65553e5883b36e",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                "\nOutcome percentages appear in formula fields. Blank means N/A because confirmed submissions denominator is zero. Application Viewed never implies employer shortlist.",
+                "\n\nATTENTION\n",
+                {
+                  "fn": "renderRecordsAsListInDocument",
+                  "args": [
+                    {
+                      "$ref": "wac09b5328075e274",
+                      "path": [
+                        "output"
+                      ]
+                    },
+                    {
+                      "obj": {
+                        "fields": [
+                          "fld5b107893972fb3",
+                          "fld86687d447ef990",
+                          "fld8dd8cdbfe29040",
+                          "fldcf43d4c0c7fffb",
+                          "fld60018bb38677fc",
+                          "fld9506310015dc99",
+                          "flde93070123888aa",
+                          "fld7720c33ca599ab"
+                        ],
+                        "shouldIncludeLinkToView": false
+                      }
+                    }
+                  ]
+                },
+                "\n\nFOLLOW-UP APPLICATION IDS\n",
+                {
+                  "fn": "map",
+                  "args": [
+                    {
+                      "fn": "map",
+                      "args": [
+                        {
+                          "$ref": "waccd7b862860d00e",
+                          "path": [
+                            "records"
+                          ]
+                        },
+                        {
+                          "fn": "propertyGetter",
+                          "args": [
+                            "cellValuesByFieldId"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "fn": "propertyGetter",
+                      "args": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  ]
+                },
+                "\n\nDISCOVERY RUN EVIDENCE\nDiscovery report records dated today: ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac022c046e8cc06d",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                "\nRun IDs: ",
+                {
+                  "fn": "map",
+                  "args": [
+                    {
+                      "fn": "map",
+                      "args": [
+                        {
+                          "$ref": "wac022c046e8cc06d",
+                          "path": [
+                            "records"
+                          ]
+                        },
+                        {
+                          "fn": "propertyGetter",
+                          "args": [
+                            "cellValuesByFieldId"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "fn": "propertyGetter",
+                      "args": [
+                        "fldca8f4a25c6924f"
+                      ]
+                    }
+                  ]
+                },
+                "\nSource-backed discovery text: ",
+                {
+                  "fn": "map",
+                  "args": [
+                    {
+                      "fn": "map",
+                      "args": [
+                        {
+                          "$ref": "wac022c046e8cc06d",
+                          "path": [
+                            "records"
+                          ]
+                        },
+                        {
+                          "fn": "propertyGetter",
+                          "args": [
+                            "cellValuesByFieldId"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "fn": "propertyGetter",
+                      "args": [
+                        "fld4959d5c23bc8bf"
+                      ]
+                    }
+                  ]
+                },
+                "\n\nNo applications, follow-up messages, email, assessments or legal declarations were performed by this reporting automation. Text drafts are not PDFs. Salary averages are not guessed here; only known INR annual-pay data may be averaged in the dashboard.",
+                "\n\nCLOUD PDF ATTACHMENT PRESENCE\nVerified PDF records prepared today: ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wacec3bfad8a3e2d5",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                "\nOf these, records with an actual Resume PDF attachment: ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac4f07a684d9b92f",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                "\nAttachment presence does not prove the file is downloadable/readable; that availability remains unknown unless checked. Empty or unreadable attachments must never be presented as accessible.\nRAW INTAKE\nDiscovery Intake is not queried by this report. Pending raw monitor candidates are omitted, not zero and not qualified jobs. Discovered counts above refer to canonical Applications records; internal shortlist counts require Evaluation Decision Proceed."
+              ]
+            },
+            "fld7871113cca0691": "Partial operational report: each native query is capped at 1000 returned records. Counts are persisted-record counts under one Application ID/dedup key per canonical requisition; cross-post duplicates must be reviewed. Reporting does not search or apply. Recruiter responses are cumulative because no response date exists. Salary-average rollups unavailable; do not infer fixed/in-hand pay from CTC. Cloud PDF attachment presence is counted separately. Download/readability availability remains unknown unless actually checked.",
+            "fldc3d2de76ab66d0": {
+              "template": [
+                "Actual discovery reports dated today: ",
+                {
+                  "fn": "length",
+                  "args": [
+                    {
+                      "$ref": "wac022c046e8cc06d",
+                      "path": [
+                        "records"
+                      ]
+                    }
+                  ]
+                },
+                "\nCoverage entries:\n",
+                {
+                  "fn": "map",
+                  "args": [
+                    {
+                      "fn": "map",
+                      "args": [
+                        {
+                          "$ref": "wac022c046e8cc06d",
+                          "path": [
+                            "records"
+                          ]
+                        },
+                        {
+                          "fn": "propertyGetter",
+                          "args": [
+                            "cellValuesByFieldId"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "fn": "propertyGetter",
+                      "args": [
+                        "fldc3d2de76ab66d0"
+                      ]
+                    }
+                  ]
+                },
+                "\nNo claim that every job board was searched.",
+                "\nRaw Discovery Intake and unprocessed monitor candidates are omitted from this report, not counted as qualified jobs and not asserted to be zero."
+              ]
+            },
+            "fld6cb201d162fd2c": {
+              "template": [
+                "Submitted Application IDs today:\n",
+                {
+                  "fn": "map",
+                  "args": [
+                    {
+                      "fn": "map",
+                      "args": [
+                        {
+                          "$ref": "wac99ba868c2815c5",
+                          "path": [
+                            "records"
+                          ]
+                        },
+                        {
+                          "fn": "propertyGetter",
+                          "args": [
+                            "cellValuesByFieldId"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "fn": "propertyGetter",
+                      "args": [
+                        "fld5b107893972fb3"
+                      ]
+                    }
+                  ]
+                },
+                "\nConfirmed evidence:\n",
+                {
+                  "fn": "map",
+                  "args": [
+                    {
+                      "fn": "map",
+                      "args": [
+                        {
+                          "$ref": "wac99ba868c2815c5",
+                          "path": [
+                            "records"
+                          ]
+                        },
+                        {
+                          "fn": "propertyGetter",
+                          "args": [
+                            "cellValuesByFieldId"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "fn": "propertyGetter",
+                      "args": [
+                        "fld5d5d14c4a91ac4"
+                      ]
+                    }
+                  ]
+                },
+                "\nNo new submissions performed by report."
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "deployedVersion": null,
+  "configurationStatus": "valid"
+}

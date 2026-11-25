@@ -1,0 +1,186 @@
+{
+  "prepared_on": "2026-11-25",
+  "timezone": "Asia/Calcutta",
+  "source_job_descriptions": "recruitment/initial_opportunities.json",
+  "source_claim_catalog": "recruitment/candidate_claims_catalog.json",
+  "preparation_only": true,
+  "applications_submitted": 0,
+  "applications": [
+    {
+      "application_id": "RH-20261125-REA-DATA-PYTHON",
+      "company": "REA Group",
+      "job_title": "Engineer - Data Backend - Python",
+      "job_url": "https://careers.newscorp.com/gurgaon-ind/engineer-data-backend-python/0C8E75555F744AC292AF1217CB6574A6/job/",
+      "current_apply_destination": "https://talent500.com/jobs/rea-cyber-city/engineer-data-backend-python-gurgaon-T500-30443/",
+      "resume_file": "recruitment/tailored_resumes/REA_Group_Engineer_Data_Backend_Python_Resume_2026-11-25.pdf",
+      "cover_letter_file": "recruitment/tailored_resumes/REA_Group_Engineer_Data_Backend_Python_Cover_Letter_2026-11-25.md",
+      "material_status": "Resume and cover letter prepared",
+      "requirement_mapping": [
+        {
+          "requirement": "Python",
+          "evidence": "Listed technical language; Scrapy data pipeline is the directly stated work evidence.",
+          "claim_ids": [
+            "tcs_07",
+            "tcs_08"
+          ],
+          "evidence_scope": "Listed skill plus professional tool usage; no duration or professionally deployed Python API claim."
+        },
+        {
+          "requirement": "SQL and relational data",
+          "evidence": "SQL is listed; PostgreSQL is explicitly used in WaahAds backend microservices.",
+          "claim_ids": [
+            "waahads_01",
+            "waahads_02"
+          ],
+          "evidence_scope": "No claim of analytical SQL specialization or customer-behaviour datasets."
+        },
+        {
+          "requirement": "Data pipelines and automation",
+          "evidence": "Scrapy ingestion with caching and proxy rotation, plus sitemap automation.",
+          "claim_ids": [
+            "tcs_07",
+            "tcs_08",
+            "tcs_09"
+          ],
+          "evidence_scope": "Direct professional tasks; no invented orchestration platform."
+        },
+        {
+          "requirement": "Debugging and monitoring",
+          "evidence": "LangSmith tracing and debugging of multi-step LLM pipelines.",
+          "claim_ids": [
+            "tcs_04"
+          ],
+          "evidence_scope": "Transferable debugging evidence; not a claim of production data-platform operations."
+        },
+        {
+          "requirement": "Document/data retrieval",
+          "evidence": "Designed and tested Qdrant RAG pipeline over 500+ technical documents.",
+          "claim_ids": [
+            "tcs_05",
+            "tcs_06"
+          ],
+          "evidence_scope": "Designed and tested, not rewritten as deployed."
+        },
+        {
+          "requirement": "Cloud, Docker, Git and API integration",
+          "evidence": "AWS, Docker and Git are listed skills; API integration has OpenAI and project evidence.",
+          "claim_ids": [
+            "waahads_03",
+            "project_04"
+          ],
+          "evidence_scope": "No invented AWS, Docker or CI/CD deployment deliverables."
+        }
+      ],
+      "short_application_summary": "My experience includes Scrapy data ingestion and caching, Qdrant document retrieval design and testing, LangSmith debugging, and PostgreSQL backend microservices. My technical skills include Python and SQL. I am interested in contributing to reliable data pipelines and developing further in the CXAD team.",
+      "truthful_standard_answers": {
+        "current_title": "System Engineer (AI Cloud)",
+        "current_employer": "Tata Consultancy Services",
+        "experience_as_of_2026_11_25": "Approximately 2 years 4 months total employment",
+        "notice_period": "90 days; any reduction is unconfirmed",
+        "current_city": "Kurukshetra"
+      },
+      "remaining_holds": [
+        "Manual Talent500 application and candidate review of legal/privacy consents required; automation prohibited without written platform consent.",
+        "Actual fixed compensation and take-home remain unknown; approved reputable-employer undisclosed-pay exception permits applying.",
+        "Declare 90-day notice truthfully; reduced notice unconfirmed.",
+        "Clarify any mandatory Airflow form requirement; never claim absent Airflow, Kafka, Terraform or CI/CD ownership.",
+        "Assessments and sensitive questions require candidate action or approval."
+      ],
+      "gaps_kept_explicit": [
+        "Airflow",
+        "Kafka",
+        "Terraform",
+        "CI/CD ownership",
+        "large-scale analytical data experience"
+      ],
+      "duplicate_note": "T500-29415 is an expired older role. Use the current employer-routed T500-30443 destination; do not submit twice to the same active requisition.",
+      "manual_handoff_file": "recruitment/REA_Manual_Application_Handoff_2026-11-25.md"
+    },
+    {
+      "application_id": "RH-20261125-ZYNKROW-NODE",
+      "company": "Zynkrow",
+      "job_title": "Backend Developer (Node.js)",
+      "job_url": "https://zynkrow.com/careers/backend-developer-node-js",
+      "resume_file": "recruitment/tailored_resumes/Zynkrow_Backend_Developer_Nodejs_Resume_2026-11-25.pdf",
+      "cover_letter_file": "recruitment/tailored_resumes/Zynkrow_Backend_Developer_Nodejs_Cover_Letter_2026-11-25.md",
+      "material_status": "Resume and cover letter prepared",
+      "requirement_mapping": [
+        {
+          "requirement": "JavaScript and Node.js",
+          "evidence": "WaahAds Node.js/Express backend microservices and Code-Collab Node.js/JavaScript project.",
+          "claim_ids": [
+            "waahads_01",
+            "waahads_02",
+            "project_02"
+          ],
+          "evidence_scope": "No TypeScript claim."
+        },
+        {
+          "requirement": "React on the web",
+          "evidence": "Code-Collab React project.",
+          "claim_ids": [
+            "project_01",
+            "project_02"
+          ],
+          "evidence_scope": "Project experience; not rewritten as professional frontend ownership."
+        },
+        {
+          "requirement": "Shipped work that can be shown",
+          "evidence": "Developed and deployed Code-Collab; resume includes project URL and GitHub.",
+          "claim_ids": [
+            "project_01"
+          ],
+          "evidence_scope": "External project-link availability has not been independently checked during tailoring."
+        },
+        {
+          "requirement": "API and backend development",
+          "evidence": "WaahAds microservices, Code-Collab Express backend and execution API integration.",
+          "claim_ids": [
+            "waahads_01",
+            "waahads_02",
+            "project_04",
+            "project_05"
+          ],
+          "evidence_scope": "750 concurrent-user capacity is preserved as capacity, not 750 actual users."
+        },
+        {
+          "requirement": "Real-time product interactions",
+          "evidence": "Socket.io live updates with session and user management.",
+          "claim_ids": [
+            "project_03"
+          ],
+          "evidence_scope": "Project evidence."
+        },
+        {
+          "requirement": "MongoDB",
+          "evidence": "MongoDB is listed in the technical skills section.",
+          "claim_ids": [],
+          "evidence_scope": "Listed skill only; no fabricated MongoDB employment task."
+        }
+      ],
+      "why_this_role_three_lines": "I built Node.js, Express.js and PostgreSQL microservices and a deployed React/Socket.io collaborative coding platform.\nYour React/Node.js stack and end-to-end product work fit my backend and project experience.\nI am interested in shipping useful features and improving them through code reviews and user feedback.",
+      "truthful_standard_answers": {
+        "current_title": "System Engineer (AI Cloud)",
+        "current_employer": "Tata Consultancy Services",
+        "experience_as_of_2026_11_25": "Approximately 2 years 4 months total employment",
+        "notice_period": "90 days; any reduction is unconfirmed",
+        "current_city": "Kurukshetra"
+      },
+      "remaining_holds": [
+        "Confirm employer legitimacy and reputation.",
+        "Confirm fixed compensation and estimated take-home meet the candidate's floor.",
+        "Confirm 90-day notice compatibility.",
+        "The application requires proprietary-app number verification; the user must handle sign-in and any verification/security steps.",
+        "The short paid task is an assessment and needs user approval before undertaking it.",
+        "Review application retention/privacy declarations before accepting them."
+      ],
+      "gaps_kept_explicit": [
+        "TypeScript",
+        "React Native",
+        "testing-framework ownership",
+        "CI/CD ownership"
+      ],
+      "submission_rule": "Keep prepared materials in the tracker; do not mark Applied or Submission Confirmed without actual submission evidence."
+    }
+  ]
+}

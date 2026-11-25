@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-11-25",
+  "time_zone": "Asia/Calcutta",
+  "source": "Additional cloud monitor baseline verification",
+  "additive_to": "initial_opportunities.json",
+  "summary": {
+    "evaluated_unique_roles": 3,
+    "routine_verified_shortlisted": 0,
+    "experience_or_essential_gap_hold": 1,
+    "rejected_senior": 1,
+    "unverified_leads": 1,
+    "applications_submitted": 0
+  },
+  "opportunities": [
+    {
+      "application_id": "RH-20261125-SIEMENS-AIML-530396",
+      "company": "Siemens EDA",
+      "job_title": "Software Engineer - AI/ML",
+      "job_url": "https://jobs.sw.siemens.com/noida-ind/software-engineer-aiml/14339DE080E142818B9A0CA9A07198A7/job/",
+      "application_url": "https://rr.jobsyn.org/14339DE080E142818B9A0CA9A07198A710",
+      "requisition_id": "530396",
+      "date_discovered": "2026-11-25",
+      "date_applied": null,
+      "application_status": "Discovered",
+      "pipeline_disposition": "Hold for experience and essential ML-depth gaps; outside routine 1–3 YOE shortlist",
+      "source_platform": "Siemens employer careers",
+      "source_status": "open_employer_page_apply_link_visible",
+      "location": "Noida",
+      "work_mode": "Hybrid",
+      "required_experience": "3–10 years professional software engineering and AI/ML experience with concept-to-production delivery",
+      "salary_advertised": null,
+      "annual_ctc_inr": null,
+      "fixed_annual_inr": null,
+      "monthly_gross_inr": null,
+      "estimated_monthly_in_hand_inr": null,
+      "deadline": null,
+      "required_skills": [
+        "Python",
+        "DSA/OOP/modular architecture",
+        "Automated testing/pytest/CI/CD",
+        "ML fundamentals and deep learning architectures",
+        "Feature engineering/data preparation/model evaluation",
+        "LLM applications/prompt engineering/agent design",
+        "RAG/embeddings/vector databases",
+        "PyTorch/HuggingFace/scikit-learn/LangChain/LangGraph",
+        "Docker",
+        "REST/gRPC/FastAPI/model serving"
+      ],
+      "preferred_skills": [
+        "PEFT/LoRA/QLoRA fine-tuning",
+        "Graph DBs/knowledge graphs",
+        "C/C++ compilers/CUDA",
+        "EDA/SystemVerilog/hardware verification",
+        "Ragas/TruLens/DeepEval",
+        "MLflow/W&B"
+      ],
+      "why_matches": [
+        "LangChain multi-agent prototypes, Qdrant RAG over 500+ docs and semantic caching",
+        "LangSmith tracing and scraping/data pipelines",
+        "Python/FastAPI/Docker/HuggingFace/AWS listed, DSA achievements"
+      ],
+      "essential_gaps": [
+        "Minimum 3 YOE exceeds attested approximately 2yr4mo",
+        "Concept-to-production AI ownership is not established by prototype and designed/tested wording",
+        "Solid classical ML/deep-learning/feature engineering and quantitative evaluation depth not demonstrated",
+        "pytest/CI/CD and serving/evaluation workflow scope not established"
+      ],
+      "skills_gaps": [
+        "MCP",
+        "Hybrid retrieval and reranking evidence",
+        "Deep learning model training and ML evaluation",
+        "LLM security/evaluation framework experience"
+      ],
+      "notice_period_compatibility": "Unknown; truthful notice 90 days",
+      "career_growth_evidence": "Official page states hybrid by default, technical peers, learning through real projects and global mobility.",
+      "match_score": null,
+      "score_status": "Not ranked for routine application because experience and essential ML/production gaps fail gates; no attractive-brand override.",
+      "applications_submitted": 0,
+      "resume_version": null,
+      "recruiter_details": null,
+      "follow_up_date": null,
+      "notes": "Salary unknown. The title does not establish early-career eligibility; full JD requires 3–10 years.",
+      "source_snapshot": {
+        "retrieved_on": "2026-11-25",
+        "retrieval_method": "Firecrawl live scrape maxAge 0",
+        "url": "https://jobs.sw.siemens.com/noida-ind/software-engineer-aiml/14339DE080E142818B9A0CA9A07198A7/job/",
+        "http_status": 200,
+        "full_content_markdown": "[Skip To Main Content](https://jobs.sw.siemens.com/noida-ind/software-engineer-aiml/14339DE080E142818B9A0CA9A07198A7/job/#main)\n\nJob Title, Keywords, Military Code\n\n![](https://jobs.sw.siemens.com/xmark.svg)\n\nCity, State, Country\n\n![](https://jobs.sw.siemens.com/xmark.svg)\n\nSearch\n\n- [EDA](https://jobs.sw.siemens.com/business-structure/electronic-design-automation-eda/jobs/)\n- [PLM](https://jobs.sw.siemens.com/business-structure/product-lifecycle-management-plm/jobs/)\n- [SaaS](https://jobs.sw.siemens.com/business-structure/software-as-a-service-saas/jobs/)\n\n# Software Engineer - AI/ML\n\nNoida, IND\n\nWork Type: Hybrid\n\nJob Family: Research & Development\n\nReq ID: 530396\n\n[Apply Now](https://rr.jobsyn.org/14339DE080E142818B9A0CA9A07198A710)\n\n**Job Family:** Software\n\n**Req ID:** 530396\n\n**Company Overview**\n\nSiemens EDA is a global technology leader in Electronic Design Automation software. Our software tools enable companies around the world to develop highly innovative electronic products faster and more cost-effectively. Our customers use our tools to push the boundaries of technology and physics to deliver better products in the increasingly complex world of chip, board, and system design.\n\n**Position Overview**\n\nWe are seeking a talented and versatile AI / Machine Learning Engineer with 3–10 years of experience to design, build, and deploy production-grade AI-powered capabilities across our electronic design and verification tools. In this hands-on engineering role, you will contribute to the design and implementation of AI/ML pipelines and Agentic AI systems, bridge modern GenAI architectures with robust software engineering, and integrate intelligent capabilities directly into engineering workflows. Collaborating closely with domain experts, software architects, and product teams, you will translate cutting-edge AI concepts—such as intelligent copilots, multi-step reasoning agents, and automated EDA verification assistants—into reliable, scalable, and high-impact solutions.\n\n**Key Responsibilities**\n\n• Design, implement, and deploy end-to-end AI/ML and Agentic AI solutions integrated into EDA software workflows and developer environments.\n\n• Build and enhance intelligent agent systems capable of automated reasoning, planning, multi-step execution, and tool usage using modern frameworks (LangGraph, Model Context Protocol / MCP, etc.).\n\n• Develop and optimize production Retrieval-Augmented Generation (RAG) pipelines, leveraging vector databases, hybrid retrieval, metadata filtering, and semantic reranking.\n\n• Build robust data preprocessing, feature extraction, model inference, and evaluation pipelines adhering to clean code, testability, and CI/CD practices.\n\n• Work closely with domain experts (chip design, verification), product managers, and core software engineering teams to formulate AI use cases, prototype solutions rapidly, and harden them into production.\n\n• Ensure robust model safety, evaluation against hallucinations, prompt injection defenses, IP protection, and compliance with enterprise security and governance standards.\n\n**Qualifications**\n\n• 3 to 10 years of professional software engineering and AI/ML experience, with proven hands-on involvement in taking AI/ML or LLM-based solutions from concept to production.\n\n• Strong proficiency in Python with solid fundamentals in data structures, algorithms, object-oriented design, modular architecture, and automated testing (pytest, CI/CD).\n\n• Solid understanding of ML fundamentals, deep learning architectures (Transformers, CNNs/GNNs), feature engineering, data preprocessing, and model evaluation metrics.\n\n• Practical experience building applications with foundational LLMs (OpenAI, Claude, LLaMA, etc.), prompt engineering best practices, and Agentic design patterns (ReAct, plan-and-execute, tool calling).\n\n• Hands-on experience implementing RAG systems, embedding models, vector databases, and semantic retrieval strategies.\n\n• Proficiency with modern ML and AI development libraries such as PyTorch, Hugging Face Transformers, Scikit-learn, LangChain, or LangGraph.\n\n• Familiarity with containerization (Docker), REST/gRPC API development (e.g., FastAPI), and model serving/evaluation workflows.\n\n• Demonstrated ability to break down complex domain problems, rapidly prototype AI solutions, benchmark performance, and iterate toward production-quality implementations.\n\n**Preferred & Good-to-Have Skills**\n\n• Hands-on experience with Parameter-Efficient Fine-Tuning (PEFT, LoRA, QLoRA), instruction tuning, dataset preparation/curation, or domain-specific model adaptation using Hugging Face TRL or Axolotl.\n\n• Familiarity with graph databases (e.g., Neo4j, Apache AGE) and knowledge graph-augmented retrieval.\n\n• Familiarity with C/C++, compiler concepts, or GPU profiling/acceleration (CUDA).\n\n• Background or curiosity in digital logic design, SystemVerilog, hardware verification, or Electronic Design Automation (EDA) tools.\n\n• Hands-on experience with LLM evaluation frameworks (e.g., Ragas, TruLens, DeepEval) and experiment tracking platforms (MLflow, Weights & Biases).\n\n**Why Us**\n\nWe are Siemens:\n\nAt Siemens Software, flexibility is how we work—hybrid by default, built on trust and autonomy. Together, 30,000 people across more than 200 countries build technology that shapes the real world.\n\nYou'll grow through real projects, strong technical peers, and global mobility, backed by the scale and benefits of an industrial software leader. We're committed to equality and inclusion, and we hire based on merit, skills, and impact. Bring your curiosity and creativity and help us shape tomorrow!\n\n**Diversity & Inclusion**\n\nWe are an equal opportunity employer and value diversity at our company. We do not discriminate based on race, religion, color, national origin, sex, gender, gender expression, sexual orientation, age, marital status, veteran status, or disability status. We are committed to building a diverse and inclusive workforce and welcome applications from all qualified candidates.\n\nSiemens Software. Transform the Everyday\n\n**Organization:** Digital Industries\n\n**Job Type:** Full-time\n\n**Category:** Research & Development\n\n[Apply Now](https://rr.jobsyn.org/14339DE080E142818B9A0CA9A07198A710)\n\nWe use cookies to improve your experience on our site. To find out more, read our [privacy policy](https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html) .\n\nAccept Cookies  Decline Cookies"
+      }
+    },
+    {
+      "application_id": "RH-20261125-KEYSIGHT-RD4-57105",
+      "company": "Keysight Technologies",
+      "job_title": "R&D Engineer 4, Software",
+      "job_url": "https://jobs.keysight.com/external/jobs/57105?lang=en-us",
+      "requisition_id": "57105",
+      "date_discovered": "2026-11-25",
+      "date_applied": null,
+      "application_status": "Closed",
+      "pipeline_disposition": "Rejected discovery: substantially senior experience requirement",
+      "source_platform": "Keysight employer careers",
+      "source_status": "live_employer_description_visible",
+      "location": "Gurgaon, India",
+      "work_mode": "Unknown",
+      "required_experience": "5–8 years professional Python backend engineering",
+      "salary_advertised": null,
+      "annual_ctc_inr": null,
+      "fixed_annual_inr": null,
+      "monthly_gross_inr": null,
+      "estimated_monthly_in_hand_inr": null,
+      "deadline": null,
+      "required_skills": [
+        "Professional Python backend",
+        "REST APIs",
+        "SQL",
+        "Async programming",
+        "End-to-end production service/pipeline ownership",
+        "Guiding less experienced engineers",
+        "RAG practical exposure",
+        "Document processing/ingestion",
+        "Containers/CI/CD",
+        "Kubernetes",
+        "Testing/code review"
+      ],
+      "preferred_skills": [
+        "Production RAG",
+        "Hybrid retrieval/reranking/evaluation",
+        "Azure OpenAI/Bedrock/self-hosted LLMs",
+        "Tool calling/MCP",
+        "Technical documentation/telecom",
+        "AI coding assistant use"
+      ],
+      "why_matches": [
+        "Qdrant RAG, Scrapy ingestion, Python/API/database skills overlap technically"
+      ],
+      "essential_gaps": [
+        "5–8 YOE versus approximately 2yr4mo",
+        "Senior production ownership/mentoring",
+        "Kubernetes not listed"
+      ],
+      "skills_gaps": [
+        "Async production experience",
+        "CI/CD/Kubernetes",
+        "LLM evaluation and production retrieval-quality ownership"
+      ],
+      "notice_period_compatibility": "Unknown; irrelevant to rejected fit",
+      "match_score": null,
+      "score_status": "Rejected experience gate; no score assigned",
+      "applications_submitted": 0,
+      "resume_version": null,
+      "recruiter_details": null,
+      "follow_up_date": null,
+      "notes": "Never applied; no junior assumption from AI/RAG overlap.",
+      "source_snapshot": {
+        "retrieved_on": "2026-11-25",
+        "retrieval_method": "Firecrawl live scrape maxAge 0",
+        "url": "https://jobs.keysight.com/external/jobs/57105?lang=en-us",
+        "http_status": 200,
+        "full_content_markdown": "Skip to Main Content\n\nBack\n\n# R&D Engineer 4, Software\n\nJOB\\_DESCRIPTION.SHARE.HTML\n\nCAROUSEL\\_PARAGRAPH\n\nJOB\\_DESCRIPTION.SHARE.HTML\n\n- Gurgaon, India\n- R&D\n- 57105\n- Regular\n- No\n- <10%\n- India\n\nmail\\_outline\n\nGet future jobs matching this search\n\nLoginorRegister\n\n## Job Description\n\n**Overview**\n\nKeysight is a mission-critical design enablement partner for organizations solving the world’s most complex engineering challenges. With deep engineering expertise and leading design, emulation, and test solutions, our ~16,800 employees help customers in over 100 countries accelerate innovation across communications, automotive, energy, quantum, aerospace and defense, semiconductor, and artificial intelligence markets. Learn more [about what we do](https://www.keysight.com/us/en/about.html).\n\nAt Keysight, people come together to explore new ideas, challenge what's possible, and advance the technologies defining the future. Here, you'll find opportunities to do your best work, take your career further, and thrive in an [award-winning](https://jobs.keysight.com/awards)[culture](https://jobs.keysight.com/awards).Learn more [about our benefits](https://jobs.keysight.com/benefits).\n\nAI Labs at Keysight builds shared AI building blocks for Keysight's product teams. One of them is an enterprise knowledge and retrieval service: it ingests technical documents, makes them searchable, and gives AI assistants accurate, source-backed answers. You will make retrieval good and dependable: the ingestion pipelines, the search, and the evaluation that proves it works. This is a software engineering role covering services, APIs, data pipelines, quality and scale.\n\n**Responsibilities**\n\n- Build and maintain the ingestion pipeline in Python: document parsing, chunking, embedding, indexing, versioning of sources and access control.\n- Improve retrieval quality: hybrid (keyword plus vector) search, reranking, query rewriting and metadata filtering, including for technical content such as manuals and reference documents.\n- Build evaluation tooling: golden question sets, retrieval and answer-quality metrics, and regression checks in CI.\n- Expose retrieval through REST APIs and tool interfaces such as MCP so that AI agents can use it as a tool.\n- Run the services in production: tests, observability, latency, and cost-aware use of GPUs and LLM endpoints, including on-premises and air-gapped deployments.\n- Support onboarding of product teams and share findings through short write-ups and demos.\n\n**Qualifications**\n\n## Required\n\n- 5 to 8 years of professional Python backend engineering; REST APIs, SQL, async programming.\n- Has owned a production service or pipeline end to end, and can guide less experienced engineers.\n- Working knowledge of RAG and some hands-on experience: you have built or contributed to a retrieval or LLM-based application (a project, prototype or production feature) and understand chunking, embeddings, vector search and how to judge result quality. A strong backend engineer who has moved into RAG is a good fit; you do not need years of RAG-only experience.\n- Experience building document-processing or data-ingestion pipelines.\n- Containers and CI/CD; comfortable deploying to Kubernetes.\n- Disciplined testing and code review habits.\n- Collaborates with colleagues across India, the US and the UK, and communicates clearly in English.\n\n## Preferred\n\n- Production RAG experience: chunking and embedding choices, hybrid search, reranking, and how you measured quality.\n- LLM and retrieval evaluation (RAGAS-style or custom); embedding model selection or fine-tuning.\n- LLM endpoints (Azure OpenAI, Bedrock, self-hosted models); tool-calling, MCP or agent-framework integrations (a plus, not required).\n- Experience with technical documentation or semi-structured content.\n- Curiosity about test and measurement or telecom domains.\n- Experience using AI coding assistants (such as GitHub Copilot or Claude) in day-to-day development, with the judgement to review and test what they produce.\n\n[Careers Privacy Statement](https://about.keysight.com/en/jobs/careers_privacy_statement.pdf)\\*\\*\\*Keysight is an Equal Opportunity Employer.\\*\\*\\*\n\nCookies are used on this site to assist in continually improving the candidate experience and all the interaction data we store of our visitors is anonymous. Learn more about your rights on our [Privacy Policy](https://keysight.icims.com/icims2/servlet/icims2?module=AppInert&action=download&id=65&hashed=1382506032) page.\n\n\nOkay\n\n\nx\n\n\nhttps://jobs.keysight.com/external/jobs/57105?lang=en-us8\n\nJob Chat\n\n![](https://images.textrecruit.com/imgs/6424b72b6cae5377a708bd1b/6424b72b6cae5377a708bd1b_chat_0_jobChatAvatar1680807694643.png)\n\nKeys\n\nHi, thank you for your interest in Keysight! I'm Keys, your virtual recruiting assistant and I can help you find jobs in your area and start an application for you. To begin, what type of opportunities are you interested in? Reply:\n\n1 - Engineering or Developers\n\n2 - Manufacturing or Manufacturing Engineers\n\n3 - Sales or Sales Engineers\n\n4 - Services & Support\n\n5 - Marketing\n\n6 - IT\n\n7 - Administrative roles\n\nTalk to our virtual assistant!"
+      }
+    },
+    {
+      "application_id": "RH-20261125-AGENTANALYTICS-AI-4494325162",
+      "company": "AgentAnalytics.AI",
+      "job_title": "AI engineer",
+      "job_url": "https://in.linkedin.com/jobs/view/ai-engineer-at-agentanalytics-ai-4494325162",
+      "date_discovered": "2026-11-25",
+      "date_applied": null,
+      "application_status": "Discovered",
+      "pipeline_disposition": "Unverified LinkedIn lead; official current career page does not list this role",
+      "source_platform": "LinkedIn search excerpt + employer career page",
+      "source_status": "unverified_no_matching_official_role_found",
+      "location": "Gurugram, Haryana, India (search excerpt)",
+      "work_mode": "Unknown",
+      "required_experience": "Unknown; LinkedIn excerpt classifies Entry level without YOE",
+      "salary_advertised": null,
+      "annual_ctc_inr": null,
+      "fixed_annual_inr": null,
+      "monthly_gross_inr": null,
+      "estimated_monthly_in_hand_inr": null,
+      "deadline": null,
+      "required_skills": [],
+      "preferred_skills": [],
+      "why_matches": [
+        "Applied AI category is plausible but complete JD was not available; cannot assess essentials"
+      ],
+      "essential_gaps": [
+        "Complete employer JD and open status unverified; cannot determine requirements"
+      ],
+      "skills_gaps": [],
+      "notice_period_compatibility": "Unknown",
+      "match_score": null,
+      "score_status": "Cannot score without complete job requirements",
+      "applications_submitted": 0,
+      "resume_version": null,
+      "recruiter_details": null,
+      "follow_up_date": null,
+      "notes": "Official https://www.agentanalytics.ai/careers lists only Hyderabad onsite AI/ML, Founders Office and UX/UI internships dated September 2025. This does not prove the Gurugram LinkedIn role closed, but provides no current matching employer confirmation. LinkedIn direct Firecrawl scrape previously unsupported, so not attempted again. No salary inference from employee salary sites.",
+      "source_snapshot": {
+        "retrieved_on": "2026-11-25",
+        "retrieval_method": "Firecrawl live scrape maxAge 0 of official careers; web search excerpt of supplied LinkedIn job",
+        "url": "https://www.agentanalytics.ai/careers",
+        "http_status": 200,
+        "full_content_markdown": "[Skip to content](https://www.agentanalytics.ai/careers#main-content)\n\nCareers\n\n### Build the Future With Us\n\nAt AgentAnalytics.AI we're not just building products — we’re shaping the future of \\[industry/domain\\]. We believe in empowering people with the freedom to create, innovate, and push boundaries. Join us, and be part of a culture where curiosity meets execution, ideas turn into impact, and careers evolve into legacies.\n\n## All Departments\n\nJob Role\n\nLocation\n\nSite\n\nDate\n\nAction\n\nAI/ML Intern\n\nHyderabad\n\nOn-site\n\n27 September 2025\n\n[Apply Now](https://www.agentanalytics.ai/careers/AiIntern)\n\nFounders Office Intern\n\nHyderabad\n\nOn-site\n\n23 September 2025\n\n[Apply Now](https://www.agentanalytics.ai/careers/FoundersIntern)\n\nUX/UI Intern\n\nHyderabad\n\nOn-site\n\n24 September 2025\n\n[Apply Now](https://www.agentanalytics.ai/careers/UiIntern)",
+        "search_excerpts": [
+          {
+            "url": "https://in.linkedin.com/jobs/view/ai-engineer-at-agentanalytics-ai-4494325162",
+            "title": "AI engineer at AgentAnalytics.AI — Gurugram, Haryana, India",
+            "description": "Apply for AI engineer at AgentAnalytics.AI in Gurugram, Haryana, India. Full-time Entry level role. See responsibilities, qualifications ...",
+            "position": 1,
+            "source": "web"
+          }
+        ]
+      }
+    }
+  ],
+  "no_application_claim": "No candidate information submitted; no applications, accounts or external records changed."
+}

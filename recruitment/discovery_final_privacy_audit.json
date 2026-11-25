@@ -1,0 +1,59 @@
+{
+  "automation_id": "wfl7f394388257839",
+  "automation_url": "https://airtable.com/app8b3002ee78eeef/wfl7f394388257839",
+  "configuration_status": "valid",
+  "deployment_status": "undeployed",
+  "deployed_version": null,
+  "latest_update_validation": {
+    "automationId": "wfl7f394388257839",
+    "automationUrl": "https://airtable.com/app8b3002ee78eeef/wfl7f394388257839",
+    "isValid": true,
+    "errors": [],
+    "actionId": "act8ece4a82add75e"
+  },
+  "final_readback_checks": {
+    "lookup_fact": "DISCOVERY_MATCH_PROFILE",
+    "lookup_limit": 1,
+    "privacy": {
+      "fact_name": "DISCOVERY_MATCH_PROFILE",
+      "has_email_address": false,
+      "has_candidate_phone": false,
+      "has_candidate_name": false,
+      "has_current_pay_value": false,
+      "has_current_pay_keys": false,
+      "has_http_personal_urls": false
+    },
+    "prompt_only_unverified": true,
+    "old_master_reference_removed": true,
+    "group_name": "Check each raw lead",
+    "talent500_literal_guard": true,
+    "applications_create_nodes": 0,
+    "no_email_nodes": true
+  },
+  "runtime_tests_observed_by_root_before_latest_privacy_revision": {
+    "scheduled_trigger": "Passed; next 2026-11-26 09:00 IST",
+    "profile_lookup": "Passed previous MASTER_PROFILE; latest DISCOVERY_MATCH_PROFILE returns one via MCP",
+    "ai_extraction": "Passed runtime; all output remains unverified; quality failure corrected with literal guards",
+    "research_report_record": "rec18516d7a986ba0",
+    "original_url_duplicate_lookup": "Passed",
+    "company_requisition_lookup": "Passed",
+    "intake_url_duplicate_lookup": "Passed; Found0",
+    "applications_count": 14
+  },
+  "negative_guard_tests": "Local AST passed: Relinns70/60 and known-board URL each fail; score90Cutshort still fails; duplicates fail; no Applications-create node.",
+  "fresh_paid_ai_run_after_privacy_update": false,
+  "conditional_create_intake_tested_alone": false,
+  "activation_completed": false,
+  "full_daily_cycle_tested": false,
+  "blockers": [
+    "User review/activation still required; workflow remains OFF",
+    "No independent non-AI source verification connected",
+    "No autonomous applications/PDF generation/mailbox monitoring claimed",
+    "Talent500 automated access prohibited; REA application requires personal user action"
+  ],
+  "files": [
+    "discovery_final_privacy_payload.json",
+    "discovery_final_privacy_readback.json",
+    "discovery_final_privacy_audit.json"
+  ]
+}

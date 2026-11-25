@@ -1,0 +1,73 @@
+{
+  "automation_id": "wfl7f394388257839",
+  "automation_url": "https://airtable.com/app8b3002ee78eeef/wfl7f394388257839",
+  "configuration_status": "valid",
+  "deployment_status": "undeployed",
+  "deployed_version": null,
+  "quality_failure_observed_by_root": {
+    "company": "Relinns Technologies",
+    "source_host": "cutshort.io",
+    "technical_score": 70,
+    "experience_score": 60,
+    "incorrect_region": "Sahibzada Ajit Singh Nagar/Punjab incorrectly described outside NorthIndia",
+    "model_source_claim": "Verified live/original employer page",
+    "ingestion_tested_before_repair": false
+  },
+  "repair": {
+    "new_applications_create_nodes": 0,
+    "sink": "Discovery Intake / Needs review only",
+    "independent_source_verification": "Unverified (hardcoded)",
+    "ai_schema_allowed_listing_verification": [
+      "Unverified"
+    ],
+    "literal_native_guards": {
+      "technical_min": 75,
+      "technical_max": 100,
+      "experience_min": 75,
+      "experience_max": 100,
+      "known_board_url_exclusions": [
+        "linkedin.com",
+        "naukri.com",
+        "indeed.com",
+        "indeed.co.in",
+        "foundit.in",
+        "foundit.com",
+        "monsterindia.com",
+        "cutshort.io",
+        "wellfound.com",
+        "hirist.com",
+        "hirist.tech",
+        "instahyre.com",
+        "internshala.com",
+        "iimjobs.com",
+        "glassdoor.com",
+        "glassdoor.co.in",
+        "shine.com",
+        "timesjobs.com",
+        "jobrapido.com",
+        "jooble.org",
+        "workatastartup.com",
+        "ziprecruiter.com",
+        "dice.com",
+        "twitter.com",
+        "x.com/"
+      ],
+      "duplicate_checks": [
+        "Applications exactcanonical URL",
+        "nonempty employer/requisition",
+        "Intake exactcanonical URL"
+      ]
+    },
+    "geography": "AI outside-North narrative does not route or qualify records. Source/geography remains pending independent review. Explicit NorthIndia definition and all state/cityaliases in prompt/processing notes.",
+    "failed_items": "No new intake or Apps row; unverified raw extraction retained in research report"
+  },
+  "api_validation": {
+    "isValid": true,
+    "errors": [],
+    "actionId": "act0970b749447886"
+  },
+  "cloud_guard_retest_completed": false,
+  "activation_completed": false,
+  "local_guard_checks": "Passed: observed70/60scores and cutshort.io each reject; score90board URL rejects; duplicate rejects; no Appscreate node; hardcodedUnverified; NorthIndia/Mohali definition retained.",
+  "applications_count_after_repair": 14
+}

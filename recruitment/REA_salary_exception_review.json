@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-25",
+  "timezone": "Asia/Calcutta",
+  "application_id": "RH-20261125-REA-DATA-PYTHON",
+  "company": "REA Group",
+  "title": "Engineer – Data Backend - Python",
+  "current_application_url": "https://talent500.com/jobs/rea-cyber-city/engineer-data-backend-python-gurgaon-T500-30443/",
+  "original_employer_url": "https://careers.newscorp.com/gurgaon-ind/engineer-data-backend-python/0C8E75555F744AC292AF1217CB6574A6/job/",
+  "salary_exception_context": "User-approved application-only exception for salary-undisclosed roles at reputable employers with credible reported software-engineering pay generally above ₹7LPA. This does not approve accepting an offer or fabricate job pay.",
+  "recommendation": "Proceed with a truthful application under the salary-undisclosed exception, subject to form-specific gates. Do not reject solely for Airflow because the employer-authored JD lists exposure as bonus. Treat the Talent500 must-have header as a material ambiguity; answer any Airflow/CI-CD questions honestly.",
+  "reasoning": [
+    "Official News Corp employer career page and current Talent500 T500-30443 both remain accessible with Apply controls.",
+    "Employer body explicitly allows 2–3 years backend, data-engineering or platform-engineering experience; approximately 2yr4mo combined attested software/backend/AI-pipeline employment fits this experience window.",
+    "Actual Scrapy ingestion pipeline, Python/SQL skills, Node.js/Express/PostgreSQL backend experience and APIs provide relevant transferable evidence.",
+    "Employer body emphasizes pipeline development, data reliability and learning; no compulsory Spark/Kafka/ML-model-training qualification is listed.",
+    "Employer-authored bonus list includes Airflow and CI/CD/cloud, while Talent500's metadata calls them must-have. Preserve the discrepancy rather than converting it into invented experience.",
+    "REA is an identifiable established digital property group; this exact vacancy appears on News Corp's employer careers and Talent500's group/tech-hub description names Housing.com, Makaan.com and PropTiger.com.",
+    "Live crowdsourced Gurgaon compensation data provides application-level support for likely engineering pay above ₹7LPA, with substantial uncertainty from small samples and inconsistent generated salary summary text."
+  ],
+  "eligibility": {
+    "location": "Gurgaon, North India; hybrid explicitly stated",
+    "employment": "Full-time",
+    "experience_header": "Talent500 2–4 years",
+    "experience_employer_body": "2–3 years backend/data/platform engineering",
+    "education": "No additional mandatory qualification stated; candidate BTech CSE fits general background",
+    "notice_period": "90 days truthful; acceptance unknown, reduction unconfirmed",
+    "advertised_job_pay": "Not stated",
+    "annual_ctc_inr": null,
+    "fixed_annual_inr": null,
+    "monthly_gross_inr": null,
+    "estimated_monthly_in_hand_inr": null,
+    "salary_floor_verified": false,
+    "salary_exception_support": "Reasonable but not guaranteed application-only basis; job-specific pay remains unknown",
+    "employer_reputation_assessment": "Strong enough for the user's application exception based on established group identity and official employer vacancy, without assuming uniform pay or team culture."
+  },
+  "requirements": {
+    "employer_essential": [
+      {
+        "requirement": "2–3 years backend/data/platform work",
+        "candidate_evidence": "WaahAds backend microservices July2024–May2025 plus TCS AI/data-pipeline work June2025–present; approximately2yr4mo",
+        "assessment": "Reasonable experience match; do not call all years professional Python data-engineering tenure."
+      },
+      {
+        "requirement": "Strong Python and clean/tested code",
+        "candidate_evidence": "Python listed; implemented Scrapy ingestion and LangChain/Qdrant work",
+        "assessment": "Relevant hands-on evidence; production Python service ownership and automated-test depth unproven."
+      },
+      {
+        "requirement": "Strong SQL, relational and analytical data concepts",
+        "candidate_evidence": "SQL listed; PostgreSQL backend microservices and database skills",
+        "assessment": "Relational evidence exists; analytical-modeling/query-performance depth needs interview preparation."
+      },
+      {
+        "requirement": "Hands-on data-pipeline design/development/support",
+        "candidate_evidence": "Scrapy ingestion pipeline and ETL workflows",
+        "assessment": "Direct overlap; no invented Airflow orchestration or large-scale warehouse operations."
+      },
+      {
+        "requirement": "Testing, debugging, code reviews/version control",
+        "candidate_evidence": "Git and LangSmith tracing/debugging listed; project/backend work",
+        "assessment": "Debugging/version control overlap; formal pytest/unit-test/CI-CD/code-review responsibility not evidenced."
+      },
+      {
+        "requirement": "ETL/ELT, batch transformation, data quality/reliability",
+        "candidate_evidence": "ETL skills, Scrapy pipeline with proxy rotation/caching and reported latency improvement",
+        "assessment": "Transferable pipeline/reliability evidence; no proof of dedicated warehouse/batch-orchestration tenure."
+      },
+      {
+        "requirement": "Work with existing codebases/production systems and collaborate",
+        "candidate_evidence": "Maintained WaahAds backend microservices; startup/TCS experience",
+        "assessment": "Relevant; do not reinterpret TCS prototypes or designed-and-tested RAG as deployed production AI."
+      }
+    ],
+    "employer_desirable": [
+      "AWS/GCP",
+      "Python/API integration",
+      "CI/CD",
+      "Kafka/streaming",
+      "Airflow exposure",
+      "Docker",
+      "Terraform",
+      "Observability",
+      "Open-source tooling"
+    ],
+    "talent500_must_have_header": [
+      "Python",
+      "CI/CD",
+      "Airflow",
+      "SQL",
+      "AWS or Azure or GCP"
+    ],
+    "classification_conflict": "Airflow, CI/CD and cloud are must-have in Talent500 header but bonus in full employer body. Airflow also appears in expected work responsibilities. Recruiter may still screen on it; application may truthfully proceed without claiming exposure.",
+    "candidate_gaps": [
+      "Airflow absent",
+      "CI/CD ownership absent",
+      "Analytical data engineering depth not fully evidenced",
+      "Formal automated testing unproven",
+      "Kafka/Terraform absent"
+    ],
+    "preserved_scope": [
+      "TCS multi-agent workflows are prototypes",
+      "Qdrant RAG was designed and tested",
+      "No unsupported Airflow/TypeScript/Kubernetes/pytest/PyTorch claim",
+      "No artificial 2+ years Python-production tenure"
+    ]
+  },
+  "reported_salary_benchmarks": [
+    {
+      "source": "Glassdoor live Gurgaon company table",
+      "url": "https://www.glassdoor.co.in/Salary/REA-Group-Gurgaon-Salaries-EI_IE324527.0,9_IL.10,17_IC2921225.htm",
+      "title": "Engineer",
+      "range_annual_inr": [
+        1400000,
+        1500000
+      ],
+      "sample_count": 1,
+      "basis": "Reported/estimated annual pay displayed by salary site, not employer offer",
+      "job_specific": false
+    },
+    {
+      "source": "Glassdoor live Gurgaon company table",
+      "url": "https://www.glassdoor.co.in/Salary/REA-Group-Gurgaon-Salaries-EI_IE324527.0,9_IL.10,17_IC2921225.htm",
+      "title": "Software Engineer",
+      "range_annual_inr": [
+        1800000,
+        2000000
+      ],
+      "sample_count": 1,
+      "basis": "Reported/estimated annual pay; fixed versus CTC not established",
+      "job_specific": false
+    },
+    {
+      "source": "Glassdoor live Gurgaon company table",
+      "url": "https://www.glassdoor.co.in/Salary/REA-Group-Gurgaon-Salaries-EI_IE324527.0,9_IL.10,17_IC2921225.htm",
+      "title": "Full Stack Engineer",
+      "range_annual_inr": [
+        1700000,
+        1800000
+      ],
+      "sample_count": 1,
+      "basis": "Reported/estimated annual pay; different role",
+      "job_specific": false
+    },
+    {
+      "source": "Glassdoor role detail",
+      "url": "https://www.glassdoor.co.in/Salary/REA-Group-Engineer-Gurgaon-Salaries-EJI_IE324527.0,9_KO10,18_IL.19,26_IC2921225.htm",
+      "title": "Engineer",
+      "experience_band": "1–3 years in recent submission",
+      "range_annual_inr": [
+        1400000,
+        1600000
+      ],
+      "sample_count": 1,
+      "submitted_on": "2026-01-29",
+      "confidence": "Glassdoor explicitly Low Confidence; the recent submission is preferable to inconsistent generated FAQ claims",
+      "basis": "Anonymous annual total-pay report, not current vacancy pay",
+      "job_specific": false
+    },
+    {
+      "source": "AmbitionBox search excerpt only",
+      "url": "https://www.ambitionbox.com/salaries/rea-group-salaries/software-engineer/gurgaon-location",
+      "title": "Software Engineer, Gurugram",
+      "range_annual_inr": [
+        1780000,
+        2200000
+      ],
+      "sample_count": 10,
+      "basis": "Source excerpt says annual salary range; exact compensation split unavailable",
+      "access_status": "Full live page redirected to CAPTCHA; not bypassed and not counted as a full source read",
+      "job_specific": false
+    }
+  ],
+  "benchmark_limitations": [
+    "Small crowdsourced samples do not establish a guaranteed salary or statistically reliable 'usual' range for this exact team.",
+    "The live Glassdoor Engineer page has inconsistent generated summaries: top base range14.3–15.7L and recent1–3YOE submission14–16L, while its lowerFAQ states6.69L average/range4.3–11.875L. Do not use its average as a definitive pay target.",
+    "The company table includes SystemEngineer3L/yr (one submission), so it would be false to say all REA roles pay above7LPA.",
+    "REAGroup, REACyberCity, REAIndia and Housing.com salary data may be mixed by aggregators; favor Gurgaon REAGroup software/engineer entries and do not import Australia or senior CTC benchmarks.",
+    "No benchmark becomes SalaryAdvertised, FixedAnnual or SalaryQualificationMeetsFloor in the CRM."
+  ],
+  "form_gates": {
+    "routine_truthful_application": "Permitted under the exception if no extra approval-triggering action is required.",
+    "airflow_or_ci_cd_experience": "Answer accurately. Select no/zero or omit where appropriate; never claim experience to pass a knockout field.",
+    "mandatory_all_requirements_declaration": "Do not accept if it falsely certifies missing Airflow/CI-CD skills; hold and report the specific issue.",
+    "assessments": "Do not complete on behalf of candidate without explicit user approval.",
+    "legal_sensitive_extra_documents": "Escalate per standing user rules.",
+    "salary_expectation": "Use user-approved expected compensation only; do not import site benchmark as an accepted offer.",
+    "notice": "90 days; shorter availability only if actually confirmed.",
+    "submission_receipt": "Only markApplied after confirmation; uncertain attempts must be checked for duplicates before retry."
+  },
+  "next_actions": [
+    "Prepare current Talent500 T500-30443 form using exact attested details and tailored REA PDF.",
+    "Keep unknownjobpay clearly labelled and record this exception review as rationale.",
+    "Highlight genuine data-pipeline/SQL/backend strengths while retaining truthful TCS scope.",
+    "At recruiter screening request actual fixed/CTC/variable breakdown and notice compatibility."
+  ],
+  "source_snapshots": [
+    {
+      "type": "Current official employer JD",
+      "retrieved_on": "2026-11-25",
+      "url": "https://careers.newscorp.com/gurgaon-ind/engineer-data-backend-python/0C8E75555F744AC292AF1217CB6574A6/job/",
+      "http_status": 200,
+      "full_content_markdown": "[Skip To Main Content](https://careers.newscorp.com/gurgaon-ind/engineer-data-backend-python/0C8E75555F744AC292AF1217CB6574A6/job/#main)\n\n# Engineer – Data Backend - Python - REA Group\n\n## Engineer – Data Backend - Python\n\nREA Group\n\nGurgaon, IND\n\n[Apply Now](https://rr.jobsyn.org/0C8E75555F744AC292AF1217CB6574A610) Sign Up for Job Alerts\n\n[Return to search results](https://careers.newscorp.com/jobs/)\n\n**What the role is all about:**\n\nWe are looking for an Engineer with 2–3 years of experience to join the CXAD team within the Experiences & Platforms portfolio. The team builds and operates data platforms and pipelines that enable teams across the business to better understand customer behaviour and deliver data-driven experiences.\n\nAs part of the CXAD team, you will work with large-scale customer and behavioural datasets and contribute to building reliable, scalable data pipelines and backend systems. The data and platforms we build support a wide range of use cases across the business, including analytics, machine learning, personalisation, recommendations, product insights, and reporting.\n\nThis is an opportunity to work on complex data engineering problems in a distributed team, collaborate with a wide range of stakeholders, and build systems that have a direct impact on how our products understand and serve our customers.\n\n**While no two days are likely to be the same, your typical responsibilities will include:**\n\n- Develop, maintain, and enhance data pipelines using Python and SQL, ensuring they are reliable, scalable, and maintainable.\n\n- Build and manage data workflows using technologies such as Airflow and other data engineering and orchestration platforms.\n\n- Work with large-scale customer and behavioural datasets to transform and prepare data for consumption by downstream teams.\n\n- Collaborate with analytics, machine learning, recommendations, product, and other stakeholder teams to understand their data requirements and deliver fit-for-purpose solutions.\n\n- Write clean, maintainable, and well-tested code following engineering best practices and coding standards.\n\n- Participate in code reviews, technical discussions, and team ceremonies, contributing to the continuous improvement of the team’s engineering practices.\n\n- Troubleshoot pipeline and production issues, identify root causes, and contribute to maintaining the reliability and operational stability of data platforms.\n\n- Contribute to automation, tooling improvements, monitoring, and other initiatives that improve the reliability and efficiency of data pipelines.\n\n- Learn and adopt new technologies and engineering practices while sharing knowledge and contributing to a collaborative team environment. Who we’re looking for:\n\n- 2–3 years of experience working in backend, data engineering, or platform engineering environments.\n\n- Strong programming skills in Python, with experience writing clean, maintainable, and well-tested code\n\n- Strong SQL skills and an understanding of relational and analytical data concepts.\n\n- Hands-on experience designing, developing, maintaining, or supporting data pipelines.\n\n- Good understanding of software development principles, including version control, testing, debugging, and code reviews.\n\n- Ability to understand and work with existing codebases, troubleshoot issues, and contribute to production systems.\n\n- Understanding of data engineering concepts such as batch processing, ELT/ETL, data transformation, data quality, and data reliability.\n\n- Ability to work collaboratively with engineers, data engineers, product teams, and business stakeholders.\n\n- Good communication skills and the ability to explain technical concepts clearly.\n\n- Ability to work collaboratively and autonomously in a fast-paced environment.\n\n- Willingness to learn new and complex technologies and contribute to a culture of knowledge sharing and continuous improvement.\n\n\n**Bonus points for:**\n\n- Experience working with cloud platforms, particularly AWS and/or GCP.\n\n- Experience building and integrating APIs using Python or any other programming language.\n\n- Knowledge or hands-on experience with CI/CD practices and tools.\n\n- Exposure to real-time or streaming data pipelines and technologies such as Kafka.\n\n- Exposure to workflow orchestration tools such as Airflow.\n\n- Experience with Docker and containerised applications.\n\n- Exposure to Infrastructure as Code tools such as Terraform.\n\n- Understanding of observability, monitoring, and operational practices for production systems.\n\n- Experience working with open-source technologies and tooling.\n\n\n**What we offer:**\n\n- A hybrid and flexible approach to working.\n\n- Transport options to help you get to and from work, including home pick-up and drop-off.\n\n- Meals provided on site in our office.\n\n- Flexible leave options including parental leave, family care leave and celebration leave.\n\n- Insurances for you and your immediate family members.\n\n- Programs to support mental, emotional, financial and physical health & wellbeing\n\n- Continuous learning and development opportunities to further your technical expertise.\n\n\n**The values we live by:**\n\nOur values are at the core of how we operate, treat each other, and make decisions. We believe that how we work is equally important as what we do to achieve our goals. This commitment is at the heart of everything we do, from the way we interact with colleagues to the way we serve our customers and communities.\n\nOur commitment to Diversity, Equity, and Inclusion: We are committed to providing a working environment that embraces and values diversity, equity and inclusion. We believe teams with diverse ideas and experiences are more creative, more effective and fuel disruptive thinking - be it cultural and ethnic backgrounds, gender identity, disability, age, sexual orientation, or any other identity or lived experience. We know diverse teams are critical to maintaining our success and driving new business opportunities. If you’ve got the skills, dedication and enthusiasm to learn but don’t necessarily meet every single point on the job description, please still get in touch.\n\n[Apply Now](https://rr.jobsyn.org/0C8E75555F744AC292AF1217CB6574A610)\n\nWe use cookies to improve your experience on our site. To find out more, read our [privacy policy](https://newscorp.com/privacy-notice/) .\n\nAccept Cookies  Decline Cookies"
+    },
+    {
+      "type": "Current Talent500 JD",
+      "retrieved_on": "2026-11-25",
+      "url": "https://talent500.com/jobs/rea-cyber-city/engineer-data-backend-python-gurgaon-T500-30443/",
+      "http_status": 200,
+      "full_content_markdown": "[Skip to content](https://talent500.com/jobs/rea-cyber-city/engineer-data-backend-python-gurgaon-T500-30443/#content \"Skip to content\")\n\n# Engineer – Data Backend - Python\n\n- REA\n- Gurgaon, IN\n- 2 - 4 years\n- Full-Time\n\nSave JobApply\n\nAbout Role\n\nEngineer – Data Backend - Python\n\nREA •\n\nGurgaon, IN •\n\n2 - 4 years •\n\nFull-Time\n\nRole Summary\n\n**REA Group in India**:\n\nYou might already recognise our logo. The REA brand does have an existing presence in India. In fact, we set up our new tech hub in Gurugram to be their neighbours!\n\nREA Group holds a controlling interest in REA India Pte. Ltd., operator of established brands Housing.com, Makaan.com and PropTiger.com, three of the country’s leading digital property marketplaces.\n\nThrough our close connection to REA India, we’ve seen first-hand the incredible talent the country has to offer, and the huge opportunity to expand our global workforce.\n\nOur Cyber City Tech Center is an extension of REA Group; a satellite office working directly with our Australia HQ on local projects and tech delivery. All our brands, across the globe, connect regularly, learn from each other and collaborate on shared value initiatives.\n\nLocation\n\nGurgaon\n\nExperience Range\n\n2 - 4 years\n\nMust-have Skills\n\nPython\n\nCi/CD\n\nAirflow\n\nSQL\n\nAWS or Azure or GCP\n\nAbout REA\n\nAt REA, we are shaping the future of real estate. Our engineering teams are the architects behind the experiences that millions of property seekers rely on every day. We use the latest technology to deliver best-in-class experiences to our customers.\n\nJob Description\n\n**What the role is all about:**\n\nWe are looking for an Engineer with 2–3 years of experience to join the CXAD team within the Experiences & Platforms portfolio. The team builds and operates data platforms and pipelines that enable teams across the business to better understand customer behaviour and deliver data-driven experiences.\n\nAs part of the CXAD team, you will work with large-scale customer and behavioural datasets and contribute to building reliable, scalable data pipelines and backend systems. The data and platforms we build support a wide range of use cases across the business, including analytics, machine learning, personalisation, recommendations, product insights, and reporting.\n\nThis is an opportunity to work on complex data engineering problems in a distributed team, collaborate with a wide range of stakeholders, and build systems that have a direct impact on how our products understand and serve our customers.\n\n**While no two days are likely to be the same, your typical responsibilities will include:**\n\n-  Develop, maintain, and enhance data pipelines using Python and SQL, ensuring they are reliable, scalable, and maintainable.\n-  Build and manage data workflows using technologies such as Airflow and other data engineering and orchestration platforms.\n- Work with large-scale customer and behavioural datasets to transform and prepare data for consumption by downstream teams.\n- Collaborate with analytics, machine learning, recommendations, product, and other stakeholder teams to understand their data requirements and deliver fit-for-purpose solutions.\n-  Write clean, maintainable, and well-tested code following engineering best practices and coding standards.\n-  Participate in code reviews, technical discussions, and team ceremonies, contributing to the continuous improvement of the team’s engineering practices.\n-  Troubleshoot pipeline and production issues, identify root causes, and contribute to maintaining the reliability and operational stability of data platforms.\n-  Contribute to automation, tooling improvements, monitoring, and other initiatives that improve the reliability and efficiency of data pipelines.\n-  Learn and adopt new technologies and engineering practices while sharing knowledge and contributing to a collaborative team environment. Who we’re looking for:\n-  2–3 years of experience working in backend, data engineering, or platform engineering environments.\n- Strong programming skills in Python, with experience writing clean, maintainable, and well-tested code\n- Strong SQL skills and an understanding of relational and analytical data concepts.\n-  Hands-on experience designing, developing, maintaining, or supporting data pipelines.\n-  Good understanding of software development principles, including version control, testing, debugging, and code reviews.\n- Ability to understand and work with existing codebases, troubleshoot issues, and contribute to production systems.\n- Understanding of data engineering concepts such as batch processing, ELT/ETL, data transformation, data quality, and data reliability.\n-  Ability to work collaboratively with engineers, data engineers, product teams, and business stakeholders.\n- Good communication skills and the ability to explain technical concepts clearly.\n- Ability to work collaboratively and autonomously in a fast-paced environment.\n- Willingness to learn new and complex technologies and contribute to a culture of knowledge sharing and continuous improvement.\n\n**Bonus points for:**\n\n- Experience working with cloud platforms, particularly AWS and/or GCP.\n- Experience building and integrating APIs using Python or any other programming language.\n- Knowledge or hands-on experience with CI/CD practices and tools.\n- Exposure to real-time or streaming data pipelines and technologies such as Kafka.\n- Exposure to workflow orchestration tools such as Airflow.\n- Experience with Docker and containerised applications.\n- Exposure to Infrastructure as Code tools such as Terraform.\n- Understanding of observability, monitoring, and operational practices for production systems.\n- Experience working with open-source technologies and tooling.\n\n**What we offer:**\n\n- A hybrid and flexible approach to working.\n- Transport options to help you get to and from work, including home pick-up and drop-off.\n- Meals provided on site in our office.\n- Flexible leave options including parental leave, family care leave and celebration leave.\n- Insurances for you and your immediate family members.\n- Programs to support mental, emotional, financial and physical health & wellbeing\n- Continuous learning and development opportunities to further your technical expertise.\n\n**The values we live by:**\n\nOur values are at the core of how we operate, treat each other, and make decisions. We believe that how we work is equally important as what we do to achieve our goals. This commitment is at the heart of everything we do, from the way we interact with colleagues to the way we serve our customers and communities.\n\nOur commitment to Diversity, Equity, and Inclusion: We are committed to providing a working environment that embraces and values diversity, equity and inclusion. We believe teams with diverse ideas and experiences are more creative, more effective and fuel disruptive thinking - be it cultural and ethnic backgrounds, gender identity, disability, age, sexual orientation, or any other identity or lived experience. We know diverse teams are critical to maintaining our success and driving new business opportunities. If you’ve got the skills, dedication and enthusiasm to learn but don’t necessarily meet every single point on the job description, please still get in touch.\n\nThis website uses cookies in order to offer you the most relevant information. By continuing to use this website, you consent to the use of cookies, in accordance with our [Cookie Policy](https://talent500.com/privacy-policy#policy-27).\n\nDecline\n\nManage\n\nAccept\n\nScroll to Top"
+    },
+    {
+      "type": "Live salary table relevant excerpt",
+      "retrieved_on": "2026-11-25",
+      "url": "https://www.glassdoor.co.in/Salary/REA-Group-Gurgaon-Salaries-EI_IE324527.0,9_IL.10,17_IC2921225.htm",
+      "http_status": 200,
+      "excerpt": "# Explore REA Group salaries in Gurgaon\n\nExplore how much REA Group employees make through salaries, wages, tips, bonuses, stock, commissions and more.\n\nSearch by job title and location\n\n3\n\n3\n\nEngineering\n\nResearch & Science\n\nAdministrative\n\nOther\n\nProduct & Project Management\n\n8 job titles\n\nSort byMost salaries\n\n[**Senior Software Development Engineer**](https://www.glassdoor.co.in/Salary/REA-Group-Senior-Software-Development-Engineer-Gurgaon-Salaries-EJI_IE324527.0,9_KO10,46_IL.47,54_IC2921225.htm)\n\n2 Salaries submitted\n\n₹19L \\- ₹20L /yr\n\n[**Engineer**](https://www.glassdoor.co.in/Salary/REA-Group-Engineer-Gurgaon-Salaries-EJI_IE324527.0,9_KO10,18_IL.19,26_IC2921225.htm)\n\n1 Salaries submitted\n\n₹14L \\- ₹15L /yr\n\n[**System Engineer**](https://www.glassdoor.co.in/Salary/REA-Group-System-Engineer-Gurgaon-Salaries-EJI_IE324527.0,9_KO10,25_IL.26,33_IC2921225.htm)\n\n1 Salaries submitted\n\n₹3L \\- ₹3L /yr\n\n[**Lead Software Engineer**](https://www.glassdoor.co.in/Salary/REA-Group-Lead-Software-Engineer-Gurgaon-Salaries-EJI_IE324527.0,9_KO10,32_IL.33,40_IC2921225.htm)\n\n1 Salaries submitted\n\n₹36L \\- ₹39L /yr\n\n[**Èngineer**](https://www.glassdoor.co.in/Salary/REA-Group-%C3%88ngineer-Gurgaon-Salaries-EJI_IE324527.0,9_KO10,18_IL.19,26_IC2921225.htm)\n\n1 Salaries submitted\n\n₹22L \\- ₹24L /yr\n\n[**Software Engineer**](https://www.glassdoor.co.in/Salary/REA-Group-Software-Engineer-Gurgaon-Salaries-EJI_IE324527.0,9_KO10,27_IL.28,35_IC2921225.htm)\n\n1 Salaries submitted\n\n₹18L \\- ₹20L /yr\n\n[**Executive Assistant**](https://www.glassdoor.co.in/Salary/REA-Group-Executive-Assistant-Gurgaon-Salaries-EJI_IE324527.0,9_KO10,29_IL.30,37_IC2921225.htm)\n\n1 Salaries submitted\n\n₹3L \\- ₹4L /yr\n\n[**Full Stack Engineer**](https://www.glassdoor.co.in/Salary/REA-Group-Full-Stack-Engineer-Gurgaon-Salaries-EJI_IE324527.0,9_KO10,29_IL.30,37_IC2921225.htm)\n\n1 Salaries submitted\n\n₹17L \\- ₹18L /yr\n\n"
+    },
+    {
+      "type": "Live Engineer pay relevant excerpts",
+      "retrieved_on": "2026-11-25",
+      "url": "https://www.glassdoor.co.in/Salary/REA-Group-Engineer-Gurgaon-Salaries-EJI_IE324527.0,9_KO10,18_IL.19,26_IC2921225.htm",
+      "http_status": 200,
+      "top_salary_excerpt": "# REA Group Engineer Salaries in Gurgaon\n\nSelect a Location\n\nAll years of experience\n\nannual\n\nAverage base pay\n\n₹14.3L\n\n-\n\n₹15.7L/yr\n\n_₹15.0L_/yr Average\n\nAdditional pay\n\n_₹0_/yr Average\n\n₹0\n\n-\n\n_₹0_/yr Range\n\n#### About our data\n\nLow Confidence\nLast updated 29 Jan 20261 Salaries submitted\n\nHow do we calculate pay?\n\nThe “Most Likely Range” reflects values within the 25th and 75th percentile of all pay data available for this role. Glassdoor salaries are powered by our proprietary machine learning model, which utilises salaries collected from our users and the latest government data to make pay predictions.The estimated total pay range for a Engineer at REA Group in Gurgaon is ₹14.3L–₹15.5L per year, which includes base salary and additional pay. The average Engineer base salary at REA Group in Gurgaon is ₹14.9L per year. The average additional pay is ₹0 per year, which could include cash bonus, stock, commission, profit sharing or tips.\n\n",
+      "recent_submission_excerpt": "## Recent salaries shared by Engineer at REA Group\n\nAll years of experience\n\nSort byMost recent\n\nJob title \\|Years of Experience\n\nTotal Pay\n\nBase •Additional pay\n\nLocation\n\nDate submitted\n\nJob title \\|Years of Experience\n\nLocation\n\nDate submitted\n\nTotal Pay\n\nBase •Additional pay\n\nAnonymously share your salary to help the community.\n\nAdd a salary\n\nEngineer\n\n\\|\n\n1-3 Years\n\n₹14L \\- ₹16L/yr\n\nGurgaon, Haryana\n\nsubmitted on 29 Jan 2026\n\n₹14L \\- ₹16L/yr\n\nSign in to unlock all salaries\n\nViewing 1 - 1 of 1\n\n",
+      "inconsistent_faq_excerpt": "## REA Group pay FAQs\n\n- How does the salary as an Engineer at REA Group compare with the base salary range for this job?The [average salary for an Engineer is ₹6,00,000 per year (estimate) in India](https://www.glassdoor.co.in/Salaries/engineer-salary-SRCH_KO0,8.htm), which is 60% lower than the average REA Group salary of ₹15,09,825 per year (estimate) for this job.\n\n- Are Engineer professionals at REA Group in Gurgaon satisfied with their compensation?REA Group employees working as an Engineer in Gurgaon have attributed a compensation and benefits rating of 3 out of 5 stars, based on 2 ratings. This is in line with the average of Engineer professionals at REA Group worldwide.\n\n- What is the salary trajectory of an Engineer?The [salary trajectory of an Engineer](https://www.glassdoor.co.in/Salaries/engineer-salary-SRCH_KO0,8.htm) ranges between locations and employers. The salary starts at ₹0 per year (estimate) and goes up to ₹67,50,000 per year (estimate) for the highest level of seniority.\n\n- How much does a Engineer make at REA Group?The estimated average salary for a Engineer at REA Group is ₹6,69,000 per year or ₹322 per hour, but some professionals have reported earning up to roughly ₹19,00,000 per year (90th percentile). The typical pay range is between ₹4,30,003 (25th percentile) and ₹11,87,500 (75th percentile) annually. This is based on 1 salaries submitted by REA Group Engineer professionals on Glassdoor, as of Nov 2026.\n\n"
+    },
+    {
+      "type": "Blocked salary page",
+      "retrieved_on": "2026-11-25",
+      "url": "https://www.ambitionbox.com/salaries/rea-group-salaries/software-engineer/gurgaon-location",
+      "result": "CAPTCHA challenge",
+      "bypassed": false
+    }
+  ],
+  "applications_submitted": 0,
+  "external_messages_sent": 0,
+  "external_records_updated": 0
+}

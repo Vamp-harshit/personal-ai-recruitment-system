@@ -1,0 +1,230 @@
+{
+  "created_on": "2026-11-25",
+  "base_id": "app8b3002ee78eeef",
+  "interface_id": "pbd0f0b186977b2bc",
+  "page_name": "Salary Analytics",
+  "page_id": "pagfb45135f046aa9",
+  "page_url": "https://airtable.com/app8b3002ee78eeef/pagfb45135f046aa9/edit",
+  "published": true,
+  "existing_pages_preserved": 7,
+  "total_published_pages": 8,
+  "public_share_or_access_changes": false,
+  "configuration": {
+    "sections": [
+      {
+        "tableId": "tblbef0fd137c7a43",
+        "title": "Advertised annual pay",
+        "description": "Uses only known advertised annual INR ranges. Each range contributes its midpoint. Fixed versus CTC basis may be unknown; this is not fixed salary, monthly gross or take-home pay. USD and unstated-period pay are excluded from these INR annual fields.",
+        "recordScopeFilters": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld659cd75dac4571"
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "type": "number",
+            "label": "Average advertised annual range midpoint (INR)",
+            "metric": {
+              "fieldId": "fld659cd75dac4571",
+              "aggregation": "average"
+            }
+          },
+          {
+            "type": "number",
+            "label": "Known annual INR range sample",
+            "metric": "recordCount"
+          }
+        ]
+      },
+      {
+        "tableId": "tblbef0fd137c7a43",
+        "title": "Fixed pay for confirmed interview opportunities",
+        "description": "Includes only confirmed submissions that reached a confirmed interview and have known fixed annual INR pay. With no eligible records, the average is unknown and the sample is zero; never substitute advertised CTC or estimated take-home.",
+        "recordScopeFilters": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "=",
+              "operands": [
+                "fld9e8c5c9667c58b",
+                true
+              ]
+            },
+            {
+              "operator": "=",
+              "operands": [
+                "fldc988b36cbae5c1",
+                true
+              ]
+            },
+            {
+              "operator": "isNotEmpty",
+              "operands": [
+                "fld68de33e808a632"
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "type": "number",
+            "label": "Average known interview fixed annual pay (INR)",
+            "metric": {
+              "fieldId": "fld68de33e808a632",
+              "aggregation": "average"
+            }
+          },
+          {
+            "type": "number",
+            "label": "Confirmed interview fixed-pay sample",
+            "metric": "recordCount"
+          }
+        ]
+      },
+      {
+        "tableId": "tblbef0fd137c7a43",
+        "title": "Confirmed application cadence",
+        "description": "Only actual confirmed submissions count. Week and month use Date Applied and the Asia/Calcutta timezone.",
+        "recordScopeFilters": {
+          "operator": "and",
+          "operands": [
+            {
+              "operator": "=",
+              "operands": [
+                "fld9e8c5c9667c58b",
+                true
+              ]
+            }
+          ]
+        },
+        "elements": [
+          {
+            "type": "number",
+            "label": "Confirmed applications total",
+            "metric": "recordCount"
+          },
+          {
+            "type": "number",
+            "label": "Confirmed applications this week",
+            "metric": "recordCount",
+            "filters": {
+              "operator": "and",
+              "operands": [
+                {
+                  "operator": "isWithin",
+                  "operands": [
+                    "fld5e3bfd9d5b3582",
+                    {
+                      "mode": "thisWeekToDate",
+                      "timeZone": "Asia/Calcutta"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "number",
+            "label": "Confirmed applications this month",
+            "metric": "recordCount",
+            "filters": {
+              "operator": "and",
+              "operands": [
+                {
+                  "operator": "isWithin",
+                  "operands": [
+                    "fld5e3bfd9d5b3582",
+                    {
+                      "mode": "thisMonthToDate",
+                      "timeZone": "Asia/Calcutta"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "verification": {
+    "advertised_annual_midpoint_inr_average": 950000,
+    "known_annual_range_sample": 1,
+    "interview_known_fixed_annual_average": "NO_DATA",
+    "average_formula_readback": "columnSummary/average on fld659cd75dac4571",
+    "draft_pages_remaining": 0
+  },
+  "aggregate_api_readback": [
+    {
+      "metric": "advertised_mean",
+      "status": "fulfilled",
+      "value": {
+        "content": [],
+        "structuredContent": {
+          "fields": [
+            {
+              "name": "Average",
+              "type": "formula"
+            }
+          ],
+          "rowsByFieldName": [
+            {
+              "Average": 950000
+            }
+          ]
+        },
+        "isError": false
+      }
+    },
+    {
+      "metric": "advertised_sample",
+      "status": "fulfilled",
+      "value": {
+        "content": [],
+        "structuredContent": {
+          "fields": [
+            {
+              "name": "Count",
+              "type": "number"
+            }
+          ],
+          "rowsByFieldName": [
+            {
+              "Count": 1
+            }
+          ]
+        },
+        "isError": false
+      }
+    },
+    {
+      "metric": "interview_fixed_mean",
+      "status": "fulfilled",
+      "value": {
+        "content": [],
+        "structuredContent": {
+          "fields": [
+            {
+              "name": "Average",
+              "type": "number"
+            }
+          ],
+          "rowsByFieldName": [
+            {
+              "Average": "NO_DATA"
+            }
+          ]
+        },
+        "isError": false
+      }
+    }
+  ],
+  "interpretation": "The known INR annual advertised range is Quixta 8-11 LPA, whose midpoint is 950000 INR. Fixed versus CTC basis and in-hand pay remain unknown. The advertised mean must not be treated as confirmed fixed compensation. No eligible confirmed interview has known fixed pay.",
+  "scope": "Only interface/page creation and private publication; no fields, records or automations modified."
+}

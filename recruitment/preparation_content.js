@@ -1,0 +1,97 @@
+const CATALOG = {"role_tracks":[{"id":"node_backend","target_titles":["Node.js Backend Developer","Backend Engineer","Software Engineer - Backend"],"summary":"Software engineer with Node.js, Express.js and PostgreSQL backend experience, alongside LLM integration and real-time application project work.","prioritize_bullets":["backend_services","llm_content","semantic_caching","scrapy_ingestion","collaboration_project","project_capacity"],"priority_keywords":["Node.js","Express.js","PostgreSQL","microservices","API integration","JavaScript","caching"],"scope_limits":["REST APIs, Redis, Docker and AWS are listed skills; do not invent employment deliverables for them."]},{"id":"python_backend_api","target_titles":["Python Backend Developer","Python Developer","API Engineer"],"summary":"Software engineer with backend microservices, Scrapy data pipelines and applied LLM workflow experience; technical skills include Python, FastAPI and Flask.","prioritize_bullets":["scrapy_ingestion","backend_services","rag_retrieval","semantic_caching","llm_content","execution_integration"],"priority_keywords":["Python","FastAPI","Flask","Scrapy","PostgreSQL","API integration","caching"],"scope_limits":["FastAPI and Flask are listed skills; do not describe professionally deployed Python web services or years of Python-service experience."]},{"id":"applied_genai","target_titles":["GenAI Engineer","LLM Integration Engineer","AI Application Engineer","RAG Engineer"],"summary":"Software engineer with LangChain multi-agent prototypes, Qdrant RAG design and testing, LangSmith tracing, and OpenAI API integration experience.","prioritize_bullets":["llm_prototypes","rag_retrieval","semantic_caching","llm_tracing","llm_content","backend_services"],"priority_keywords":["LangChain","LangSmith","Qdrant","RAG","OpenAI API","semantic caching","LLM orchestration"],"scope_limits":["LangGraph and HuggingFace are listed skills; model training, fine-tuning and production RAG deployment are not stated."]},{"id":"sde_associate","target_titles":["SDE I","Software Engineer I","Associate Software Engineer"],"summary":"Software engineer with backend microservices and collaborative coding application experience, supported by 400+ DSA problems solved across coding platforms.","prioritize_bullets":["backend_services","collaboration_project","execution_integration","project_capacity","scrapy_ingestion","llm_content"],"priority_keywords":["JavaScript","Node.js","Express.js","PostgreSQL","DSA","problem solving","API integration"],"scope_limits":["Java and C++ are listed languages; do not claim professional Java/Spring services, system architecture leadership or seniority."]},{"id":"backend_fullstack","target_titles":["Full Stack Developer","Full Stack Engineer","Software Engineer - Full Stack"],"summary":"Software engineer with Node.js and PostgreSQL backend experience and a deployed React and Socket.io collaborative coding project.","prioritize_bullets":["backend_services","collaboration_project","execution_integration","project_capacity","llm_content","semantic_caching"],"priority_keywords":["React.js","JavaScript","Node.js","Express.js","Socket.io","PostgreSQL","HTML","CSS"],"scope_limits":["React evidence is project work; Next.js and Tailwind CSS are listed skills, not demonstrated employment deliverables."]},{"id":"api_integration_automation","target_titles":["API Integration Engineer","Automation Engineer","Software Engineer - Integrations"],"summary":"Software engineer with OpenAI API integration, backend campaign automation, Scrapy data retrieval and sitemap automation experience.","prioritize_bullets":["llm_content","backend_services","scrapy_ingestion","sitemap_automation","execution_integration","llm_tracing"],"priority_keywords":["API integration","OpenAI API","Node.js","Scrapy","workflow automation","caching","PostgreSQL"],"scope_limits":["Automation refers to software and workflow automation; do not infer QA/SDET, Selenium, test-framework ownership or RPA vendor expertise."]},{"id":"data_ingestion_etl","target_titles":["Data Ingestion Engineer","Junior ETL Developer","Junior Data Engineer","Python Data Pipeline Developer"],"summary":"Software engineer with Scrapy data ingestion and caching experience, Qdrant document retrieval work, and PostgreSQL backend experience.","prioritize_bullets":["scrapy_ingestion","rag_retrieval","backend_services","sitemap_automation","semantic_caching","execution_integration"],"priority_keywords":["Python","Scrapy","PostgreSQL","SQL","ETL workflows","API integration","data ingestion","Qdrant"],"scope_limits":["ETL workflows and SQL are listed skills; do not infer Spark, Airflow, Kafka, dbt, warehouses or production data-platform ownership."]}],"skills_by_evidence":{"professional_explicit":["Node.js","Express.js","PostgreSQL","LangChain","LangSmith","OpenAI API","Qdrant","RAG pipelines","LLM orchestration","semantic caching","Scrapy","microservices","scraping","workflow automation"],"project_explicit":["React.js","Node.js","Express.js","Socket.io","HTML","CSS","JavaScript","Rapid API","API integration","session management","code execution"],"listed_skills_without_explicit_work_bullet":["Java","Python","C++","SQL","Spring Boot","FastAPI","Flask","REST APIs","LangGraph","HuggingFace","Prompt Engineering","MongoDB","MySQL","Redis","Playwright","ETL workflows","AWS Lambda","AWS S3","AWS EC2","Docker","Git","Swagger","Postman","Next.js","Tailwind CSS"],"rule":"Listed skills may appear in the skills section and influence relevance. Their presence does not establish professional duration, production ownership, certification or advanced proficiency. JavaScript has explicit project evidence; Python is listed and aligns with Scrapy but no Python-service work bullet is stated. SQL query expertise is not inferred solely from PostgreSQL usage."},"identity":{"full_name":"Harshit Kumar","email":"contact@example.invalid","phone":"[PHONE_REDACTED]","linkedin":"https://www.linkedin.com/in/harshit-kumar-1091901b9","github":"https://github.com/Vamp-harshit","portfolio":"https://codeeditor1-2h8h.onrender.com/","codechef":"https://www.codechef.com/users/pro_harshit","leetcode":"https://leetcode.com/u/vamp_harshit/","link_rule":"Use corrected identity links. Portfolio and coding-profile destinations are retained from the source resume; external availability is not implied."},"bullet_alternatives":{"backend_services":{"claim_ids":["waahads_01","waahads_02"],"text":"Built and maintained Node.js and Express.js backend microservices with PostgreSQL for an internal campaign automation tool."},"llm_content":{"claim_ids":["waahads_03","waahads_04"],"text":"Integrated OpenAI API and LangChain pipelines for ad-copy suggestions, reducing manual content drafting by approximately 40%."},"llm_prototypes":{"claim_ids":["tcs_01"],"text":"Built LangChain prototypes for multi-agent workflows and LLM orchestration."},"semantic_caching":{"claim_ids":["tcs_02","tcs_03"],"text":"Implemented semantic caching with LangChain, reducing redundant API calls by 20-25%."},"llm_tracing":{"claim_ids":["tcs_04"],"text":"Used LangSmith to trace and debug LLM calls across multi-step pipelines."},"rag_retrieval":{"claim_ids":["tcs_05","tcs_06"],"text":"Designed and tested a Qdrant-backed RAG pipeline enabling semantic search across 500+ technical documents."},"scrapy_ingestion":{"claim_ids":["tcs_07","tcs_08"],"text":"Developed a Scrapy pipeline with proxy rotation and caching, reducing data retrieval latency by 40% and minimizing IP-blocking incidents."},"sitemap_automation":{"claim_ids":["tcs_09"],"text":"Engineered an automated sitemap generator to keep site URLs current and support search engine indexing."},"collaboration_project":{"claim_ids":["project_01","project_02","project_03"],"text":"Developed and deployed a React, Node.js and Express.js collaborative coding platform with Socket.io live updates and session management."},"execution_integration":{"claim_ids":["project_04"],"text":"Integrated Rapid API for compilation and output rendering across 5 programming languages."},"project_capacity":{"claim_ids":["project_05"],"text":"Engineered the Express.js backend to support capacity for 750 concurrent users."},"project_maintainability":{"claim_ids":["project_06"],"text":"Improved overall code maintainability by 12%."}}};
+const now=new Date(), today=new Date(now.getTime()+330*60000).toISOString().slice(0,10);
+const facts=base.getTable('tbla3ef4c6645989b'), applications=base.getTable('tblbef0fd137c7a43');
+const master=await facts.sel85afa145748c5a('rec1758a94dd847c7');
+if(!master)throw new Error('Confirmed MASTER_PROFILE missing.');
+const profile=JSON.parse(master.getCellValueAsString('Value'));
+if(profile.operational_state?.strategy_approved!==true || !profile.resume_claims_user_attested)throw new Error('Approved attested facts required.');
+const identity=profile.identity_confirmed_by_user, attested=profile.resume_claims_user_attested;
+const fieldNames=['Application ID','Company','Job Title','Job URL','Category','Job Description Snapshot','Required Skills','Preferred Skills','Technical Score','Match Score Lower','Match Score Upper','Listing Verification','Source Checked','Evaluation Decision','Status','Resume PDF','Submission Confirmed','Material Preparation State','Tailored Resume Content','Notes'];
+const query=await applications.selectRecordsAsync({fields:fieldNames});
+const selected=query.records.filter(r=>{
+ const status=r.getCellValueAsString('Status'), state=r.getCellValueAsString('Material Preparation State');
+ const checked=String(r.getCellValue('Source Checked')||'').slice(0,10);
+ return ['Discovered','Shortlisted'].includes(status) && r.getCellValueAsString('Listing Verification')==='Verified live' &&
+ r.getCellValueAsString('Evaluation Decision')!=='Reject' && Number(r.getCellValue('Technical Score'))>=70 &&
+ checked===today && r.getCellValueAsString('Job Description Snapshot').trim().length>=400 &&
+ !r.getCellValue('Submission Confirmed') && !(r.getCellValue('Resume PDF')||[]).length &&
+ !r.getCellValueAsString('Tailored Resume Content').trim() &&
+ (!state||state==='Not prepared');
+}).sort((a,b)=>Number(b.getCellValue('Match Score Lower')||0)-Number(a.getCellValue('Match Score Lower')||0)).slice(0,3);
+const categoryMap={'Node.js Backend':'node_backend','Python Backend':'python_backend_api','Applied GenAI':'applied_genai','SDE I':'sde_associate','Full-stack':'backend_fullstack','API Automation':'api_integration_automation','Data Ingestion':'data_ingestion_etl'};
+function dateLabel(month){const [y,m]=month.split('-').map(Number);return new Date(Date.UTC(y,m-1,1)).toLocaleString('en-IN',{month:'long',year:'numeric',timeZone:'UTC'});}
+function slug(text){return String(text).replace(/[^a-z0-9]+/gi,'_').replace(/^_+|_+$/g,'').slice(0,80);}
+function clean(text){return String(text||'').trim();}
+function rankedBullets(keys,track,jd,count){
+ return keys.map(key=>{const bullet=CATALOG.bullet_alternatives[key];
+ const trackIndex=(track.prioritize_bullets||[]).indexOf(key);
+ const matches=bullet.text.toLowerCase().split(/[^a-z0-9]+/).filter(w=>w.length>4&&jd.includes(w)).length;
+ return {key,bullet,rank:(trackIndex<0?0:40-trackIndex*3)+matches};
+ }).sort((a,b)=>b.rank-a.rank).slice(0,count);
+}
+const records=[], idsByRecord={};
+for(const record of selected){
+ const category=record.getCellValueAsString('Category'), categoryId=categoryMap[category]||'node_backend';
+ const track=CATALOG.role_tracks.find(t=>t.id===categoryId)||CATALOG.role_tracks[0];
+ const jd=(record.getCellValueAsString('Job Description Snapshot')+' '+record.getCellValueAsString('Required Skills')+' '+record.getCellValueAsString('Preferred Skills')).toLowerCase();
+ const tcs=rankedBullets(['llm_prototypes','semantic_caching','llm_tracing','rag_retrieval','scrapy_ingestion','sitemap_automation'],track,jd,3);
+ const startup=rankedBullets(['backend_services','llm_content'],track,jd,2);
+ const project=rankedBullets(['collaboration_project','execution_integration','project_capacity','project_maintainability'],track,jd,2);
+ const selectedIds=[...tcs,...startup,...project].flatMap(x=>x.bullet.claim_ids);
+ const allSkills=[...CATALOG.skills_by_evidence.professional_explicit,...CATALOG.skills_by_evidence.project_explicit,...CATALOG.skills_by_evidence.listed_skills_without_explicit_work_bullet];
+ const priority=(track.priority_keywords||[]).map(x=>x.toLowerCase());
+ const skills=Array.from(new Set(allSkills)).map((skill,index)=>({skill,index,rank:priority.includes(skill.toLowerCase())?100:jd.includes(skill.toLowerCase())?70:0}))
+ .filter(x=>x.rank>0).sort((a,b)=>b.rank-a.rank||a.index-b.index).slice(0,18).map(x=>x.skill);
+ const tcsJob=attested.employment.find(x=>x.employer==='Tata Consultancy Services');
+ const startupJob=attested.employment.find(x=>x.employer==='WaahAds');
+ if(!tcsJob||!startupJob)throw new Error('Confirmed employment does not match tailoring catalog; review before preparing content.');
+ const employment=(job,bulletList)=>job.employer+' — '+job.title+' | '+dateLabel(job.start)+' – '+(job.end?dateLabel(job.end):'Present')+'\n'+bulletList.map(x=>'• '+x.bullet.text).join('\n');
+ const content=[
+ identity.full_name,
+ identity.email+' | '+identity.phone+' | '+identity.linkedin+' | '+identity.github,
+ '',
+ clean(track.summary),
+ '',
+ 'EXPERIENCE',
+ employment(tcsJob,tcs),
+ '',
+ employment(startupJob,startup),
+ '',
+ 'PROJECT',
+ 'Code-Collab | React.js, Node.js, Express.js, Socket.io and execution API',
+ ...project.map(x=>'• '+x.bullet.text),
+ '',
+ 'TECHNICAL SKILLS',
+ skills.join(' • '),
+ '',
+ 'EDUCATION',
+ 'B.Tech in Computer Science — State Institute of Engineering and Technology, Nilokheri, Haryana',
+ 'April 2020 – June 2024 | 8.1 CGPA',
+ '',
+ 'ACHIEVEMENTS',
+ '• Solved 400+ DSA problems across LeetCode, CodeChef and HackerRank.',
+ '• LeetCode rating of 1799 and top-10% statement are from the source resume.',
+ '• Global rank 118 in CodeChef Starters 63; 3-star CodeChef profile.',
+ '• Global rank 2404 in Google Hash Code 2022.'
+ ].join('\n');
+ const company=record.getCellValueAsString('Company'), jobTitle=record.getCellValueAsString('Job Title');
+ const strengths=[startup[0]?.bullet.text,tcs[0]?.bullet.text].filter(Boolean).join(' ');
+ const cover='Dear Hiring Team,\n\nI am applying for the '+jobTitle+' position at '+company+'. '+clean(track.summary)+' '+strengths+
+ '\n\nMy current role is '+tcsJob.title+' at Tata Consultancy Services, following my Software Engineer role at WaahAds. My notice period is '+Number(profile.constraints_confirmed_by_user?.notice_period_days||90)+' days. I would welcome the opportunity to discuss how my existing backend and applied-LLM work fits the role.\n\nRegards,\n'+identity.full_name;
+ const answers={name:identity.full_name,email:identity.email,phone:identity.phone,linkedin:identity.linkedin,github:identity.github,
+ education:'B.Tech Computer Science, SIET Nilokheri, 2024',current_employer:tcsJob.employer,current_actual_title:tcsJob.title,
+ notice_period_days:Number(profile.constraints_confirmed_by_user?.notice_period_days||90),
+ notice_reduction:'Not employer-confirmed; do not claim shorter availability',
+ missing_sensitive_answers:'Ask before sensitive personal answers, assessments, declarations, agreements or additional documents.',
+ salary_answer:'Compensation expectations need role-specific fixed/CTC/net breakdown; never present candidate targets as current employer pay.'};
+ const filename=slug(company)+'_'+slug(jobTitle)+'_Resume_'+today+'.pdf';
+ const notes=record.getCellValueAsString('Notes')+'\n['+today+'] Prepared truthful resume CONTENT only. PDF has not been generated or visually/ATS verified. Suggested future filename: '+filename+
+ '\nCatalog fact IDs: '+selectedIds.join(', ')+'. Listed skills remain listed skills; prototypes remain prototypes and RAG remains designed/tested. Original identity/employers/titles/months preserved. No application status advanced.';
+ await applications.updateRecordAsync(record.id,{'Tailored Resume Content':content,'Material Preparation State':{name:'Content ready; PDF needed'},'Cover Letter':cover,
+ 'Application Answers':JSON.stringify(answers,null,2),'Notes':notes,'Last Modified':today});
+ records.push(record.id);idsByRecord[record.id]=selectedIds;
+}
+output.set('contentPreparedCount',records.length);
+output.set('preparedRecordIds',records);
+output.set('claimAuditJson',JSON.stringify(idsByRecord));
+output.set('limitation','Prepared text content only. No actual PDF, ATS/visual verification, Resume Version assignment or Ready to Apply promotion. Applications and emails are not sent.');

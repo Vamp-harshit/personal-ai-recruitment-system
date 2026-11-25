@@ -1,0 +1,12 @@
+{
+  "created": true,
+  "validated": true,
+  "configuration_status": "valid",
+  "deployment_status": "undeployed",
+  "cloud_run_tested": false,
+  "automation_id": "wfl7f394388257839",
+  "automation_url": "https://airtable.com/app8b3002ee78eeef/wfl7f394388257839",
+  "scope": "Script-free scheduled web-search report only; no Applications ingestion, PDF generation, mailbox monitoring, submissions or email",
+  "schedule": "Daily 09:00 Asia/Calcutta",
+  "limitation": "Full script-based recruitment pipeline create request failed upstream INVALID_PERMISSIONS. Feature/account plan cause not confirmed."
+}

@@ -1,0 +1,215 @@
+{
+  "assessed_on": "2026-11-25",
+  "timezone": "Asia/Calcutta",
+  "operational_state": {
+    "strategy_approved": true
+  },
+  "education": "B.Tech Computer Science, SIET Nilokheri, 2024, 8.1 CGPA",
+  "employment": [
+    {
+      "employer": "WaahAds",
+      "title": "Software Engineer",
+      "start": "2024-07",
+      "end": "2025-05"
+    },
+    {
+      "employer": "Tata Consultancy Services",
+      "title": "System Engineer (AI Cloud)",
+      "start": "2025-06",
+      "end": null
+    }
+  ],
+  "skills_by_evidence": {
+    "professional_explicit": [
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "LangChain",
+      "LangSmith",
+      "OpenAI API",
+      "Qdrant",
+      "RAG pipelines",
+      "LLM orchestration",
+      "semantic caching",
+      "Scrapy",
+      "microservices",
+      "scraping",
+      "workflow automation"
+    ],
+    "project_explicit": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "Socket.io",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Rapid API",
+      "API integration",
+      "session management",
+      "code execution"
+    ],
+    "listed_skills_without_explicit_work_bullet": [
+      "Java",
+      "Python",
+      "C++",
+      "SQL",
+      "Spring Boot",
+      "FastAPI",
+      "Flask",
+      "REST APIs",
+      "LangGraph",
+      "HuggingFace",
+      "Prompt Engineering",
+      "MongoDB",
+      "MySQL",
+      "Redis",
+      "Playwright",
+      "ETL workflows",
+      "AWS Lambda",
+      "AWS S3",
+      "AWS EC2",
+      "Docker",
+      "Git",
+      "Swagger",
+      "Postman",
+      "Next.js",
+      "Tailwind CSS"
+    ],
+    "rule": "Listed skills may appear in the skills section and influence relevance. Their presence does not establish professional duration, production ownership, certification or advanced proficiency. JavaScript has explicit project evidence; Python is listed and aligns with Scrapy but no Python-service work bullet is stated. SQL query expertise is not inferred solely from PostgreSQL usage."
+  },
+  "truthful_bullet_catalog": {
+    "backend_services": {
+      "claim_ids": [
+        "waahads_01",
+        "waahads_02"
+      ],
+      "text": "Built and maintained Node.js and Express.js backend microservices with PostgreSQL for an internal campaign automation tool."
+    },
+    "llm_content": {
+      "claim_ids": [
+        "waahads_03",
+        "waahads_04"
+      ],
+      "text": "Integrated OpenAI API and LangChain pipelines for ad-copy suggestions, reducing manual content drafting by approximately 40%."
+    },
+    "llm_prototypes": {
+      "claim_ids": [
+        "tcs_01"
+      ],
+      "text": "Built LangChain prototypes for multi-agent workflows and LLM orchestration."
+    },
+    "semantic_caching": {
+      "claim_ids": [
+        "tcs_02",
+        "tcs_03"
+      ],
+      "text": "Implemented semantic caching with LangChain, reducing redundant API calls by 20-25%."
+    },
+    "llm_tracing": {
+      "claim_ids": [
+        "tcs_04"
+      ],
+      "text": "Used LangSmith to trace and debug LLM calls across multi-step pipelines."
+    },
+    "rag_retrieval": {
+      "claim_ids": [
+        "tcs_05",
+        "tcs_06"
+      ],
+      "text": "Designed and tested a Qdrant-backed RAG pipeline enabling semantic search across 500+ technical documents."
+    },
+    "scrapy_ingestion": {
+      "claim_ids": [
+        "tcs_07",
+        "tcs_08"
+      ],
+      "text": "Developed a Scrapy pipeline with proxy rotation and caching, reducing data retrieval latency by 40% and minimizing IP-blocking incidents."
+    },
+    "sitemap_automation": {
+      "claim_ids": [
+        "tcs_09"
+      ],
+      "text": "Engineered an automated sitemap generator to keep site URLs current and support search engine indexing."
+    },
+    "collaboration_project": {
+      "claim_ids": [
+        "project_01",
+        "project_02",
+        "project_03"
+      ],
+      "text": "Developed and deployed a React, Node.js and Express.js collaborative coding platform with Socket.io live updates and session management."
+    },
+    "execution_integration": {
+      "claim_ids": [
+        "project_04"
+      ],
+      "text": "Integrated Rapid API for compilation and output rendering across 5 programming languages."
+    },
+    "project_capacity": {
+      "claim_ids": [
+        "project_05"
+      ],
+      "text": "Engineered the Express.js backend to support capacity for 750 concurrent users."
+    },
+    "project_maintainability": {
+      "claim_ids": [
+        "project_06"
+      ],
+      "text": "Improved overall code maintainability by 12%."
+    }
+  },
+  "project": "Code-Collab: React, Node.js, Express, Socket.io and execution API",
+  "constraints": {
+    "notice_period_days": 90,
+    "shorter_notice": "Not employer confirmed",
+    "minimum_monthly_in_hand_inr": 40000,
+    "preferred_minimum_monthly_in_hand_inr": 50000,
+    "normal_relocation_region": "North India",
+    "work_modes": [
+      "India-eligible remote",
+      "Hybrid",
+      "On-site"
+    ],
+    "outside_north_india_monthly_in_hand_threshold_inr": 100000,
+    "undisclosed_pay_application_exception": {
+      "approved": true,
+      "criteria": "Company reputable and credible comparable engineering-pay evidence usually above Rs7LPA",
+      "actual_job_pay": "Keep unknown unless disclosed",
+      "offer_floor": "Minimum Rs40000/month in-hand, prefer Rs50000+"
+    }
+  },
+  "strategy": {
+    "core_fixed_annual_inr": [
+      700000,
+      1000000
+    ],
+    "stretch_fixed_annual_inr": [
+      1000000,
+      1400000
+    ],
+    "experience_range": "1–3 years; compute actual total from dates",
+    "target_roles": [
+      "Node.js backend",
+      "Python backend/API",
+      "Applied GenAI/LLM integration",
+      "SDE I/associate software engineer",
+      "Backend-focused full-stack",
+      "API integration/automation",
+      "Python data ingestion/junior ETL"
+    ],
+    "weights": {
+      "technical": 30,
+      "experience": 20,
+      "compensation": 20,
+      "growth": 15,
+      "flexibility": 10,
+      "reputation": 5
+    }
+  },
+  "integrity": "User-attested tasks/metrics; preserve prototypes and designed/tested scope. No invented skill depth, employment, dates, certification, production ownership or application submission.",
+  "platform_restrictions": {
+    "talent500": "Do not automatically access, read, scrape or interact with talent500.com; its terms require express written consent for automation. Any REA application there must be completed personally by the user."
+  },
+  "source_policy": "All AI-only extraction is Unverified and pending independent source/eligibility review. Keep known-board mirrors outside qualified Applications. North India includes Punjab/SAS Nagar/Mohali/Chandigarh/Haryana/Delhi NCR/Noida/Gurgaon/Rajasthan/UP/Uttarakhand/Himachal/Jammu etc.; never call Punjab outside North India."
+}

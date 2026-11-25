@@ -1,0 +1,64 @@
+{
+  "audited_on": "2026-11-25",
+  "timezone": "Asia/Calcutta",
+  "base_id": "app8b3002ee78eeef",
+  "campaign": {
+    "evaluated_unique": 14,
+    "screening_rejected": 5,
+    "held": 8,
+    "manual_application_ready": 1,
+    "tailored_resumes": 2,
+    "confirmed_submissions": 0,
+    "confirmed_interviews": 0,
+    "confirmed_offers": 0
+  },
+  "cloud_files": {
+    "private_master_record_id": "rec15aeb5c4c9dec6",
+    "verified_attachment_count": 3,
+    "filenames": [
+      "Harshit_SE_Resume_1YOE.pdf",
+      "REA_Group_Engineer_Data_Backend_Python_Resume_2026-11-25.pdf",
+      "Zynkrow_Backend_Developer_Nodejs_Resume_2026-11-25.pdf"
+    ],
+    "tailored_files_attached_to_application_records": true
+  },
+  "rea": {
+    "application_record_id": "recfcd2879d6cd161",
+    "status": "Ready to Apply",
+    "decision": "Proceed",
+    "salary_exception_user_authorized": true,
+    "vacancy_pay": "Unknown",
+    "route_id": "T500-30443",
+    "submission_mode": "Manual only; Talent500 explicit written platform consent required for automated access",
+    "history_event_id": "recf0642eca7fa190",
+    "account_or_otp_created": false,
+    "submission_confirmed": false
+  },
+  "discovery_final_lookup_test": {
+    "at_local": "2026-11-25 18:09 IST",
+    "ui_result": "Step successful",
+    "returned_records": 1,
+    "fact": "DISCOVERY_MATCH_PROFILE",
+    "workflow_off": true,
+    "full_cycle_tested": false,
+    "final_ai_prompt_retest": false,
+    "conditional_positive_path_tested": false
+  },
+  "report_record_updated": "rec9bf96f8bb12edd",
+  "report_run_state": "Partial",
+  "gmail": {
+    "installed": false,
+    "previously_suggested_on": "2026-11-25",
+    "connection_not_repeated": true
+  },
+  "remaining": [
+    "Final discovery AI/conditional whole-cycle test",
+    "Independent verification and permitted application runner",
+    "Preparation positive-path test",
+    "Report runtime test",
+    "Native draft review and activation",
+    "Scheduled run observation",
+    "Future exact-layout cloud PDF generation",
+    "Gmail recruitment monitoring and cloud connection testing"
+  ]
+}

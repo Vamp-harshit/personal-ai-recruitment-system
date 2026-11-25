@@ -1,0 +1,394 @@
+{
+  "created_on": "2026-11-25",
+  "purpose": "Public GitHub sharing with ChatGPT",
+  "original_project_unchanged": true,
+  "included_original_paths": [
+    {
+      "path": "recruitment/additional_monitor_opportunities.json",
+      "sha256": "86e5a25cd5fe8fea315e37451d5d1fbe67dd9b630de2dd301939476ffc4f53fe",
+      "size": 22563
+    },
+    {
+      "path": "recruitment/archive/Harshit_SE_Resume_1YOE_original_2026-11-25.pdf",
+      "sha256": "0019bdf408313c0fdfea7ecbf8cf3e6ba5b8f94f89f3e14178c8c77e4ab7904a",
+      "size": 282447
+    },
+    {
+      "path": "recruitment/Assessment_2026-11-25.md",
+      "sha256": "1706c342a247da2ec37ae7627305ee5f31727f3ffdb08c2a8e55682ff6995016",
+      "size": 13734
+    },
+    {
+      "path": "recruitment/automation_api_spec.md",
+      "sha256": "7bf37ecad91f4f3c9aab332c949170c9c2e0608396a8aa7136b1bf9d8226f166",
+      "size": 109207
+    },
+    {
+      "path": "recruitment/campaign_current_audit_2026-11-25.json",
+      "sha256": "bd8a63f887de2b378625e5aba22f38fb3db767d00a6d4e213c7953a810c8099e",
+      "size": 2090
+    },
+    {
+      "path": "recruitment/candidate_claims_catalog.json",
+      "sha256": "acfdf90eef78c8abebf3158754619d698c2d97d281c7ab11bd4ff14fd1ad2b83",
+      "size": 23861
+    },
+    {
+      "path": "recruitment/candidate_profile.json",
+      "sha256": "919ef3f8523fdece11466f6fa55a0030efe7cc476a742a63bd8df144c2d371c2",
+      "size": 10668
+    },
+    {
+      "path": "recruitment/check_discovery_validation.cjs",
+      "sha256": "3e7c4f80d31d9bba249b474a4ecbfbe05f5b0e26440178982eadb9d218f648df",
+      "size": 4505
+    },
+    {
+      "path": "recruitment/check_native_quality_gate.cjs",
+      "sha256": "415d9821bc75a3a39bf379516da3ab97fc4e4d859f20cf42773ac4acb84bc105",
+      "size": 3388
+    },
+    {
+      "path": "recruitment/check_preparation_content.cjs",
+      "sha256": "a2dd11affec94ac7b8409ad6a9a0d406fe0e2ddd70a128313fb74766dc178d2e",
+      "size": 3056
+    },
+    {
+      "path": "recruitment/cloud_crm_interface.json",
+      "sha256": "d10f42cd8db9b24bb6793ebcbb9be567b91e392f1998cc8297bb93b4bd61aad0",
+      "size": 31890
+    },
+    {
+      "path": "recruitment/cloud_crm_schema.json",
+      "sha256": "101c0e18daada929bcd4e45486c5faf67a71e2a265d2ce2a211f198d9f0d35cf",
+      "size": 17215
+    },
+    {
+      "path": "recruitment/cloud_discovery_monitors.json",
+      "sha256": "f80af841f3c52f6a3f05579fe67e10f51d411f887fbea9bf19a3da6ce5d3e31c",
+      "size": 12298
+    },
+    {
+      "path": "recruitment/cloud_salary_analytics.json",
+      "sha256": "b30a69e31cbb0eb8bf294fe241d1e00d671027f8b96a19a4226a11095fe72173",
+      "size": 6712
+    },
+    {
+      "path": "recruitment/contact_corrections_2026-11-25.json",
+      "sha256": "e281506fe99fee2699fdeda21caefe8d97cc71e5288d04407362834b3a770100",
+      "size": 1095
+    },
+    {
+      "path": "recruitment/discovery_automation_audit.json",
+      "sha256": "469aa11bcfc308191e64bb6eb2bc9bb7eb05456a36e0a4a4b9b9e4813c11c369",
+      "size": 993
+    },
+    {
+      "path": "recruitment/discovery_automation_payload.json",
+      "sha256": "1b135aaf3e15288b41e0d132f323d2435aa12cc9b1fc78914bb4f61224840b1f",
+      "size": 34313
+    },
+    {
+      "path": "recruitment/discovery_final_privacy_audit.json",
+      "sha256": "b384c8af400c21601afdf1ab2744572f5f784adf0fec58713e5f33e26aea42e3",
+      "size": 2451
+    },
+    {
+      "path": "recruitment/discovery_final_privacy_payload.json",
+      "sha256": "d675e927db1d1d293bdc67a23d500a86b7c0462102cd03e1f24ce7a36b16ad3f",
+      "size": 63631
+    },
+    {
+      "path": "recruitment/discovery_final_privacy_readback.json",
+      "sha256": "6a72f27dd9a714c0a5ad8bd2b08f0955735acefe093e950b620f008fbbe06f7b",
+      "size": 73434
+    },
+    {
+      "path": "recruitment/discovery_load_profile.js",
+      "sha256": "7bf9efbb7ad85d81e5a4e938d7622c57e701facf0f5c903c19a115e8440986f8",
+      "size": 2520
+    },
+    {
+      "path": "recruitment/discovery_match_profile.json",
+      "sha256": "93031967c277712a7205c4fca4773519a8670feedcdcca8d34054ec5912b6ac2",
+      "size": 6802
+    },
+    {
+      "path": "recruitment/discovery_native_fallback_audit.json",
+      "sha256": "e8ef8a0ad94992100afc82d67ae6aa6f4b501703ad93700a2251ef5aad6f3fc3",
+      "size": 603
+    },
+    {
+      "path": "recruitment/discovery_native_fallback_payload.json",
+      "sha256": "81826504b2d587afe836a91033634d5b5988370e5cee0c3a2f878f32076f1d16",
+      "size": 4677
+    },
+    {
+      "path": "recruitment/discovery_native_full_audit.json",
+      "sha256": "b30c041fa3ce3231767551cb693a6ae5e34d73e12caf873457d39064f39cc4a0",
+      "size": 1224
+    },
+    {
+      "path": "recruitment/discovery_native_full_payload.json",
+      "sha256": "a21f8badc87fdeedfb6a76293bd07027df3aae09c8cf80e744b23db8b804f1ad",
+      "size": 52350
+    },
+    {
+      "path": "recruitment/discovery_native_full_readback.json",
+      "sha256": "c81a6d3c83192010687ff74b7570c2dff1d62ffa4c6087033e2fd266afc90c5c",
+      "size": 62674
+    },
+    {
+      "path": "recruitment/discovery_quality_repair_audit.json",
+      "sha256": "02edc412168c1f04971fdcc553ab99ba198af5f2e46b030df741a336f6046163",
+      "size": 2556
+    },
+    {
+      "path": "recruitment/discovery_quality_repair_flat_payload.json",
+      "sha256": "91582e710ea8eff7b029c504e8b9500db65d94fe91b532b14a662f60cd513ac7",
+      "size": 65401
+    },
+    {
+      "path": "recruitment/discovery_quality_repair_payload.json",
+      "sha256": "91582e710ea8eff7b029c504e8b9500db65d94fe91b532b14a662f60cd513ac7",
+      "size": 65401
+    },
+    {
+      "path": "recruitment/discovery_quality_repair_readback.json",
+      "sha256": "fce2fa0e0fea1566f374490deb6f1e2b5123314545a9df950e2fc3f17a777762",
+      "size": 75144
+    },
+    {
+      "path": "recruitment/discovery_validate_and_persist.js",
+      "sha256": "1dd585542bbfee21c3e7ce1671f7523a20758d46880f32939c1c3daf288d3c18",
+      "size": 14187
+    },
+    {
+      "path": "recruitment/initial_opportunities.json",
+      "sha256": "d34edd1357a39409205445d82cea5139020f59afa0e9f507222c43912a26fa95",
+      "size": 201839
+    },
+    {
+      "path": "recruitment/native_final_safeguards_root_audit_2026-11-25.json",
+      "sha256": "284093c08415d99552bdb4207e8a42c5f2b11a3e358ca6bd5385eebaf5ac5711",
+      "size": 1334
+    },
+    {
+      "path": "recruitment/native_preparation_draft_payload.json",
+      "sha256": "7d6a88d1f6d09f44ac039208bc3b4c5a21d28f672943395577111688bc1e58ba",
+      "size": 30931
+    },
+    {
+      "path": "recruitment/native_preparation_readback.json",
+      "sha256": "b72c3d3a07ca20a6c11b3707a928c9c1a6db690a9785ea29008a0068898c0da4",
+      "size": 48397
+    },
+    {
+      "path": "recruitment/native_preparation_safeguarded_payload.json",
+      "sha256": "01def239a1e3692f24d49725049f98e6853de24453db060c510abea9f3d2b8ab",
+      "size": 48316
+    },
+    {
+      "path": "recruitment/native_preparation_safeguarded_readback.json",
+      "sha256": "b72c3d3a07ca20a6c11b3707a928c9c1a6db690a9785ea29008a0068898c0da4",
+      "size": 48397
+    },
+    {
+      "path": "recruitment/native_preparation_validated_payload.json",
+      "sha256": "01def239a1e3692f24d49725049f98e6853de24453db060c510abea9f3d2b8ab",
+      "size": 48316
+    },
+    {
+      "path": "recruitment/native_report_draft_payload.json",
+      "sha256": "5465b2ea80a38ebed9064e579283f6e32e840b2e65e73111089ee7d7f8e821af",
+      "size": 48636
+    },
+    {
+      "path": "recruitment/native_report_readback.json",
+      "sha256": "6b5017a07748df2ac2e71e8f8846af8f3920bebe0c6e4e50cdb66cfefee3cd8a",
+      "size": 62064
+    },
+    {
+      "path": "recruitment/native_report_safeguarded_payload.json",
+      "sha256": "23a60878638c1c0b87dbd2492b7ee60c06e480de07b650a660742ee9639c5d61",
+      "size": 61997
+    },
+    {
+      "path": "recruitment/native_report_safeguarded_readback.json",
+      "sha256": "6b5017a07748df2ac2e71e8f8846af8f3920bebe0c6e4e50cdb66cfefee3cd8a",
+      "size": 62064
+    },
+    {
+      "path": "recruitment/native_safeguards_audit_2026-11-25.json",
+      "sha256": "7900a623a93a08bc4651e25e0bfc2359d1074b3562fe51d9b516c5ed0047cdef",
+      "size": 4774
+    },
+    {
+      "path": "recruitment/native_schedules_audit.json",
+      "sha256": "ef2957a36b166a8329732d94cb24585c6c9bc7d9b4cc4d4c79fc404a310488e2",
+      "size": 29245
+    },
+    {
+      "path": "recruitment/platform_reviews/Talent500_Privacy_Reviewed_2026-11-25.md",
+      "sha256": "046d5f1821b92f4ce9dc4ca94a48ff9fe2aaa615aadc44466183b29f7f632009",
+      "size": 33462
+    },
+    {
+      "path": "recruitment/platform_reviews/Talent500_Terms_Reviewed_2026-11-25.md",
+      "sha256": "b1f126ff2585f179e8a7060843891095e04645bcec1aa27223227f3d3983505a",
+      "size": 23740
+    },
+    {
+      "path": "recruitment/preparation_automation_payload.json",
+      "sha256": "7cc6709e332e4e30ad5e01e9694eb817c1948b3e3db842b42275a84112048d66",
+      "size": 19322
+    },
+    {
+      "path": "recruitment/preparation_content.js",
+      "sha256": "bf4a9bc1b314a54016d4d360942096fddf5c59f229f38a61b72c73249fa089eb",
+      "size": 16601
+    },
+    {
+      "path": "recruitment/REA_Manual_Application_Handoff_2026-11-25.md",
+      "sha256": "cfcade97c25cfd0b1bf0417ed312f1f38eac6bc70afe2d41e5068bf6be8ca11a",
+      "size": 2165
+    },
+    {
+      "path": "recruitment/REA_salary_exception_review.json",
+      "sha256": "6b134349b790e25e36eba359f422cad055866da9c979716014ad19f2201c411e",
+      "size": 32354
+    },
+    {
+      "path": "recruitment/Recruitment_System_Status_2026-11-25.md",
+      "sha256": "4d87535a5fe6b5cce5f45c18fee2dbc21086a5366e0dfb7035662a6632906c0d",
+      "size": 18771
+    },
+    {
+      "path": "recruitment/tailored_resumes/application_materials_2026-11-25.json",
+      "sha256": "6606accb43f8e2f493f11275e7959a68ff7df4b53bd6ce4d2a7b63a253d62a38",
+      "size": 9008
+    },
+    {
+      "path": "recruitment/tailored_resumes/REA_Group_Engineer_Data_Backend_Python_Cover_Letter_2026-11-25.md",
+      "sha256": "b4cadf7dc00533ea372ffebd27a01d31592bc1cb9b3842c7c450626c17e3d03c",
+      "size": 1145
+    },
+    {
+      "path": "recruitment/tailored_resumes/REA_Group_Engineer_Data_Backend_Python_Resume_2026-11-25.pdf",
+      "sha256": "ae708aec2a54fe99ca5bde4a65c8fad63dfb81ea3be24f640f6ec5f54dccc3d4",
+      "size": 553438
+    },
+    {
+      "path": "recruitment/tailored_resumes/tailoring_manifest_2026-11-25.json",
+      "sha256": "c001c9fe069a6c8afb6c472a772d6d87df09ec8c80db127910c920bd9a3cd1b6",
+      "size": 4179
+    },
+    {
+      "path": "recruitment/tailored_resumes/Zynkrow_Backend_Developer_Nodejs_Cover_Letter_2026-11-25.md",
+      "sha256": "6711dcd8d0148f93089f74cefd238240bcd9d007152bfc2bc7ff71e6aad6e5c4",
+      "size": 1051
+    },
+    {
+      "path": "recruitment/tailored_resumes/Zynkrow_Backend_Developer_Nodejs_Resume_2026-11-25.pdf",
+      "sha256": "870ef13f1c753846985c59f71046e0b36f066b8ece142b0a43da72f3ab5dd927",
+      "size": 552666
+    },
+    {
+      "path": "recruitment/tmp_pdf/REA_Group_Engineer_Data_Backend_Python_Resume_2026-11-25.txt",
+      "sha256": "affac17ed809ecf50c8c5ff636aa794d66cfb739fcfaff21d2104597ac7825f9",
+      "size": 3313
+    },
+    {
+      "path": "recruitment/tmp_pdf/tailor_resumes.py",
+      "sha256": "091b376ceaefa8c240580d6aa7c226a16c75361a860c236ae4b6d1a8dfaa6eac",
+      "size": 11640
+    },
+    {
+      "path": "recruitment/tmp_pdf/Zynkrow_Backend_Developer_Nodejs_Resume_2026-11-25.txt",
+      "sha256": "8326e3606e0c497683cbc97ce1587aae504b025e4a780feaf73d41cb6605fb8f",
+      "size": 3311
+    },
+    {
+      "path": "resume/Harshit_SE_Resume_1YOE.pdf",
+      "sha256": "c5dfda34fbf59a46b81df3bd5f0651b55cd8830bab2b6c6dcfe1f4cd7c17632c",
+      "size": 282479
+    }
+  ],
+  "privacy_modified_paths": [
+    "recruitment/archive/Harshit_SE_Resume_1YOE_original_2026-11-25.pdf",
+    "recruitment/Assessment_2026-11-25.md",
+    "recruitment/automation_api_spec.md",
+    "recruitment/campaign_current_audit_2026-11-25.json",
+    "recruitment/candidate_claims_catalog.json",
+    "recruitment/candidate_profile.json",
+    "recruitment/check_native_quality_gate.cjs",
+    "recruitment/check_preparation_content.cjs",
+    "recruitment/cloud_crm_interface.json",
+    "recruitment/cloud_crm_schema.json",
+    "recruitment/cloud_discovery_monitors.json",
+    "recruitment/cloud_salary_analytics.json",
+    "recruitment/contact_corrections_2026-11-25.json",
+    "recruitment/discovery_automation_audit.json",
+    "recruitment/discovery_automation_payload.json",
+    "recruitment/discovery_final_privacy_audit.json",
+    "recruitment/discovery_final_privacy_payload.json",
+    "recruitment/discovery_final_privacy_readback.json",
+    "recruitment/discovery_load_profile.js",
+    "recruitment/discovery_native_fallback_audit.json",
+    "recruitment/discovery_native_fallback_payload.json",
+    "recruitment/discovery_native_full_audit.json",
+    "recruitment/discovery_native_full_payload.json",
+    "recruitment/discovery_native_full_readback.json",
+    "recruitment/discovery_quality_repair_audit.json",
+    "recruitment/discovery_quality_repair_flat_payload.json",
+    "recruitment/discovery_quality_repair_payload.json",
+    "recruitment/discovery_quality_repair_readback.json",
+    "recruitment/discovery_validate_and_persist.js",
+    "recruitment/initial_opportunities.json",
+    "recruitment/native_final_safeguards_root_audit_2026-11-25.json",
+    "recruitment/native_preparation_draft_payload.json",
+    "recruitment/native_preparation_readback.json",
+    "recruitment/native_preparation_safeguarded_payload.json",
+    "recruitment/native_preparation_safeguarded_readback.json",
+    "recruitment/native_preparation_validated_payload.json",
+    "recruitment/native_report_draft_payload.json",
+    "recruitment/native_report_readback.json",
+    "recruitment/native_report_safeguarded_payload.json",
+    "recruitment/native_report_safeguarded_readback.json",
+    "recruitment/native_safeguards_audit_2026-11-25.json",
+    "recruitment/native_schedules_audit.json",
+    "recruitment/platform_reviews/Talent500_Privacy_Reviewed_2026-11-25.md",
+    "recruitment/platform_reviews/Talent500_Terms_Reviewed_2026-11-25.md",
+    "recruitment/preparation_automation_payload.json",
+    "recruitment/preparation_content.js",
+    "recruitment/REA_Manual_Application_Handoff_2026-11-25.md",
+    "recruitment/Recruitment_System_Status_2026-11-25.md",
+    "recruitment/tailored_resumes/REA_Group_Engineer_Data_Backend_Python_Resume_2026-11-25.pdf",
+    "recruitment/tailored_resumes/tailoring_manifest_2026-11-25.json",
+    "recruitment/tailored_resumes/Zynkrow_Backend_Developer_Nodejs_Resume_2026-11-25.pdf",
+    "recruitment/tmp_pdf/REA_Group_Engineer_Data_Backend_Python_Resume_2026-11-25.txt",
+    "recruitment/tmp_pdf/tailor_resumes.py",
+    "recruitment/tmp_pdf/Zynkrow_Backend_Developer_Nodejs_Resume_2026-11-25.txt",
+    "resume/Harshit_SE_Resume_1YOE.pdf"
+  ],
+  "excluded": [
+    {
+      "path": "recruitment/tmp_pdf/failed_preview.png",
+      "reason": "Temporary preview/cache/log; redacted resume previews are regenerated."
+    },
+    {
+      "path": "recruitment/tmp_pdf/master_reference.png",
+      "reason": "Temporary preview/cache/log; redacted resume previews are regenerated."
+    },
+    {
+      "path": "recruitment/tmp_pdf/REA_Group_Engineer_Data_Backend_Python_Resume_2026-11-25.png",
+      "reason": "Temporary preview/cache/log; redacted resume previews are regenerated."
+    },
+    {
+      "path": "recruitment/tmp_pdf/Zynkrow_Backend_Developer_Nodejs_Resume_2026-11-25.png",
+      "reason": "Temporary preview/cache/log; redacted resume previews are regenerated."
+    }
+  ],
+  "privacy_note": "Public copies remove contacts, present pay, signed links, local user paths and pseudonymize live Airtable/cloud identifiers. IDs are not deployable bindings. Original audit hashes refer to private originals; use the hashes in this manifest for public copies.",
+  "application_state": "Zero confirmed submissions; full unattended daily service not operational."
+}
